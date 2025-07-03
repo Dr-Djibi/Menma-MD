@@ -39,16 +39,19 @@ const credsPath = path.join(__dirname, 'auth', 'creds.json'); // Début du chemi
 async function slgAuth() { // Début de slgAuth
 
     // Vérification du format de SESSION_ID
-    if (config.SESSION_ID.startsWith("SLG-MD~")) {
-     const sessdata = config.SESSION_ID.split("SLG-MD~")[1];
-        const url = `https://pastebin.com/raw/${sessdata}`;
+    if (config.SESSION_ID.startsWith("SLG-MD_")) {
+     const sessdata = config.SESSION_ID
         try {
-            const response = await axios.get(url);
-            const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
-            fs.writeFileSync(credsPath, data, 'utf8');
+  const session = await Session.findByPk(sessdata);
+  session.createdAt = new Date();
+  await session.save();
+
+  const data = session.content;
+
+            fs.writeFileSync(credsPath, data);
             console.log("🔒 Session téléchargée avec succès !!");
         } catch (error) {
-            console.error('Erreur lors de la récupération de la session ID sur pastebin:', error);
+            console.error('Erreur mauvaise session:', error);
         }
     } 
 
