@@ -11,7 +11,7 @@ const fs = require("fs");
 const path = require("path");
 
 menmacmd({
-    nomCom: "menu",
+    name: "menu",
     alias: ["m", "commands", "liste"],
     classe: "utiles",
     react: "📑",
@@ -32,18 +32,21 @@ menmacmd({
     const categories = {};
     commands.forEach(cmd => {
         if (!categories[cmd.classe]) categories[cmd.classe] = [];
-        categories[cmd.classe].push(cmd.nomCom);
+        categories[cmd.classe].push(cmd.name);
     });
 
     // --- Construction du Message : Section d'En-tête ---
-    let menuMsg = `╭─── 〔 𝗠𝗘𝗡𝗠𝗔-𝗠𝗗 〕 ───\n`;
-    menuMsg += `│ 👤 *Utilisateur* : ${pseudo}\n`;
-    menuMsg += `│ 📅 *Date* : ${date}\n`;
-    menuMsg += `│ 🕒 *Heure* : ${time}\n`;
-    menuMsg += `│ ⏳ *Uptime* : ${uptime}\n`;
-    menuMsg += `│ 🛠️ *Préfixe* : [ ${prefixe} ]\n`;
-    menuMsg += `│ 📜 *Commandes* : ${commands.length}\n`;
-    menuMsg += `╰───────────────────\n\n`;
+    // --- Construction du Message : Section d'En-tête ---
+    let menuMsg = `╭───〔 🤖 𝗠𝗘𝗡𝗠𝗔-𝗠𝗗 〕───⬣\n`;
+    menuMsg += `│ ◈ *Utilisateur* ➜ ${pseudo}\n`;
+    menuMsg += `│ ◈ *Etat*        ➜ En ligne ✅\n`;
+    menuMsg += `│ ◈ *Date*        ➜ ${date}\n`;
+    menuMsg += `│ ◈ *Heure*       : ${time}\n`;
+    menuMsg += `│ ◈ *Uptime*      ➜ ${uptime}\n`;
+    menuMsg += `│ ◈ *Préfixe*     ➜ ${prefixe}\n`;
+    menuMsg += `│ ◈ *Commandes*   ➜ ${commands.length}\n`;
+    menuMsg += `│ ◈ *Développeur* ➜ Menma\n`;
+    menuMsg += `╰──────────────⬣\n\n`;
 
     // --- Construction du Message : Corps Dynamique ---
     // Trier les catégories par ordre alphabétique pour assurer une présentation cohérente.
@@ -72,8 +75,11 @@ menmacmd({
             image: { url: imageUrl },
             caption: menuMsg
         }, { quoted: com_options.ms });
+        console.log(`[MSG] Menu image envoyé à ${ms_org}`);
     } catch (e) {
+        console.log(`[WRN] Échec envoi menu image, tentative texte seul...`);
         // Repli vers le texte si l'image ne parvient pas à se charger
         await menma.sendMessage(ms_org, { text: menuMsg }, { quoted: com_options.ms });
+        console.log(`[MSG] Menu texte envoyé à ${ms_org}`);
     }
 });

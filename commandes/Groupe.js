@@ -35,11 +35,18 @@ menmacmd({
     const etattrue = await verifstatutJid(ms_org);
 
     if (!arg || arg === "") {
-      return repondre(`*_voici l'utilisation de l'antilien ${prefixe}antilien oui pour activer avec une action supp par defaut ${prefixe}antilien oui/kick pour actualiser sur retirer et antilien oui/supp pour actualiser sur supprimer Antilien non pour desactiver_*`);
+      return repondre(`╭───〔 🛡️ 𝗔𝗡𝗧𝗜𝗟𝗜𝗘𝗡 𝗨𝗦𝗔𝗚𝗘 〕───⬣\n`
+        + `│ *Action* : ${prefixe}antilien <option>\n`
+        + `╠══════════════════════════════⬣\n`
+        + `│ 🔹 *oui* : Activer (suppression)\n`
+        + `│ 🔹 *oui/kick* : Activer + Retirer\n`
+        + `│ 🔹 *oui/supp* : Activer + Supprimer\n`
+        + `│ 🔹 *non* : Désactiver\n`
+        + `╰──────────────────────────────⬣`);
     }
 
     if (!verifWrite) {
-      return repondre("*_saisissez une valeur correcte pour antilien_*");
+      return repondre("╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ Option invalide. Utilisez *oui*, *non*,\n│ *oui/kick* ou *oui/supp*.\n╰──────────────────────────────⬣");
     } else if (arg === "oui") {
       await addOrUpdateJid(ms_org, "oui");
       return repondre("*_antilien activé avec succès_*");
@@ -89,11 +96,18 @@ menmacmd({
     const etattrue = await atbVerifStatutJid(ms_org);
 
     if (!arg || arg === "") {
-      return repondre(`*_voici l'utilisation de l'antibot ${prefixe}antibot oui pour activer avec une action supp par defaut ${prefixe}antibot oui/kick pour actualiser sur retirer et antibot oui/supp pour actualiser sur supprimer Antibot non pour desactiver_*`);
+      return repondre(`╭───〔 🤖 𝗔𝗡𝗧𝗜𝗕𝗢𝗧 𝗨𝗦𝗔𝗚𝗘 〕───⬣\n`
+        + `│ *Action* : ${prefixe}antibot <option>\n`
+        + `╠══════════════════════════════⬣\n`
+        + `│ 🔹 *oui* : Activer (suppression)\n`
+        + `│ 🔹 *oui/kick* : Activer + Retirer\n`
+        + `│ 🔹 *oui/supp* : Activer + Supprimer\n`
+        + `│ 🔹 *non* : Désactiver\n`
+        + `╰──────────────────────────────⬣`);
     }
 
     if (!verifWrite) {
-      return repondre("*_saisissez une valeur correcte pour antilien_*");
+      return repondre("╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ Option invalide. Utilisez *oui*, *non*,\n│ *oui/kick* ou *oui/supp*.\n╰──────────────────────────────⬣");
     } else if (arg === "oui") {
       await atbAddOrUpdateJid(ms_org, "oui");
       return repondre("*_antibot activé avec succès_*");

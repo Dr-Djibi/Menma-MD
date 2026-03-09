@@ -32,6 +32,8 @@ const {
 // --- Importation de la Base de Données et des Modules d'Événements Internes ---
 const { session: Session } = require("./Database/session");
 const { connection_update, messages_upsert } = require("./lib/events");
+const { loadPlugins } = require("./lib/menmacmd");
+
 
 // --- Constantes Globales & Chemins ---
 const credsPath = path.join(__dirname, 'auth', 'creds.json');
@@ -63,16 +65,34 @@ async function menmaAuth() {
  * @param {Object} menma - L'instance WASocket.
  */
 async function send_start_msg(menma) {
-    // Charger les commandes pour compter le nombre total de plugins
-    let evt = require(path.join(__dirname, "lib/menmacmd"));
-    let pri = config.PREFIX;
-    let prefixe = (pri == "null" || pri == "undefined" || pri == "") ? "" : config.PREFIX;
+    try {
+        const { jidDecode } = require("ovl_wa_baileys");
 
-    // Construction du rapport de connexion
-    let start_msg = `\`\`\`𝗠𝗘𝗡𝗠𝗔 𝗪𝗔 𝗗𝗘𝗩𝗜𝗖𝗘 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘\n\nVersion: 1.0.0\n\nprefix:[${prefixe}]\n\nTotal Plugins: ${evt.commands.length}\n\nMODE: ${config.MODE}\n\nLECTURE_STATUS: ${config.STATUS}\n\npresence: ${config.PRESENCE}\n\nDEVELOPPÉ PAR MENMA\`\`\``;
+        // Charger les commandes pour compter le nombre total de plugins
+        let evt = require(path.join(__dirname, "lib/menmacmd"));
+        let pri = config.PREFIX;
+        let prefixe = (pri == "null" || pri == "undefined" || pri == "") ? "" : config.PREFIX;
 
-    // Envoyer au propre JID du bot
-    await menma.sendMessage(menma.user.id, { text: start_msg });
+        // Normalisation du JID (pour éviter le ghosting multi-device)
+        const rawJid = menma.user.id;
+        const decoded = jidDecode(rawJid) || {};
+        const cleanedJid = decoded.user && decoded.server ? `${decoded.user}@${decoded.server}` : rawJid;
+
+        // Construction du rapport de connexion
+        let start_msg = `╭───〔 🤖 𝗠𝗘𝗡𝗠𝗔-𝗠𝗗 〕───⬣
+│ ◈ *Etat*       ➜ Connecté ✅
+│ ◈ *Préfixe*    ➜ ${prefixe}
+│ ◈ *Mode*       ➜ ${config.MODE}
+│ ◈ *Commandes*  ➜ ${evt.commands.length}
+│ ◈ *Version*    ➜ 1.0.0
+│ ◈ *Développeur*➜ Menma
+╰──────────────⬣`;
+
+        // Envoyer au propre JID du bot
+        await menma.sendMessage(cleanedJid, { text: start_msg });
+    } catch (e) {
+        console.log("[ERR] Échec de l'envoi du message de démarrage : " + e.message);
+    }
 }
 
 /**
@@ -80,6 +100,9 @@ async function send_start_msg(menma) {
  * Initialise la connexion WASocket, configure le stockage et lie les écouteurs d'événements.
  */
 async function main() {
+    // 0. Charger les plugins (commandes)
+    loadPlugins();
+
     // 1. Authentifier la session
     await menmaAuth();
 
