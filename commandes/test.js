@@ -5,7 +5,7 @@ const { ZONE_DE_TEMPS } = require("../config");
 const rl = "https://files.catbox.moe/uih7xz.jpg";
 const { runtime } = require("../lib/fonctions");
 menmacmd({
-  name: "test",
+  nomCom: "test",
   classe: "utiles",
   react: "🔋"
 },
@@ -20,7 +20,7 @@ menmacmd({
 
 
 menmacmd({
-  name: "ping",
+  nomCom: "ping",
   classe: "utiles",
   react: "⚡"
 },
@@ -37,7 +37,7 @@ menmacmd({
 
 
 menmacmd({
-  name: "alive",
+  nomCom: "alive",
   classe: "utiles",
   desc: "temps de fonctionnement",
   react: "🍷"

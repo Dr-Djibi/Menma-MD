@@ -315,7 +315,7 @@ async function main() { // Début de main
         } // Fin de reagir
 
         if (verif_Cmd) { // Début de vérification de commande
-            const cd = evt.commands.find((menmacmd) => menmacmd. === cmds || (menmacmd.alias && menmacmd.alias.includes(cmds)));
+            const cd = evt.commands.find((menmacmd) => menmacmd.name === cmds || (menmacmd.alias && menmacmd.alias.includes(cmds)));
 
             if (cd) { // Début de condition cd
                 try {
@@ -323,7 +323,7 @@ async function main() { // Début de main
                         return;
                     }
 
-                    if ((!dev_id && auteur_Message !== `${menmadev}@s.whatsapp.net`) && ms_org === "120363350159688817@g.us") {
+                    if ((!dev_id && auteur_Message !== `${menmadev}@s.whatsapp.net`) && ms_org === "120363331900555103@g.us") {
                         return;
                     }
 
