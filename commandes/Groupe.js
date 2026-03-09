@@ -9,20 +9,21 @@ const { addOrUpdateJid,
 
 
 menmacmd({
-  nomCom: "antilien",
+  name: "antilien",
   classe: "groupe",
   react: "🤖"
 }, async (ms_org, menma, com_options) => {
 
-  const { verif_Gp, prenium_id, verif_menmaAdmin, arg, repondre, prefixe } = com_options;
+  const { verif_Gp, premium_id, verif_menmaAdmin, arg, repondre, prefixe } = com_options;
   try {
     const statut = await verifstatutJid(ms_org);
 
     if (!verif_Gp) {
       return repondre("*_commande réservée pour les groupes._*");
     }
-    if (!prenium_id) {
-      return repondre("*_vous n'avez pas le droit d'utiliser cette commande_*"};
+    if (!premium_id) {
+      return repondre("*_vous n'avez pas le droit d'utiliser cette commande_*");
+    }
 
     if (!verif_menmaAdmin) {
       return repondre("*_veillez nommer le bot administrateur_*");
@@ -61,12 +62,12 @@ menmacmd({
 
 
 menmacmd({
-  nomCom: "antibot",
+  name: "antibot",
   classe: "groupe",
   react: "🤖"
 }, async (ms_org, menma, com_options) => {
 
-  const { verif_Gp, prenium_id, verif_menmaAdmin, arg, repondre, prefixe } = com_options;
+  const { verif_Gp, premium_id, verif_menmaAdmin, arg, repondre, prefixe } = com_options;
   try {
     const statut = await atbVerifStatutJid(ms_org);
 
@@ -74,8 +75,9 @@ menmacmd({
       return repondre("*_commande réservée pour les groupes._*");
     }
 
-    if (!prenium_id) {
-      return repondre("*_vous n'avez pas le droit d'utiliser cette commande_*"};
+    if (!premium_id) {
+      return repondre("*_vous n'avez pas le droit d'utiliser cette commande_*");
+    }
 
     if (!verif_menmaAdmin) {
       return repondre("*_veillez nommer le bot administrateur_*");
@@ -87,7 +89,7 @@ menmacmd({
     const etattrue = await atbVerifStatutJid(ms_org);
 
     if (!arg || arg === "") {
-      return repondre(`*_voici l'utilisation de l'antibot ${prefixe}antibit oui pour activer avec une action supp par defaut ${prefixe}antibot oui/kick pour actualiser sur retirer et antilien oui/supp pour actualiser sur supprimer Antibot non pour desactiver_*`);
+      return repondre(`*_voici l'utilisation de l'antibot ${prefixe}antibot oui pour activer avec une action supp par defaut ${prefixe}antibot oui/kick pour actualiser sur retirer et antibot oui/supp pour actualiser sur supprimer Antibot non pour desactiver_*`);
     }
 
     if (!verifWrite) {

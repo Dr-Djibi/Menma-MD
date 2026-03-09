@@ -4,7 +4,7 @@ const db = config.DATABASE;
 
 let sequelize;
 
-if (!db) { 
+if (!db) {
   sequelize = new Sequelize({
     dialect: 'sqlite',
     storage: './database.db',
@@ -37,14 +37,50 @@ const Antibot = sequelize.define('Antibot', {
     defaultValue: 'supp',
   },
 }, {
-  tableName: 'antilien',
+  tableName: 'antibot',
   timestamps: false,
 });
 
 (async () => {
-  await Antilien.sync();
+  await Antibot.sync();
   console.log("Table 'Antibot' synchronisée avec succès.");
 
 })();
 
-module.exports = { Antibot };
+async function atbAddOrUpdateJid(id, mode) {
+  let antibot = await Antibot.findByPk(id);
+  if (antibot) {
+    return await antibot.update({ mode });
+  } else {
+    return await Antibot.create({ id, mode });
+  }
+}
+
+async function atbUpdateAction(id, type) {
+  let antibot = await Antibot.findByPk(id);
+  if (antibot) {
+    return await antibot.update({ type });
+  } else {
+    return await Antibot.create({ id, type });
+  }
+}
+
+async function atbVerifStatutJid(id) {
+  let antibot = await Antibot.findByPk(id);
+  if (antibot) {
+    return antibot.mode;
+  } else {
+    return 'non';
+  }
+}
+
+async function atbRecupActionJid(id) {
+  let antibot = await Antibot.findByPk(id);
+  if (antibot) {
+    return antibot.type;
+  } else {
+    return 'supp';
+  }
+}
+
+module.exports = { Antibot, atbAddOrUpdateJid, atbUpdateAction, atbVerifStatutJid, atbRecupActionJid };

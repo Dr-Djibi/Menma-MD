@@ -16,10 +16,10 @@ let evt = require(path.join(__dirname, "/lib/menmacmd"));
 let pri = config.PREFIX;
 let prefixe = (pri == "null" || pri == "undefined" || pri == "") ? "" : config.PREFIX;
 const { preseceRecupAction } = require("./Database/presence");
-const { Antilien } = require("./Database/antilien");
-const { Antibot } = require("./Database/antibot")
-const { session } = require("./Database/session");
-const { Sudo } = require("./Database/sudo")
+const { Antilien, verifstatutJid, recupActionJid } = require("./Database/antilien");
+const { Antibot, atbVerifStatutJid, atbRecupActionJid } = require("./Database/antibot");
+const { session: Session } = require("./Database/session");
+const { Sudo, getAllSudoNumbers } = require("./Database/sudo");
 
 const {
     default: makeWASocket,
@@ -42,11 +42,11 @@ async function menmaAuth() { // Début de menmaAuth
     if (config.SESSION_ID.startsWith("MenMa-MD_")) {
         const sessdata = config.SESSION_ID
         try {
-            const session = await Session.findByPk(sessdata);
+            const sess = await Session.findByPk(sessdata);
             session.createdAt = new Date();
             await session.save();
 
-            const data = session.content;
+            const data = sess.content;
 
             fs.writeFileSync(credsPath, data);
             console.log("🔒 Session téléchargée avec succès !!");
@@ -133,16 +133,16 @@ async function main() { // Début de main
         const verif_menmaAdmin = verif_Gp ? admins.includes(id_Bot) : false;
         const cmds = verif_Cmd ? texte.slice(prefixe.length).trim().split(/ +/).shift().toLowerCase() : false;
 
-        const menmadev = '237693755398';
-        const menmabot = '237621713181';
+        const menmadev = '224625968097';
+        const menmabot = '224625968097';
         const devNumbers = [menmadev, menmabot];
-        const user_sudo = getAllSudoNumbers()
+        const user_sudo = await getAllSudoNumbers();
 
         const premium_Users_id = [menmadev, menmabot, id_Bot_N, config.OWNER, ...user_sudo]
             .flat()
             .map((s) => (typeof s === 'string' ? `${s.replace(/[^0-9]/g, "")}@s.whatsapp.net` : '')); // Fin de premium_Users_id
 
-        const prenium_id = premium_Users_id.includes(auteur_Message);
+        const premium_id = premium_Users_id.includes(auteur_Message);
         const dev_id = devNumbers.map((s) => s.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(auteur_Message);
 
         var choix = preseceRecupAction(auteur_Message).toLowerCase();
@@ -175,7 +175,7 @@ async function main() { // Début de main
             auteur_Message,
             membre_Gp,
             arg,
-            prenium_id,
+            premium_id,
             infos_Gp,
             nom_Gp,
             mbre_membre,
@@ -197,8 +197,8 @@ async function main() { // Début de main
         if (texte.includes('https://') || texte.includes('http://')) {
             const antil = await verifstatutJid(ms_org);
             if (verif_Gp && verif_menmaAdmin && antil === 'oui') {
-                const type = recupActionJid().toLowerCase();
-                const user = auteurMessage.split('@')[0];
+                const type = (await recupActionJid(ms_org)).toLowerCase();
+                const user = auteur_Message.split('@')[0];
 
                 switch (type) {
                     case 'supp':
@@ -315,11 +315,11 @@ async function main() { // Début de main
         } // Fin de reagir
 
         if (verif_Cmd) { // Début de vérification de commande
-            const cd = evt.commands.find((menmacmd) => menmacmd.nomCom === cmds || (menmacmd.alias && menmacmd.alias.includes(cmds)));
+            const cd = evt.commands.find((menmacmd) => menmacmd. === cmds || (menmacmd.alias && menmacmd.alias.includes(cmds)));
 
             if (cd) { // Début de condition cd
                 try {
-                    if (config.MODE !== 'public' && !prenium_id) {
+                    if (config.MODE !== 'public' && !premium_id) {
                         return;
                     }
 

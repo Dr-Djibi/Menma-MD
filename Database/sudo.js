@@ -4,7 +4,7 @@ const db = config.DATABASE;
 
 let sequelize;
 
-if (!db) { 
+if (!db) {
   sequelize = new Sequelize({
     dialect: 'sqlite',
     storage: './database.db',
@@ -34,9 +34,23 @@ const Sudo = sequelize.define('Sudo', {
 });
 
 (async () => {
-  await Antilien.sync();
+  await Sudo.sync();
   console.log("Table 'Sudo' synchronisée avec succès.");
 
 })();
 
-module.exports = { Sudo };
+async function addSudoNumber(id) {
+  let [sudo] = await Sudo.findOrCreate({ where: { id } });
+  return sudo;
+}
+
+async function delSudoNumber(id) {
+  return await Sudo.destroy({ where: { id } });
+}
+
+async function getAllSudoNumbers() {
+  let sudos = await Sudo.findAll();
+  return sudos.map(s => s.id);
+}
+
+module.exports = { Sudo, addSudoNumber, delSudoNumber, getAllSudoNumbers };

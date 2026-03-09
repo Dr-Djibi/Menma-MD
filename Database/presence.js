@@ -4,7 +4,7 @@ const db = config.DATABASE;
 
 let sequelize;
 
-if (!db) { 
+if (!db) {
   sequelize = new Sequelize({
     dialect: 'sqlite',
     storage: './database.db',
@@ -24,9 +24,12 @@ if (!db) {
 }
 
 const Presence = sequelize.define('Presence', {
- 
+  id: {
+    type: DataTypes.STRING,
+    primaryKey: true,
+  },
   type: {
-    type: DataTypes.ENUM('ecrit', 'enligne','enregistre','non'),
+    type: DataTypes.ENUM('ecrit', 'enligne', 'enregistre', 'non'),
     defaultValue: 'non',
   },
 }, {
@@ -40,4 +43,26 @@ const Presence = sequelize.define('Presence', {
 
 })();
 
-module.exports = { Presence };
+async function addOrUpdatePresence(id, type) {
+  let presence = await Presence.findByPk(id);
+  if (presence) {
+    return await presence.update({ type });
+  } else {
+    return await Presence.create({ id, type });
+  }
+}
+
+async function presenceUpdateActionJid(id, type) {
+  return await addOrUpdatePresence(id, type);
+}
+
+async function preseceRecupAction(id) {
+  let presence = await Presence.findByPk(id);
+  if (presence) {
+    return presence.type;
+  } else {
+    return 'non';
+  }
+}
+
+module.exports = { Presence, addOrUpdatePresence, presenceUpdateActionJid, preseceRecupAction };
