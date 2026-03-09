@@ -1,4 +1,4 @@
-const {addOrUpdatePresence,
-presenceUpdateActionJid} = require("../Database/presence");
-const{ addSudoNumber,  delSudoNumber,  getAllSudoNumbers } = require("../Database/sudo");
-const { slgcomd } = require("../lib/slgcomd");
+const { addOrUpdatePresence,
+    presenceUpdateActionJid } = require("../Database/presence");
+const { addSudoNumber, delSudoNumber, getAllSudoNumbers } = require("../Database/sudo");
+const { menmacmd } = require("../lib/menmacmd");

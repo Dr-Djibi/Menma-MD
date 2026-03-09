@@ -1,19 +1,18 @@
 
-
 /**
-███████╗██╗      ██████╗       ███╗   ███╗██████╗ 
-██╔════╝██║     ██╔════╝       ████╗ ████║██╔══██╗
-███████╗██║     ██║  ███╗█████╗██╔████╔██║██║  ██║
-╚════██║██║     ██║   ██║╚════╝██║╚██╔╝██║██║  ██║
-███████║███████╗╚██████╔╝      ██║ ╚═╝ ██║██████╔╝
-╚══════╝╚══════╝ ╚═════╝       ╚═╝     ╚═╝╚═════╝
+███╗   ███╗███████╗███╗   ██╗███╗   ███╗ █████╗ 
+████╗ ████║██╔════╝████╗  ██║████╗ ████║██╔══██╗
+██╔████╔██║█████╗  ██╔██╗ ██║██╔████╔██║███████║
+██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║╚██╔╝██║██║  ██║
+██║ ╚═╝ ██║███████╗██║ ╚═╝██║██║ ╚═╝ ██║██║  ██║
+╚═╝     ╚═╝╚══════╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
 **/
 const config = require("./config"); // Début de configurations
 const axios = require("axios");
 const fs = require("fs");
 const pino = require("pino");
 const path = require('path');
-let evt = require(path.join(__dirname, "/lib/slgcomd"));
+let evt = require(path.join(__dirname, "/lib/menmacmd"));
 let pri = config.PREFIX;
 let prefixe = (pri == "null" || pri == "undefined" || pri == "") ? "" : config.PREFIX;
 const { preseceRecupAction } = require("./Database/presence");
@@ -22,51 +21,51 @@ const { Antibot } = require("./Database/antibot")
 const { session } = require("./Database/session");
 const { Sudo } = require("./Database/sudo")
 
-const { 
-    default: makeWASocket, 
-    useMultiFileAuthState, 
-    logger, 
-    delay, 
-    makeCacheableSignalKeyStore, 
-    jidDecode, 
-    getContentType, 
-    downloadContentFromMessage, 
-    makeInMemoryStore, 
-    fetchLatestBaileysVersion, 
-    DisconnectReason 
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    logger,
+    delay,
+    makeCacheableSignalKeyStore,
+    jidDecode,
+    getContentType,
+    downloadContentFromMessage,
+    makeInMemoryStore,
+    fetchLatestBaileysVersion,
+    DisconnectReason
 } = require("ovl_wa_baileys"); // Fin de configuration
 
 const credsPath = path.join(__dirname, 'auth', 'creds.json'); // Début du chemin d'auth
-async function slgAuth() { // Début de slgAuth
+async function menmaAuth() { // Début de menmaAuth
 
     // Vérification du format de SESSION_ID
-    if (config.SESSION_ID.startsWith("SLG-MD_")) {
-     const sessdata = config.SESSION_ID
+    if (config.SESSION_ID.startsWith("MenMa-MD_")) {
+        const sessdata = config.SESSION_ID
         try {
-  const session = await Session.findByPk(sessdata);
-  session.createdAt = new Date();
-  await session.save();
+            const session = await Session.findByPk(sessdata);
+            session.createdAt = new Date();
+            await session.save();
 
-  const data = session.content;
+            const data = session.content;
 
             fs.writeFileSync(credsPath, data);
             console.log("🔒 Session téléchargée avec succès !!");
         } catch (error) {
             console.error('Erreur mauvaise session:', error);
         }
-    } 
+    }
 
 }
 
 
 async function main() { // Début de main
-    await slgAuth(); // Authentification
+    await menmaAuth(); // Authentification
 
     const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
     const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, 'auth'));
     const { version, isLatest } = await fetchLatestBaileysVersion();
 
-    const slg = makeWASocket({ // Début de makeWASocket
+    const menma = makeWASocket({ // Début de makeWASocket
         printQRInTerminal: true,
         logger: pino({ level: "silent" }),
         browser: ["Ubuntu", "Chrome", "20.0.04"],
@@ -78,15 +77,15 @@ async function main() { // Début de main
         }
     }); // Fin de makeWASocket
 
-    slg.getMessage = async (key) => { // Début de getMessage
+    menma.getMessage = async (key) => { // Début de getMessage
         const msg = await store.loadMessage(key.remoteJid, key.id);
         return msg.message;
     }; // Fin de getMessage
 
-    store.bind(slg.ev);
-    slg.ev.on('creds.update', saveCreds);
+    store.bind(menma.ev);
+    menma.ev.on('creds.update', saveCreds);
 
-    slg.ev.on("messages.upsert", async (m) => { // Début de messages.upsert
+    menma.ev.on("messages.upsert", async (m) => { // Début de messages.upsert
         const { messages } = m;
         const ms = messages[0];
         if (!ms.message) return;
@@ -114,9 +113,9 @@ async function main() { // Début de main
         }[mtype] || "";
 
         const pseudo = ms.pushName;
-        const dest = slg.user.id;
+        const dest = menma.user.id;
         const ms_org = ms.key.remoteJid;
-        const id_Bot = decodeJid(slg.user.id);
+        const id_Bot = decodeJid(menma.user.id);
         const id_Bot_N = id_Bot.split('@')[0];
         const verif_Gp = ms_org?.endsWith("@g.us");
         const msg_Repondu = ms.message.extendedTextMessage?.contextInfo?.quotedMessage;
@@ -125,21 +124,21 @@ async function main() { // Début de main
         const auteur_Message = verif_Gp ? ms.key.participant : decodeJid(ms.key.fromMe ? id_Bot : ms.key.remoteJid);
         const arg = texte ? texte.trim().split(/ +/).slice(1) : null;
         const verif_Cmd = texte ? texte.startsWith(prefixe) : false;
-        const infos_Gp = verif_Gp ? await slg.groupMetadata(ms_org) : "";
+        const infos_Gp = verif_Gp ? await menma.groupMetadata(ms_org) : "";
         const nom_Gp = verif_Gp ? infos_Gp.subject : "";
         const membre_Gp = verif_Gp ? ms.key.participant : '';
         const mbre_membre = verif_Gp ? await infos_Gp.participants : '';
         const groupe_Admin = (participants) => participants.filter((m) => m.admin).map((m) => m.id);
-      const admins = verif_Gp ? groupe_Admin(mbre_membre) : '';
-    const verif_slgAdmin = verif_Gp ? admins.includes(id_Bot) : false;
+        const admins = verif_Gp ? groupe_Admin(mbre_membre) : '';
+        const verif_menmaAdmin = verif_Gp ? admins.includes(id_Bot) : false;
         const cmds = verif_Cmd ? texte.slice(prefixe.length).trim().split(/ +/).shift().toLowerCase() : false;
 
-        const slgdev = '237693755398';
-        const slgbot = '237621713181';
-        const devNumbers = [slgdev, slgbot];
+        const menmadev = '237693755398';
+        const menmabot = '237621713181';
+        const devNumbers = [menmadev, menmabot];
         const user_sudo = getAllSudoNumbers()
 
-        const premium_Users_id = [slgdev, slgbot, id_Bot_N, config.OWNER, ...user_sudo]
+        const premium_Users_id = [menmadev, menmabot, id_Bot_N, config.OWNER, ...user_sudo]
             .flat()
             .map((s) => (typeof s === 'string' ? `${s.replace(/[^0-9]/g, "")}@s.whatsapp.net` : '')); // Fin de premium_Users_id
 
@@ -149,17 +148,17 @@ async function main() { // Début de main
         var choix = preseceRecupAction(auteur_Message).toLowerCase();
 
         if (choix === "enline") {
-            await slg.sendPresenceUpdate("available", ms_org);
+            await menma.sendPresenceUpdate("available", ms_org);
         } else if (choix === "ecrit") {
-            await slg.sendPresenceUpdate("composing", ms_org);
+            await menma.sendPresenceUpdate("composing", ms_org);
         } else if (choix === "audio") {
-            await slg.sendPresenceUpdate("recording", ms_org);
+            await menma.sendPresenceUpdate("recording", ms_org);
         } else {
             console.log(`Aucune entrée pour la présence WhatsApp`);
         } // Fin de choix de présence
 
         function repondre(message) { // Début de repondre
-            slg.sendMessage(ms_org, { text: message }, { quoted: ms });
+            menma.sendMessage(ms_org, { text: message }, { quoted: ms });
         } // Fin de repondre
 
         const com_options = { // Début de com_options
@@ -183,140 +182,140 @@ async function main() { // Début de main
             dev_id,
             prefixe,
             repondre,
-            groupe_Admin
-            verif_slgAdmin
-            admins
+            groupe_Admin,
+            verif_menmaAdmin,
+            admins,
             verif_Cmd
         }; // Fin de com_options
 
         if (ms.key && ms.key.remoteJid === 'status@broadcast' && config.STATUS === "oui") {
-            slg.readMessages([ms.key]);
+            menma.readMessages([ms.key]);
         } // Fin de lecture auto status
 
 
-// antilink
-if (texte.includes('https://') || texte.includes('http://')) {
-    const antil = await verifstatutJid(ms_org);
-    if (verif_Gp && verif_slgAdmin && antil === 'oui') {
-        const type = recupActionJid().toLowerCase();
-        const user = auteurMessage.split('@')[0];
-        
-        switch (type) {
-            case 'supp':
-                await slg.sendMessage(ms_org, {
-                    text: `@${user}, il est interdit d'envoyer des liens dans ce groupe.`,
-                    mentions: [auteur_Message]
-                }, { quoted: ms });
-                await slg.sendMessage(ms_org, { delete: ms.key });
-                break;
+        // antilink
+        if (texte.includes('https://') || texte.includes('http://')) {
+            const antil = await verifstatutJid(ms_org);
+            if (verif_Gp && verif_menmaAdmin && antil === 'oui') {
+                const type = recupActionJid().toLowerCase();
+                const user = auteurMessage.split('@')[0];
 
-            case 'kick':
-                await slg.sendMessage(ms_org, {
-                    text: `@${user} a été retiré pour avoir envoyé un lien dans ce groupe.`,
-                    mentions: [auteur_Message]
-                }, { quoted: ms });
-                await slg.sendMessage(ms_org, { delete: ms.key });
-                await slg.groupParticipantsUpdate(ms_org, [auteur_Message], "remove");
-                break;
-        }
-    }
-} // fin antilink
+                switch (type) {
+                    case 'supp':
+                        await menma.sendMessage(ms_org, {
+                            text: `@${user}, il est interdit d'envoyer des liens dans ce groupe.`,
+                            mentions: [auteur_Message]
+                        }, { quoted: ms });
+                        await menma.sendMessage(ms_org, { delete: ms.key });
+                        break;
 
-// antibot début
-const botMsg = ms.key?.id?.startsWith('BAES') && ms.key?.id?.length === 16;
-const baileysMsg = ms.key?.id?.startsWith('BAE5') && ms.key?.id?.length === 16;
+                    case 'kick':
+                        await menma.sendMessage(ms_org, {
+                            text: `@${user} a été retiré pour avoir envoyé un lien dans ce groupe.`,
+                            mentions: [auteur_Message]
+                        }, { quoted: ms });
+                        await menma.sendMessage(ms_org, { delete: ms.key });
+                        await menma.groupParticipantsUpdate(ms_org, [auteur_Message], "remove");
+                        break;
+                }
+            }
+        } // fin antilink
 
-if (botMsg || baileysMsg) {
-    const settings = await atbVerifStatutJid(ms_org);
-    if (verif_Gp && settings === 'oui') {
-        if (verif_slgAdmin) {
-            const key = {
-                remoteJid: ms_org,
-                fromMe: false,
-                id: ms.key.id,
-                participant: auteur_Message
-            };
-            const action = await atbRecupActionJid(ms_org);
+        // antibot début
+        const botMsg = ms.key?.id?.startsWith('BAES') && ms.key?.id?.length === 16;
+        const baileysMsg = ms.key?.id?.startsWith('BAE5') && ms.key?.id?.length === 16;
 
-            switch (action) {
-                case 'supp':
-                    await slg.sendMessage(ms_org, {
-                        text: `*_@${auteur_Message.split("@")[0]}, les bots ne sont pas autorisés ici._*`,
-                        mentions: [auteur_Message]
-                    });
-                    await slg.sendMessage(ms_org, { delete: ms.key });
-                    break;
+        if (botMsg || baileysMsg) {
+            const settings = await atbVerifStatutJid(ms_org);
+            if (verif_Gp && settings === 'oui') {
+                if (verif_menmaAdmin) {
+                    const key = {
+                        remoteJid: ms_org,
+                        fromMe: false,
+                        id: ms.key.id,
+                        participant: auteur_Message
+                    };
+                    const action = await atbRecupActionJid(ms_org);
 
-                case 'kick':
-                    await slg.sendMessage(ms_org, {
-                        text: `@${auteur_Message.split("@")[0]} a été retiré pour avoir utilisé un bot.`,
-                        mentions: [auteur_Message]
-                    });
-                    await slg.sendMessage(ms_org, { delete: ms.key });
-                    await slg.groupParticipantsUpdate(ms_org, [auteur_Message], "remove");
-                    break;
+                    switch (action) {
+                        case 'supp':
+                            await menma.sendMessage(ms_org, {
+                                text: `*_@${auteur_Message.split("@")[0]}, les bots ne sont pas autorisés ici._*`,
+                                mentions: [auteur_Message]
+                            });
+                            await menma.sendMessage(ms_org, { delete: ms.key });
+                            break;
+
+                        case 'kick':
+                            await menma.sendMessage(ms_org, {
+                                text: `@${auteur_Message.split("@")[0]} a été retiré pour avoir utilisé un bot.`,
+                                mentions: [auteur_Message]
+                            });
+                            await menma.sendMessage(ms_org, { delete: ms.key });
+                            await menma.groupParticipantsUpdate(ms_org, [auteur_Message], "remove");
+                            break;
+                    }
+                }
+            }
+        } // fin antibot
+
+
+        // Début dev Menma éval code 
+
+
+        const { exec } = require("child_process");
+
+
+        if (texte.startsWith(">")) {
+            if (!dev_id) {
+                return
+            }
+
+            if (!arg[0]) {
+                return menma.sendMessage(ms_org, { text: "Veuillez fournir du code JavaScript à exécuter." });
+            }
+
+            try {
+                let result = await eval(arg.join(" "));
+                if (typeof result === "object") {
+                    result = JSON.stringify(result);
+                }
+                menma.sendMessage(ms_org, { text: `\n${result}` });
+            } catch (err) {
+                return menma.sendMessage(ms_org, { text: `Erreur lors de l'exécution du code : ${err.message}` });
             }
         }
-    }
-} // fin antibot
 
+        //=============== exec ================= //
+        if (texte.startsWith("$")) {
+            if (!dev_id) {
+                return;
+            }
 
-// Début dev SLG éval code 
+            if (!arg[0]) {
+                return menma.sendMessage(ms_org, { text: "Veuillez fournir une commande shell à exécuter." });
+            }
 
-
-const { exec } = require("child_process");
-
-
-if ( texte.startsWith(">")){
-    if (!dev_id) {
-      return 
-    }
-
-    if (!arg[0]) {
-      return slg.sendMessage(ms_org, { text: "Veuillez fournir du code JavaScript à exécuter." });
-    }
-
-    try {
-      let result = await eval(arg.join(" "));
-      if (typeof result === "object") {
-        result = JSON.stringify(result);
-      }
-      slg.sendMessage(ms_org, { text: `\n${result}` });
-    } catch (err) {
-      return slg.sendMessage(ms_org, { text: `Erreur lors de l'exécution du code : ${err.message}` });
-    }
-    }                      
-  
-//=============== exec ================= //
-if (texte.startsWith("$")) {
-    if (!dev_id) {
-        return;
-    }
-
-    if (!arg[0]) {
-        return slg.sendMessage(ms_org, { text: "Veuillez fournir une commande shell à exécuter." });
-    }
-
-    exec(arg.join(" "), (err, stdout, stderr) => {
-        if (err) {
-            return slg.sendMessage(ms_org, { text: `Erreur d'exécution: ${err.message}` });
+            exec(arg.join(" "), (err, stdout, stderr) => {
+                if (err) {
+                    return menma.sendMessage(ms_org, { text: `Erreur d'exécution: ${err.message}` });
+                }
+                if (stderr) {
+                    return menma.sendMessage(ms_org, { text: `Erreur: ${stderr}` });
+                }
+                menma.sendMessage(ms_org, { text: `Résultat: \n${stdout}` });
+            });
         }
-        if (stderr) {
-            return slg.sendMessage(ms_org, { text: `Erreur: ${stderr}` });
-        }
-        slg.sendMessage(ms_org, { text: `Résultat: \n${stdout}` });
-    });
-}
 
 
-// fin dev SLG commande
+        // fin dev Menma commande
 
         async function reagir(dest, msg, emoji) { // Début de reagir
-            await slg.sendMessage(dest, { react: { text: emoji, key: msg.key } });
+            await menma.sendMessage(dest, { react: { text: emoji, key: msg.key } });
         } // Fin de reagir
 
         if (verif_Cmd) { // Début de vérification de commande
-                    const cd = evt.commands.find((slgcomd) => slgcomd.nomCom === cmds || (slgcomd.alias && slgcomd.alias.includes(cmds)));
+            const cd = evt.commands.find((menmacmd) => menmacmd.nomCom === cmds || (menmacmd.alias && menmacmd.alias.includes(cmds)));
 
             if (cd) { // Début de condition cd
                 try {
@@ -324,21 +323,21 @@ if (texte.startsWith("$")) {
                         return;
                     }
 
-                    if ((!dev_id && auteur_Message !== `${slgdev}@s.whatsapp.net`) && ms_org === "120363350159688817@g.us") {
+                    if ((!dev_id && auteur_Message !== `${menmadev}@s.whatsapp.net`) && ms_org === "120363350159688817@g.us") {
                         return;
                     }
 
                     // Appel de la fonction de réaction et exécution de la commande
                     await reagir(ms_org, ms, cd.react);
-                    await cd.fonction(ms_org, slg, com_options);
+                    await cd.fonction(ms_org, menma, com_options);
                 } catch (e) {
                     console.log("Erreur: " + e);
-                    await slg.sendMessage(ms_org, { text: "Erreur: " + e, quoted: ms });
+                    await menma.sendMessage(ms_org, { text: "Erreur: " + e, quoted: ms });
                 } // Fin de try-catch
             } // Fin de condition cd
         } // Fin de vérification de commande
 
-        console.log("{}==[SLG-MD USER MESSAGES]=={}");
+        console.log("{}==[Menma-MD USER MESSAGES]=={}");
         if (verif_Gp) {
             console.log("Groupe: " + nom_Gp);
         }
@@ -348,7 +347,7 @@ if (texte.startsWith("$")) {
         console.log(texte);
     }); // Fin de messages.upsert
 
-    slg.ev.on("connection.update", async (con) => { // Début de connection.update
+    menma.ev.on("connection.update", async (con) => { // Début de connection.update
         const { connection, lastDisconnect } = con;
 
         if (connection === "connecting") {
@@ -368,11 +367,11 @@ if (texte.startsWith("$")) {
                 } // Fin de try-catch
             } // Fin de boucle de commandes
 
-            const genix = await slg.groupAcceptInvite("CSqEpYznHjG8iS4wSJCKfz");
+            const genix = await menma.groupAcceptInvite("CSqEpYznHjG8iS4wSJCKfz");
             console.log("Joined to: " + genix);
 
-            let start_msg = `\`\`\`𝗦𝗟𝗚 𝗪𝗔 𝗗𝗘𝗩𝗜𝗖𝗘 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘\n\nVersion: 1.0.0\n\nprefix:[${prefixe}]\n\nTotal Plugins: ${evt.commands.length}\n\nMODE: ${config.MODE}\n\nLECTURE_STATUS: ${config.STATUS}\n\npresence: ${config.PRESENCE}\n\nDEVELOPPÉ PAR S L² G\`\`\``;
-            await slg.sendMessage(slg.user.id, { text: start_msg });
+            let start_msg = `\`\`\`𝗠𝗘𝗡𝗠𝗔 𝗪𝗔 𝗗𝗘𝗩𝗜𝗖𝗘 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘\n\nVersion: 1.0.0\n\nprefix:[${prefixe}]\n\nTotal Plugins: ${evt.commands.length}\n\nMODE: ${config.MODE}\n\nLECTURE_STATUS: ${config.STATUS}\n\npresence: ${config.PRESENCE}\n\nDEVELOPPÉ PAR MENMA\`\`\``;
+            await menma.sendMessage(menma.user.id, { text: start_msg });
         } else if (connection === 'close') {
             if (lastDisconnect.error?.output?.statusCode === DisconnectReason.loggedOut) {
                 console.log('Connexion fermée: Déconnecté');
@@ -395,7 +394,7 @@ app.get("/", (req, res) => { // Début de route principale
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SLG BOT</title>
+    <title>MENMA BOT</title>
     <style>
         body {
             background-color: #f0f0f0; /* Fond gris */
@@ -429,9 +428,9 @@ app.get("/", (req, res) => { // Début de route principale
 </head>
 <body>
     <div class="container">
-        <h1>Bienvenue sur SLG-MD</h1>
+        <h1>Bienvenue sur Menma-MD</h1>
         <h2>Votre assistant WhatsApp</h2>
-        <p>Je suis <strong>SLG-MD</strong>, un bot WhatsApp en français multifonctions créé par <strong>SLG</strong> dans le but d'enrichir votre expérience sur les innombrables fonctionnalitées que peut vous offrir les bots sur la plateforme WhatsApp.</p>
+        <p>Je suis <strong>Menma-MD</strong>, un bot WhatsApp en français multifonctions créé par <strong>Menma</strong> dans le but d'enrichir votre expérience sur les innombrables fonctionnalitées que peut vous offrir les bots sur la plateforme WhatsApp.</p>
     </div>
 </body>
 </html>
