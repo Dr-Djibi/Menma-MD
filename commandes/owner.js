@@ -23,7 +23,7 @@ menmacmd({
     if (!dev_id) return repondre("❌ Commande réservée au owner.");
 
     const cible = (mr && mr[0]) || auteur_Msg_Repondu;
-    if (!cible) return repondre("╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ *Usage* : Mentionne ou réponds\n│ au futur sudo.\n╰──────────────────────────────⬣");
+    if (!cible) return repondre("╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ *Usage* : Mentionne ou réponds\n│ au futur sudo.\n╰────────────────────⬣");
 
     let numero = arg[0]
         || (mr && mr[0] ? mr[0].split("@")[0] : null)
