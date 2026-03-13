@@ -79,14 +79,16 @@ async function send_start_msg(menma) {
         const cleanedJid = decoded.user && decoded.server ? `${decoded.user}@${decoded.server}` : rawJid;
 
         // Construction du rapport de connexion
-        let start_msg = `╭───〔 🤖 𝗠𝗘𝗡𝗠𝗔-𝗠𝗗 〕───⬣
-│ ◈ *Etat*       ➜ Connecté ✅
-│ ◈ *Préfixe*    ➜ ${prefixe}
+        let start_msg = `╭────────────────────────⬣
+│ 🤖 *𝗠𝗘𝗡𝗠𝗔-𝗠𝗗* Connecté !
+├────────────────────────
+│ ◈ *Etat*       ➜ En ligne ✅
+│ ◈ *Préfixe*    ➜ ${prefixe || "Aucun"}
 │ ◈ *Mode*       ➜ ${config.MODE}
 │ ◈ *Commandes*  ➜ ${evt.commands.length}
 │ ◈ *Version*    ➜ 1.0.0
-│ ◈ *Développeur*➜ Menma
-╰──────────────⬣`;
+│ ◈ *Développeur*➜ ${config.DEV || "Menma"}
+╰────────────────────────⬣`;
 
         // Envoyer au propre JID du bot
         await menma.sendMessage(cleanedJid, { text: start_msg });
@@ -121,6 +123,9 @@ async function main() {
         browser: ["Menma-MD", "Chrome", "1.0.0"],
         generateHighQualityLinkPreview: true,
         syncFullHistory: false,
+        cachedGroupMetadata: async (jid) => {
+            return await store.fetchGroupMetadata(jid);
+        },
         auth: {
             creds: state.creds,
             keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "silent" }))
@@ -132,8 +137,13 @@ async function main() {
      * Requis pour des fonctionnalités comme citer des messages ou les supprimer.
      */
     menma.getMessage = async (key) => {
-        const msg = await store.loadMessage(key.remoteJid, key.id);
-        return msg.message;
+        if (store) {
+            const msg = await store.loadMessage(key.remoteJid, key.id);
+            return msg?.message || undefined;
+        }
+        return {
+            conversation: 'hello'
+        };
     };
 
     // Lier le stockage aux événements du socket

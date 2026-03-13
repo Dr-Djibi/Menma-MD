@@ -46,7 +46,7 @@ menmacmd({
     menuMsg += `│ ◈ *Uptime*      ➜ ${uptime}\n`;
     menuMsg += `│ ◈ *Préfixe*     ➜ ${prefixe}\n`;
     menuMsg += `│ ◈ *Commandes*   ➜ ${commands.length}\n`;
-    menuMsg += `│ ◈ *Développeur* ➜ Menma\n`;
+    menuMsg += `│ ◈ *Développeur* ➜ ${dev}\n`;
     menuMsg += `╰──────────────⬣\n\n`;
 
     // --- Construction du Message : Corps Dynamique ---

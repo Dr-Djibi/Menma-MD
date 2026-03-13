@@ -52,7 +52,7 @@ menmacmd({
 
 menmacmd({
   name: "alive",
-  alias: ["envive"],
+  alias: ["envie"],
   classe: "utiles",
   desc: "Vérifier si le bot est en vie",
   react: "🍷"
