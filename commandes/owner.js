@@ -134,7 +134,7 @@ menmacmd({
     if (!dev_id) return repondre("❌ Commande réservée au owner.");
     const choix = arg[0]?.toLowerCase();
     if (!["public", "prive"].includes(choix)) {
-        return repondre(`╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ *Usage* : ${prefixe}setmode <public | prive>\n╰──────────────────────────────⬣`);
+        return repondre(`╭───〔 ❌ 𝗘𝗥𝗥𝗘𝗨𝗥 〕───⬣\n│ *Usage* : ${prefixe}setmode <public | prive>\n╰──────────────────⬣`);
     }
     const config = require("../config");
     config.MODE = choix;

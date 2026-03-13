@@ -9,6 +9,7 @@ const { runtime } = require("../lib/fonctions");
 const config = require("../config");
 const fs = require("fs");
 const path = require("path");
+const dev = process.env.DEV || "Dr Djibi";
 
 menmacmd({
     name: "menu",
@@ -64,10 +65,10 @@ menmacmd({
     }
 
     // Pied de page avec branding
-    menuMsg += `_Développé par Menma_`;
+    menuMsg += `_Développé par ${dev}_`;
 
     // Image du bot (branding Menma)
-    const imageUrl = "https://files.catbox.moe/uih7xz.jpg";
+    const imageUrl = process.env.MENU;
 
     // --- Envoi de la Réponse à la Commande ---
     try {
