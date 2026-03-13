@@ -28,7 +28,7 @@
 - **Dr Djibi**
 ---
 ### 🙌 Remerciements
-- Ainzs
+- Ainz
 - Haibo_lugh
 - SLG-DEV
 ---
