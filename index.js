@@ -79,16 +79,14 @@ async function send_start_msg(menma) {
         const cleanedJid = decoded.user && decoded.server ? `${decoded.user}@${decoded.server}` : rawJid;
 
         // Construction du rapport de connexion
-        let start_msg = `╭────────────────────────⬣
-│ 🤖 *𝗠𝗘𝗡𝗠𝗔-𝗠𝗗* Connecté !
-├────────────────────────
-│ ◈ *Etat*       ➜ En ligne ✅
-│ ◈ *Préfixe*    ➜ ${prefixe || "Aucun"}
+        let start_msg = `╭───〔 🤖 𝗠𝗘𝗡𝗠𝗔-𝗠𝗗 〕───⬣
+│ ◈ *Etat*       ➜ Connecté ✅
+│ ◈ *Préfixe*    ➜ ${prefixe}
 │ ◈ *Mode*       ➜ ${config.MODE}
 │ ◈ *Commandes*  ➜ ${evt.commands.length}
 │ ◈ *Version*    ➜ 1.0.0
-│ ◈ *Développeur*➜ ${config.DEV || "Menma"}
-╰────────────────────────⬣`;
+│ ◈ *Développeur*➜ Menma
+╰──────────────⬣`;
 
         // Envoyer au propre JID du bot
         await menma.sendMessage(cleanedJid, { text: start_msg });
@@ -119,6 +117,7 @@ async function main() {
     const menma = makeWASocket({
         version,
         printQRInTerminal: true,
+        qrTerminalOpts: { small: true }, // Option pour réduire la taille du QR code dans le terminal
         logger: pino({ level: "silent" }),
         browser: ["Menma-MD", "Chrome", "1.0.0"],
         generateHighQualityLinkPreview: true,
@@ -189,7 +188,7 @@ app.get("/", (req, res) => {
     <div class="container">
         <h1>Bienvenue sur Menma-MD</h1>
         <h2>Votre assistant WhatsApp</h2>
-        <p>Je suis <strong>Menma-MD</strong>, un bot WhatsApp en français multifonctions créé par <strong>Menma</strong> dans le but d'enrichir votre expérience sur les innombrables fonctionnalitées que peut vous offrir les bots sur la plateforme WhatsApp.</p>
+        <p>Je suis <strong>Menma-MD</strong>, un bot WhatsApp en français multifonctions créé par <strong>Dr Djibi/strong> dans le but d'enrichir votre expérience sur les innombrables fonctionnalitées que peut vous offrir les bots sur la plateforme WhatsApp.</p>
     </div>
 </body>
 </html>`);
