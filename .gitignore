@@ -1,0 +1,12 @@
+node_modules
+auth/*
+auth_info_baileys/*
+session/*
+.env
+database.db
+temp
+obf_dist
+nouveau_MENMA_MD.zip
+*.zip
+*.log
+/scratch
