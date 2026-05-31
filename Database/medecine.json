@@ -1,0 +1,997 @@
+[
+    {
+        "matiere": "pharmacologie",
+        "questions": [
+            {
+                "id": 1,
+                "question": "De quels paramètres dépend la phase pharmaceutique d'un médicament ?",
+                "options": [
+                    "De la voie et de la forme d'administration",
+                    "De la clairance rénale et hépatique",
+                    "De la fixation aux protéines plasmatiques",
+                    "Du pKa et du pH du milieu"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 2,
+                "question": "Quel est le diamètre des pores au niveau des capillaires glomérulaires ?",
+                "options": [
+                    "8 Angströms",
+                    "40 Angströms",
+                    "60 Angströms",
+                    "80 Angströms"
+                ],
+                "answerIndex": 3
+            },
+            {
+                "id": 3,
+                "question": "Selon la loi de Fick, dans quel sens se fait la migration des molécules ?",
+                "options": [
+                    "Du milieu le moins concentré vers le plus concentré",
+                    "Du milieu le plus concentré vers le moins concentré",
+                    "Uniquement à travers des pores protéiques",
+                    "Contre le gradient de concentration"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 4,
+                "question": "Quelle est la structure chimique de la Phénytoïne ?",
+                "options": [
+                    "2,2-diphénylhydantoïne",
+                    "5,5-diphénylhydantoïne",
+                    "Acide valproïque",
+                    "Phénobarbital substitué"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 5,
+                "question": "Quel est le taux de fixation protéique de la Phénytoïne ?",
+                "options": [
+                    "Environ 50 %",
+                    "Environ 75 %",
+                    "Environ 90 %",
+                    "Pratiquement 100 %"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 6,
+                "question": "Dans quel type de crise les hydantoïnes sont-ils inefficaces ?",
+                "options": [
+                    "Crises partielles",
+                    "Crises tonico-cloniques",
+                    "Les Absences",
+                    "État de mal épileptique"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 7,
+                "question": "Comment les benzodiazépines potentialisent-elles l'effet du GABA ?",
+                "options": [
+                    "En augmentant le nombre de récepteurs GABA",
+                    "En augmentant la fréquence d'ouverture du canal chlore",
+                    "En bloquant la dégradation du GABA",
+                    "En stimulant directement le récepteur NMDA"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 8,
+                "question": "L'Ethosuximide est le médicament de choix pour traiter quel type de crises ?",
+                "options": [
+                    "Crises de Grand Mal",
+                    "Crises à type d'Absences",
+                    "Crises partielles complexes",
+                    "Syndrome de West"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 9,
+                "question": "Quel est l'effet indésirable majeur du Vigabatrin nécessitant une surveillance ?",
+                "options": [
+                    "Hépatotoxicité sévère",
+                    "Rétrécissement du champ visuel",
+                    "Hypertrophie gingivale",
+                    "Anémie aplasique"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 10,
+                "question": "Quel processus définit l'ensemble des mécanismes régulant l'accès du principe actif au site d'action ?",
+                "options": [
+                    "La pharmacodynamie",
+                    "La pharmacocinétique",
+                    "La biodisponibilité",
+                    "La biotransformation"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 11,
+                "question": "Quel est le mécanisme d'action périphérique des AINS sur les terminaisons nerveuses ?",
+                "options": [
+                    "Ils diminuent la conduction nerveuse motrice",
+                    "Ils augmentent le seuil d'activation des terminaisons nerveuses libres",
+                    "Ils bloquent les récepteurs opioïdes périphériques",
+                    "Ils inhibent la libération de substance P"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 12,
+                "question": "Quel est le chef de file des analgésiques morphiniques à action centrale ?",
+                "options": [
+                    "Le Paracétamol",
+                    "Le Tramadol",
+                    "La Morphine",
+                    "La Codéine"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 13,
+                "question": "Quelle isoforme de la cyclo-oxygénase est qualifiée d'inductible et surexprimée lors de l'inflammation ?",
+                "options": [
+                    "COX-1",
+                    "COX-2",
+                    "COX-3",
+                    "Lipoxygénase"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 14,
+                "question": "À quelle famille chimique appartient l'Halopéridol ?",
+                "options": [
+                    "Phénothiazines",
+                    "Butyrophénones",
+                    "Benzamides",
+                    "Dibenzodiazépines"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 15,
+                "question": "Nommez une molécule appartenant à la classe des dibenzodiazépines (neuroleptiques de 2de génération).",
+                "options": [
+                    "Chlorpromazine",
+                    "Clozapine",
+                    "Sulpiride",
+                    "Halopéridol"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 16,
+                "question": "L'alpha-méthyldopa agit par une stimulation de quel type de récepteurs au niveau central ?",
+                "options": [
+                    "Récepteurs alpha-1 adrénergiques",
+                    "Récepteurs alpha-2 adrénergiques",
+                    "Récepteurs bêta-1 adrénergiques",
+                    "Récepteurs dopaminergiques D2"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 17,
+                "question": "Quel anti-hypertenseur agit en favorisant la libération de Monoxyde d'Azote (NO) ?",
+                "options": [
+                    "Le Furosémide",
+                    "Le Nitroprussiate de Sodium",
+                    "Le Propranolol",
+                    "Le Captopril"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 18,
+                "question": "Le traitement par les sulfamides hypoglycémiants nécessite la présence de quel organe fonctionnel ?",
+                "options": [
+                    "Le foie",
+                    "Le pancréas",
+                    "Le rein",
+                    "La rate"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 19,
+                "question": "Quel neuroleptique de 1ère génération appartient à la famille des benzamides ?",
+                "options": [
+                    "L'Olanzapine",
+                    "Le Sulpiride",
+                    "La Thioridazine",
+                    "Le Risperdal"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 20,
+                "question": "Quel est l'effet indésirable majeur lié à l'inhibition de la COX-1 par l'acide salicylique ?",
+                "options": [
+                    "Toxicité rénale",
+                    "Effets ulcérogènes gastriques",
+                    "Hypertension artérielle",
+                    "Somnolence sévère"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 31,
+                "question": "Quels sont les deux risques graves (hépatique et pancréatique) liés à l'acide valproïque ?",
+                "options": [
+                    "Hépatite fulminante et pancréatite aiguë",
+                    "Stéatose hépatique et cancer du pancréas",
+                    "Cirrhose biliaire et diabète de type 1",
+                    "Insuffisance hépatique chronique et kystes pancréatiques"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 32,
+                "question": "Quel est le mécanisme d'action de la Phénytoïne sur les neurones ?",
+                "options": [
+                    "Blocage des canaux calciques",
+                    "Blocage des canaux sodiques",
+                    "Ouverture des canaux chlore",
+                    "Inhibition de la recapture du GABA"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 33,
+                "question": "Comment appelle-t-on les médicaments psychotropes qui diminuent l'activité mentale ?",
+                "options": [
+                    "Psychoanaleptiques",
+                    "Psycholeptiques",
+                    "Psychodysleptiques",
+                    "Thymorégulateurs"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 34,
+                "question": "Quel est le diamètre des pores des capillaires musculaires ?",
+                "options": [
+                    "8 Angströms",
+                    "30 Angströms",
+                    "60 Angströms",
+                    "80 Angströms"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 35,
+                "question": "Avec quel système de contrôle de la douleur le paracétamol interagit-il dans la moelle épinière ?",
+                "options": [
+                    "Contrôle inhibiteur descendant sérotoninergique",
+                    "Système opioïde endogène mu",
+                    "Voie dopaminergique mésolimbique",
+                    "Système de la porte (Gate Control) uniquement"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 36,
+                "question": "Quelle enzyme est responsable de la dégradation du GABA au niveau synaptique ?",
+                "options": [
+                    "GABA-Décarboxylase",
+                    "GABA-Transaminase",
+                    "Acétylcholinestérase",
+                    "Monoamine Oxydase"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 37,
+                "question": "Quel est le transporteur de glucose transloqué vers la membrane par l'insuline ?",
+                "options": [
+                    "GLUT-1",
+                    "GLUT-2",
+                    "GLUT-3",
+                    "GLUT-4"
+                ],
+                "answerIndex": 3
+            },
+            {
+                "id": 38,
+                "question": "Dans la loi de Fick, que signifie le terme 'e' au dénominateur ?",
+                "options": [
+                    "L'épaisseur de la membrane",
+                    "L'énergie d'activation",
+                    "Le coefficient d'élimination",
+                    "L'espace interstitiel"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 39,
+                "question": "À quelle posologie l'halopéridol a-t-il une action principalement désinhibitrice ?",
+                "options": [
+                    "À forte dose",
+                    "À dose modérée",
+                    "À faible dose",
+                    "En administration continue"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 40,
+                "question": "Quel est l'effet de l'aspirine sur l'agrégation plaquettaire ?",
+                "options": [
+                    "Agrégant par activation de la COX-2",
+                    "Anti-agrégant par inhibition irréversible de la COX-1",
+                    "Neutre sur les plaquettes",
+                    "Anti-agrégant par stimulation du monoxyde d'azote"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 41,
+                "question": "Dans la loi de Fick, que représente le coefficient 'k' ?",
+                "options": [
+                    "Le coefficient de partage lipides/eau",
+                    "La constante de dissociation acide",
+                    "Le coefficient de viscosité du milieu",
+                    "La constante d'élimination rénale"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 42,
+                "question": "Quel processus d'absorption correspond au passage de l'eau et des solutés à travers les pores membranaires sous l'effet d'une pression ?",
+                "options": [
+                    "Diffusion passive",
+                    "Transport actif",
+                    "Filtration",
+                    "Pinocytose"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 43,
+                "question": "Quelle est la condition nécessaire pour qu'une molécule puisse être filtrée à travers les pores ?",
+                "options": [
+                    "Être hautement liposoluble",
+                    "Avoir un diamètre inférieur à celui des pores",
+                    "Être liée à l'albumine",
+                    "Utiliser une protéine transporteuse"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 44,
+                "question": "Quel est le mécanisme d'action principal du Phénobarbital au niveau du récepteur GABA-A ?",
+                "options": [
+                    "Augmentation de la durée d'ouverture du canal chlore",
+                    "Augmentation de la fréquence d'ouverture du canal chlore",
+                    "Blocage direct du récepteur NMDA",
+                    "Inhibition de la synthèse du GABA"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 45,
+                "question": "Comment appelle-t-on le transport qui se fait contre un gradient de concentration et nécessite de l'énergie ?",
+                "options": [
+                    "Transport passif",
+                    "Diffusion facilitée",
+                    "Transport actif",
+                    "Osmose"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 46,
+                "question": "Quelle est la principale caractéristique de la diffusion passive concernant la saturation ?",
+                "options": [
+                    "Elle est rapidement saturable",
+                    "Elle n'est pas saturable",
+                    "Elle dépend uniquement des enzymes",
+                    "Elle s'arrête quand le pH change"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 47,
+                "question": "Le pKa d'un médicament est le pH pour lequel :",
+                "options": [
+                    "Le médicament est totalement éliminé",
+                    "50 % du médicament est sous forme ionisée et 50 % sous forme non ionisée",
+                    "Le médicament est totalement absorbé",
+                    "La toxicité est maximale"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 48,
+                "question": "Quel type de crise est spécifiquement traité par le blocage des canaux calciques de type T ?",
+                "options": [
+                    "Crise de Grand Mal",
+                    "Absence (Petit Mal)",
+                    "Crise myoclonique",
+                    "Crise partielle complexe"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 49,
+                "question": "Quel est l'effet de l'alcalinisation des urines sur l'élimination des acides faibles (ex: Phénobarbital) ?",
+                "options": [
+                    "Elle diminue l'élimination",
+                    "Elle favorise l'élimination (par ionisation)",
+                    "Elle n'a aucun effet",
+                    "Elle augmente la réabsorption tubulaire"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 50,
+                "question": "Dans le modèle de la mosaïque fluide, quelle partie des phospholipides est orientée vers l'extérieur de la membrane ?",
+                "options": [
+                    "Les queues hydrophobes",
+                    "Les têtes hydrophiles",
+                    "Les chaînes de cholestérol",
+                    "Les ponts disulfures"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 51,
+                "question": "Quelle est la définition d'une COX constitutive ou physiologique (comme la COX-1) ?",
+                "options": [
+                    "Une enzyme produite uniquement lors d'une blessure",
+                    "Une enzyme indispensable à la sécrétion du mucus cyto-protecteur gastrique",
+                    "Une enzyme qui dégrade l'acide salicylique",
+                    "Une enzyme présente uniquement dans les neurones centraux"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 52,
+                "question": "Quels sont les métabolites actifs issus de la biotransformation de la Primidone ?",
+                "options": [
+                    "Acide valproïque et GABA",
+                    "Phénobarbital et Phényléthylmalonamide (PEMA)",
+                    "Phénytoïne et Carbamazépine",
+                    "Diazépam et Nordazépam"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 53,
+                "question": "À quelle famille chimique appartient la Chlorpromazine (neuroleptique de 1ère génération) ?",
+                "options": [
+                    "Les butyrophénones",
+                    "Les benzamides",
+                    "Les phénothiazines",
+                    "Les dibenzodiazépines"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 54,
+                "question": "Quel est l'effet des neuroleptiques de seconde génération (NLSG) sur les récepteurs 5HT2 de la sérotonine ?",
+                "options": [
+                    "Effet agoniste stimulant",
+                    "Effet antagoniste prévenant les effets indésirables neurologiques",
+                    "Inhibition de la recapture de la sérotonine",
+                    "Aucun effet sur ces récepteurs"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 55,
+                "question": "Après hydrolyse plasmatique, quelles molécules libèrent de l'acide salicylique ?",
+                "options": [
+                    "Le paracétamol et la codéine",
+                    "L'aspirine et l'aspégic",
+                    "L'ibuprofène et le diclofénac",
+                    "La morphine et le tramadol"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 56,
+                "question": "Quel est le mécanisme d'action des neuroleptiques de 1ère génération sur les récepteurs dopaminergiques D2 ?",
+                "options": [
+                    "Blocage des récepteurs D2",
+                    "Stimulation des récepteurs D2",
+                    "Augmentation de la synthèse de dopamine",
+                    "Inhibition de la dégradation de la dopamine"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 57,
+                "question": "Comment appelle-t-on les médicaments psychotropes qui stimulent l'activité mentale ?",
+                "options": [
+                    "Psycholeptiques",
+                    "Psychoanaleptiques",
+                    "Psychodysleptiques",
+                    "Thymoleptiques"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 58,
+                "question": "Dans quel cas utilise-t-on spécifiquement le Diazépam (VALIUM) par voie intraveineuse en épileptologie ?",
+                "options": [
+                    "Pour le traitement de fond des Absences",
+                    "Pour traiter l'état de mal épileptique",
+                    "Pour la prévention des crises de Grand Mal",
+                    "Pour le traitement du syndrome de West uniquement"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 59,
+                "question": "Quelle enzyme transforme les phospholipides membranaires en acide arachidonique ?",
+                "options": [
+                    "La Cyclo-oxygénase",
+                    "La Lipoxygénase",
+                    "La Phospholipase A2",
+                    "La GABA Transaminase"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 60,
+                "question": "Quelle est la principale action des neuroleptiques dits 'désinhibiteurs' ?",
+                "options": [
+                    "Ils provoquent une sédation profonde",
+                    "Ils améliorent le contact avec la réalité et l'inertie",
+                    "Ils suppriment les hallucinations",
+                    "Ils induisent un sommeil réparateur"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 61,
+                "question": "Quel est le mécanisme d'action des neuroleptiques de seconde génération (NLSG) sur les symptômes négatifs de la schizophrénie ?",
+                "options": [
+                    "Ils les aggravent par blocage sélectif D2",
+                    "Ils les améliorent grâce à l'antagonisme des récepteurs 5HT2",
+                    "Ils n'ont aucune action sur les symptômes négatifs",
+                    "Ils agissent uniquement par sédation profonde"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 62,
+                "question": "Dans la formule de la vitesse de diffusion (Loi de Fick), que représente le terme 'D' ?",
+                "options": [
+                    "La distance parcourue par la molécule",
+                    "Le coefficient de diffusion propre à la molécule",
+                    "La dose administrée au patient",
+                    "Le degré d'ionisation"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 63,
+                "question": "À quel niveau de l'organisme les pores membranaires sont-ils les plus larges (80 Angströms) ?",
+                "options": [
+                    "Au niveau des hématies",
+                    "Au niveau des capillaires musculaires",
+                    "Au niveau des capillaires glomérulaires (rein)",
+                    "Au niveau de la barrière hémato-encéphalique"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 64,
+                "question": "Quelle est la structure chimique du Phénobarbital ?",
+                "options": [
+                    "Une hydantoïne substituée",
+                    "Un dérivé de l'acide barbiturique",
+                    "Une benzodiazépine",
+                    "Un acide gras ramifié"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 65,
+                "question": "Quel effet pharmacologique définit les neuroleptiques dits 'psycholeptiques' ?",
+                "options": [
+                    "Une augmentation de l'activité vigilance",
+                    "Une diminution de l'activité mentale et de l'excitation",
+                    "Une induction de 特hallucinations",
+                    "Une stabilisation de l'humeur sans sédation"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 66,
+                "question": "Quel neuroleptique est un exemple classique de la famille des butyrophénones ?",
+                "options": [
+                    "La Chlorpromazine",
+                    "Le Sulpiride",
+                    "L'Halopéridol",
+                    "La Clozapine"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 67,
+                "question": "Quelle est la principale voie d'élimination de la Phénytoïne ?",
+                "options": [
+                    "Filtration glomérulaire sans métabolisme",
+                    "Métabolisme hépatique par hydroxylation",
+                    "Excrétion pulmonaire",
+                    "Élimination biliaire directe"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 68,
+                "question": "Quel est l'impact d'un coefficient de partage (k) élevé pour un médicament ?",
+                "options": [
+                    "Une faible absorption par diffusion passive",
+                    "Une forte liposolubilité favorisant le passage membranaire",
+                    "Une élimination rénale très rapide",
+                    "Une impossibilité de traverser la barrière hémato-encéphalique"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 69,
+                "question": "Le terme 'Mosaïque fluide' pour la membrane cellulaire signifie que :",
+                "options": [
+                    "La membrane est rigide et imperméable",
+                    "Les protéines et lipides peuvent se déplacer latéralement",
+                    "La membrane est composée uniquement d'eau",
+                    "Les pores sont fixés de façon permanente"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 70,
+                "question": "Quelle classe d'anti-épileptiques agit principalement en augmentant la fréquence d'ouverture du canal chlore ?",
+                "options": [
+                    "Les Barbituriques",
+                    "Les Benzodiazépines",
+                    "Les Hydantoïnes",
+                    "Les Succinimides"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 71,
+                "question": "Quel est le mécanisme d'action des salicylates sur les cyclo-oxygénases (COX) ?",
+                "options": [
+                    "Inhibition réversible",
+                    "Inhibition irréversible",
+                    "Activation sélective",
+                    "Inhibition compétitive simple"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 72,
+                "question": "Quels sont les deux médiateurs dont les analgésiques morphiniques utilisent les récepteurs pour agir ?",
+                "options": [
+                    "La dopamine et la sérotonine",
+                    "L'acétylcholine et le GABA",
+                    "Les récepteurs des opiacés (système opioïde)",
+                    "Le glutamate et la substance P"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 73,
+                "question": "Comment agissent les neuroleptiques de seconde génération (NLSG) sur le plan neurologique par rapport à la 1ère génération ?",
+                "options": [
+                    "Ils provoquent plus d'effets extra-pyramidaux",
+                    "Ils préviennent l'apparition d'effets indésirables neurologiques",
+                    "Ils agissent uniquement sur les muscles lisses",
+                    "Ils n'ont aucune différence d'action"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 74,
+                "question": "La douleur survient suite à la réaction des terminaisons nerveuses libres à divers :",
+                "options": [
+                    "Stimuli",
+                    "Hormones de croissance",
+                    "Vitamines",
+                    "Nutriments"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 75,
+                "question": "Quel est l'effet principal de l'alpha-méthyldopa ?",
+                "options": [
+                    "Hypoglycémiant",
+                    "Anti-hypertenseur central",
+                    "Analgésique périphérique",
+                    "Anti-épileptique"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 76,
+                "question": "À quelle famille appartient la molécule 'Olanzapine' ?",
+                "options": [
+                    "Phénothiazines",
+                    "Butyrophénones",
+                    "Dibenzodiazépines",
+                    "Benzamides"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "id": 77,
+                "question": "Quel processus enzymatique l'aspirine utilise-t-elle pour être transformée en acide salicylique dans le sang ?",
+                "options": [
+                    "Oxydation par les cytochromes",
+                    "Hydrolyse plasmatique par les estérases",
+                    "Réduction hépatique",
+                    "Glucuroconjugaison"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 78,
+                "question": "Quel est l'effet des neuroleptiques polyvalents (comme l'halopéridol) sur les hallucinations ?",
+                "options": [
+                    "Effet sédatif uniquement",
+                    "Effet réducteur",
+                    "Effet stimulant",
+                    "Aucun effet"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 79,
+                "question": "Le système de 'Gate Control' (théorie du portillon) concerne quel domaine ?",
+                "options": [
+                    "La transmission du message douloureux",
+                    "L'absorption digestive des médicaments",
+                    "La filtration rénale",
+                    "La synthèse de l'insuline"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 80,
+                "question": "Quelle est la caractéristique majeure de l'inhibition de la COX-2 ?",
+                "options": [
+                    "Responsable de la toxicité gastrique",
+                    "Indispensable pour l'action anti-inflammatoire et analgésique",
+                    "Provoque une hypertension artérielle systématique",
+                    "Empêche la synthèse du GABA"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 81,
+                "question": "Dans la Loi de Fick, à quoi correspond la différence (C1 - C2) ?",
+                "options": [
+                    "Le gradient de concentration de part et d'autre de la membrane",
+                    "La vitesse d'élimination urinaire",
+                    "La différence de pKa entre deux milieux",
+                    "Le taux de fixation aux protéines plasmatiques"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 82,
+                "question": "Quelle est la définition de la phase pharmacodynamique selon tes fiches ?",
+                "options": [
+                    "L'étude du devenir du médicament dans l'organisme",
+                    "L'interaction dynamique entre le ligand et son récepteur cible",
+                    "La transformation chimique du médicament par le foie",
+                    "Le passage du principe actif dans la circulation systémique"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 83,
+                "question": "Quel neuroleptique de 1ère génération est classé dans la famille des phénothiazines à chaîne latérale aliphatique ?",
+                "options": [
+                    "La Chlorpromazine (LARGACTIL)",
+                    "L'Halopéridol (HALDOL)",
+                    "Le Sulpiride (DOGMATIL)",
+                    "La Clozapine (LEPONEX)"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 84,
+                "question": "Quel est le mécanisme d'action des succinimides comme l'Ethosuximide ?",
+                "options": [
+                    "Inhibition de la GABA-transaminase",
+                    "Blocage du courant calcique de type T",
+                    "Blocage des canaux sodiques voltage-dépendants",
+                    "Ouverture des canaux potassiques"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 85,
+                "question": "Quelle enzyme est spécifiquement responsable de la production de prostaglandines inflammatoires ?",
+                "options": [
+                    "COX-1 constitutive",
+                    "COX-2 inductible",
+                    "Phospholipase A2",
+                    "GABA décarboxylase"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 86,
+                "question": "Dans quel cas le transport passif (diffusion facilitée) diffère-t-il de la diffusion passive ?",
+                "options": [
+                    "Il nécessite de l'énergie (ATP)",
+                    "Il nécessite un transporteur protéique mais ne consomme pas d'énergie",
+                    "Il se fait contre le gradient de concentration",
+                    "Il ne concerne que les gaz"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 87,
+                "question": "Quel est l'effet des neuroleptiques sur le syndrome de désorganisation (schizophrénie) ?",
+                "options": [
+                    "Ils augmentent la confusion mentale",
+                    "Ils ont une action réductrice sur le délire et les hallucinations",
+                    "Ils stimulent la production de dopamine",
+                    "Ils bloquent les récepteurs à l'insuline"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 88,
+                "question": "Quelle est la principale caractéristique de la filtration glomérulaire au niveau rénal ?",
+                "options": [
+                    "Elle dépend de la liposolubilité",
+                    "Elle dépend de la taille des molécules (pores de 80 Angströms)",
+                    "Elle nécessite un transporteur actif",
+                    "Elle ne concerne que les médicaments acides"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 89,
+                "question": "Quel est le rôle du Phényléthylmalonamide (PEMA) ?",
+                "options": [
+                    "C'est un poison hépatique",
+                    "C'est un métabolite actif de la Primidone",
+                    "C'est un précurseur du GABA",
+                    "C'est un inhibiteur des récepteurs NMDA"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 90,
+                "question": "Pourquoi l'aspirine est-elle contre-indiquée en cas d'ulcère gastrique ?",
+                "options": [
+                    "À cause de l'inhibition de la COX-2",
+                    "À cause de l'inhibition de la COX-1 (mucus protecteur)",
+                    "Parce qu'elle stimule la sécrétion d'acide chlorhydrique",
+                    "Parce qu'elle bloque la Phospholipase A2"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 91,
+                "question": "Quelle est la conséquence d'un pKa faible pour un médicament acide ?",
+                "options": [
+                    "Il sera mieux absorbé en milieu basique",
+                    "Il sera mieux absorbé en milieu acide (estomac)",
+                    "Il ne pourra jamais être filtré par le rein",
+                    "Il sera systématiquement détruit par le foie"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 92,
+                "question": "Quel type de neuroleptiques de 1ère génération est connu pour son action principalement sédative ?",
+                "options": [
+                    "Les phénothiazines à chaîne latérale aliphatique",
+                    "Les benzamides",
+                    "Les butyrophénones à faible dose",
+                    "Les dibenzodiazépines"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 93,
+                "question": "Dans le transport actif, l'énergie nécessaire est fournie par :",
+                "options": [
+                    "L'hydrolyse de l'ATP",
+                    "Le gradient de concentration uniquement",
+                    "La pression osmotique",
+                    "La chaleur corporelle"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "id": 94,
+                "question": "Quelle est la caractéristique du transport passif (diffusion facilitée) par rapport au transport actif ?",
+                "options": [
+                    "Il va contre le gradient de concentration",
+                    "Il ne nécessite pas d'énergie",
+                    "Il n'utilise jamais de transporteur",
+                    "Il est non saturable"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 95,
+                "question": "Quel est l'effet des neuroleptiques sur le système moteur (effets extra-pyramidaux) ?",
+                "options": [
+                    "Ils améliorent la coordination fine",
+                    "Ils peuvent provoquer des tremblements et une rigidité",
+                    "Ils augmentent la force musculaire",
+                    "Ils n'ont aucun impact sur la motricité"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 96,
+                "question": "La diffusion passive concerne principalement les molécules :",
+                "options": [
+                    "Grosses et chargées électriquement",
+                    "Petites et liposolubles (non ionisées)",
+                    "Uniquement les protéines",
+                    "Fixées à l'albumine"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 97,
+                "question": "Quelle est la définition de la biodisponibilité ?",
+                "options": [
+                    "La vitesse de dégradation du médicament",
+                    "La fraction de la dose administrée qui atteint la circulation systémique",
+                    "Le temps nécessaire pour éliminer la moitié du médicament",
+                    "La capacité du médicament à se fixer sur son récepteur"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 98,
+                "question": "Le pKa est une constante qui permet de calculer :",
+                "options": [
+                    "La dose toxique",
+                    "Le degré d'ionisation d'un médicament à un pH donné",
+                    "Le diamètre des pores membranaires",
+                    "La vitesse de filtration glomérulaire"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 99,
+                "question": "Quel est l'effet de l'insuline sur les récepteurs cellulaires ?",
+                "options": [
+                    "Elle bloque les canaux sodiques",
+                    "Elle active un récepteur à activité tyrosine kinase",
+                    "Elle inhibe la synthèse du glycogène",
+                    "Elle ferme les canaux potassiques"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "id": 100,
+                "question": "Quel est le rôle du cholestérol dans la membrane cellulaire ?",
+                "options": [
+                    "Il sert de source d'énergie",
+                    "Il stabilise la fluidité de la membrane",
+                    "Il transporte le glucose",
+                    "Il bloque le passage de l'eau"
+                ],
+                "answerIndex": 1
+            }
+        ]
+    }
+]
