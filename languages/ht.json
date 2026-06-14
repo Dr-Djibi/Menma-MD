@@ -1,0 +1,1522 @@
+{
+  "profile": {
+    "name": "pwofil",
+    "desc": "Jwenn foto pwofil",
+    "title": "📸 PWOFIL",
+    "member": "Manm: @{user}",
+    "error": "❌ Pa kapab jwenn foto a (kont prive oswa li pa egziste)."
+  },
+  "bio": {
+    "name": "bio",
+    "desc": "Montre estati/bio itilizatè a",
+    "title": "📖 BIO",
+    "no_status": "Pa gen estati.",
+    "error": "❌ Pa kapab jwenn estati a."
+  },
+  "uptime": {
+    "name": "uptime",
+    "desc": "Montre konbe tan bot la ap mache",
+    "title": "⏱️ UPTIME",
+    "msg": "Sou entènèt depi: {up}"
+  },
+  "del": {
+    "name": "del",
+    "desc": "Efase yon mesaj ou site",
+    "no_owner": "❌ Kòmand sa a se pou mèt bot la sèlman.",
+    "no_quoted": "❌ Tanpri reponn mesaj ou vle efase a.",
+    "error": "❌ Erè: {error}"
+  },
+  "afk": {
+    "name": "afk",
+    "desc": "Mete mòd AFK (lwen klavye)",
+    "title": "💤 AFK",
+    "msg": "*{pseudo}* an mòd AFK kounye a.",
+    "reason": "Rezon: {reason}"
+  },
+  "poll": {
+    "name": "sondaj",
+    "desc": "Kreye yon sondaj",
+    "title": "📊 SONDAJ",
+    "usage": "*Itilizasyon*: {prefixe}poll Kesyon | Op1 | Op2",
+    "min_options": "Ou bezwen omwen 2 opsyon.",
+    "error": "❌ Erè: {error}"
+  },
+  "vv": {
+    "name": "vv",
+    "desc": "Rekipere yon mesaj ki parèt yon sèl fwa",
+    "no_quoted": "❌ Tanpri reponn yon mesaj ki parèt yon sèl fwa.",
+    "invalid": "❌ Sa a se pa yon mesaj ki parèt yon sèl fwa (Imaj, Videyo oswa Odyo).",
+    "not_vo": "❌ Mesaj sa a pa parèt yon sèl fwa.",
+    "error": "❌ Erè pandan rekiperasyon an: {error}"
+  },
+  "vv2": {
+    "name": "vv2",
+    "desc": "Rekipere yon mesaj ki ka wè yon sèl fwa epi voye l nan DM mèt bot la"
+  },
+  "camouflage": {
+    "name": "kamouflaj",
+    "desc": "Kache yon kòmand dèyè yon mo sekrè (san prefiks)"
+  },
+  "public_cmd": {
+    "set_name": "setpublic_cmd",
+    "set_desc": "Rann yon kòmand aksesib pou tout moun (menm an mòd prive)",
+    "del_name": "delpublic_cmd",
+    "del_desc": "Retire yon kòmand nan lis piblik la",
+    "get_name": "getpublic_cmd",
+    "get_desc": "Montre tout kòmand piblik yo"
+  },
+  "horoscope": {
+    "name": "owoskop",
+    "desc": "Montre owoskop chak jou pou siy ou.",
+    "title": "OWOSKOP CHAK JOU",
+    "date": "📅 *Dat:* {date}",
+    "msg": "🔮 *Previ:*\\n{text}",
+    "invalid": "❌ Siy lan pa valid. Egzanp: .horoscope lyon",
+    "error": "❌ Pa kapab jwenn owoskop la."
+  },
+  "citation": {
+    "name": "sitasyon",
+    "desc": "Voye yon bèl fraz.",
+    "title": "SITASYON OWAZA",
+    "text": "📜 *Sitasyon:*\\n{content}",
+    "author": "👤 *Otè:* {author}",
+    "error": "❌ Erè pandan m t ap chèche sitasyon an."
+  },
+  "top": {
+    "name": "top",
+    "desc": "Montre 3 premye manm nan yon sijè.",
+    "title": "🏆 TOP 3: {sujet}",
+    "empty": "Gwoup sa a vid anpil...",
+    "error_gp": "❌ Kòmand sa a mache sèlman nan gwoup!"
+  },
+  "blague": {
+    "name": "blag",
+    "desc": "Voye yon blag owaza.",
+    "title": "BLAG POU JOU A",
+    "single": "🤪 {joke}",
+    "twopart": "❓ {setup}\\n\\n💡 {delivery}",
+    "error": "❌ Erè blag: {error}"
+  },
+  "anicit": {
+    "name": "anicit",
+    "desc": "Montre yon sitasyon anime.",
+    "title": "🉐 *SITASYON ANIME*",
+    "content": "💬 \"{content}\"",
+    "character": "👤 *Pèsonaj:* {character}",
+    "anime": "🎞️ *Anime:* {anime}",
+    "error": "❌ Pa kapab jwenn sitasyon anime a."
+  },
+  "fait": {
+    "name": "enfòmasyon",
+    "desc": "Montre yon enfòmasyon enteresan.",
+    "title": "ESKE W TE KONNEN?",
+    "msg": "📜 *Enfòmasyon enteresan:*\\n> {text}",
+    "error": "❌ Erè pandan m t ap chèche enfòmasyon an."
+  },
+  "avis": {
+    "name": "opinyon",
+    "desc": "Mande bot la sa li panse sou yon bagay.",
+    "usage": "Sou kisa ou ta vle konnen opinyon m?",
+    "title": "OPINYON",
+    "question": "🧐 *Kesyon:* {question}",
+    "answer": "🧠 *Opinyon mwen:* {answer}",
+    "responses": [
+      "Sa se yon bèl lide! ✅",
+      "M pa twò kwè nan sa... 😕",
+      "Franchman? Se yon bagay ki bèl anpil! 😍",
+      "Bof, li pa anyen espesyal. 👎",
+      "Se senpleman yon bagay briyan! ✨",
+      "M pito pa reponn sa... 🙊",
+      "10/10, m pa gen anyen pou m di. 💯",
+      "Sa parèt yon ti jan dwòl, pa vre? 🧐"
+    ]
+  },
+  "humeur": {
+    "name": "atitid",
+    "desc": "Gade nan ki atitid bot la ye kounye a.",
+    "title": "🎭 *ATITID MWEN KOUNYE A:*",
+    "msg": "{mood}",
+    "moods": [
+      "M kontan anpil! 😊✨",
+      "M yon ti jan fatige... 😴",
+      "M nan mòd travay! 💻🔥",
+      "M rebèl! 😎",
+      "M damou kòd ❤️",
+      "M yon ti jan tris... 😢",
+      "M pare pou m pran mond lan! 🌍🚀"
+    ]
+  },
+  "conseil": {
+    "name": "konsèy",
+    "desc": "Jwenn yon konsèy owaza.",
+    "title": "KONSÈY",
+    "msg": "💡 *Konsèy pou jou a:*\\n> {text}",
+    "error": "❌ Erè konsèy."
+  },
+  "insta": {
+    "name": "insta",
+    "desc": "Chèche yon pwofil Instagram.",
+    "title": "📸 *INFO INSTAGRAM: {name}*",
+    "username": "👤 *Itilizatè:* {username}",
+    "bio": "📝 *Bio:* {bio}",
+    "followers": "👥 *Abonè:* {followers}",
+    "following": "👤 *Abonnman:* {following}",
+    "posts": "📦 *Post:* {posts_count}",
+    "link": "🔗 *Lyen:* https://instagram.com/{username}",
+    "not_found": "Itilizatè a pa jwenn.",
+    "error": "❌ Erè Instagram."
+  },
+  "kick": {
+    "name": "retire",
+    "desc": "Retire yon manm nan gwoup la",
+    "usage": "*Itilizasyon*: Site oswa reponn\\nmesaj manm lan.",
+    "success": "✅ @{user} retire nan gwoup la."
+  },
+  "add": {
+    "name": "ajoute",
+    "desc": "Ajoute yon manm nan gwoup la",
+    "usage": "*Itilizasyon*: {prefixe}add <nimewo>\\n*Eg*: {prefixe}add 509xxxxxxx",
+    "success": "✅ @{user} ajoute nan gwoup la."
+  },
+  "promote": {
+    "name": "monte",
+    "desc": "Mete yon manm admin",
+    "usage": "*Itilizasyon*: Site oswa reponn\\nmanm lan pou w mete l admin.",
+    "success": "✅ @{user} se yon admin kounye a!"
+  },
+  "demote": {
+    "name": "desann",
+    "desc": "Retire yon manm nan admin",
+    "usage": "*Itilizasyon*: Site oswa reponn\\nadmin lan pou w retire l nan admin.",
+    "success": "✅ @{user} pa admin ankò."
+  },
+  "tagall": {
+    "name": "toutmanm",
+    "desc": "Manti tout manm nan gwoup la",
+    "msg": "Atansyon tout moun!",
+    "title": "TOUT MOUN",
+    "label_msg": "📣 *MESAJ:*",
+    "label_by": "👤 *PA:*",
+    "total": "\\n📊 *Total: {count} manm*"
+  },
+  "hidetag": {
+    "name": "hidetag",
+    "desc": "Manti tout moun san yo pa wè sa"
+  },
+  "open": {
+    "name": "ouvri",
+    "desc": "Ouvri gwoup la",
+    "success": "🔓 Gwoup la ouvri! Tout moun ka voye mesaj."
+  },
+  "close": {
+    "name": "fèmen",
+    "desc": "Fèmen gwoup la (admin sèlman)",
+    "success": "🔒 Gwoup la fèmen! Se admin sèlman ki ka voye mesaj."
+  },
+  "listmembers": {
+    "name": "lismanm",
+    "desc": "Montre lis tout manm gwoup la",
+    "title": "MANM: {group}",
+    "total": "📊 *Total manm*: {count}",
+    "admins": "👑 *ADMIN ({count})*",
+    "members": "👤 *MANM ({count})*"
+  },
+  "setdesc": {
+    "name": "setdesc",
+    "desc": "Chanje deskripsyon gwoup la",
+    "usage": "*Itilizasyon*: {prefixe}setdesc <tèks>",
+    "success": "✅ Deskripsyon an mete ajou."
+  },
+  "setname": {
+    "name": "setnon",
+    "desc": "Chanje non gwoup la",
+    "usage": "*Itilizasyon*: {prefixe}setname <tèks>",
+    "success": "✅ Non gwoup la chanje nan: *{name}*"
+  },
+  "linkgroupe": {
+    "name": "lyengwoup",
+    "desc": "Jwenn lyen envitasyon gwoup la",
+    "msg": "🔗 Lyen envitasyon:\\nhttps://chat.whatsapp.com/{code}"
+  },
+  "infogroupe": {
+    "name": "infogwoup",
+    "desc": "Montre enfòmasyon sou gwoup la",
+    "title": "ℹ️ Enfòmasyon Gwoup",
+    "label_name": "📛 *Non:* {name}",
+    "label_members": "👥 *Manm:* {count}",
+    "label_admins": "👑 *Admin:* {count}",
+    "label_date": "📅 *Kreye nan:* {date}",
+    "label_desc": "📝 *Deskripsyon:*",
+    "no_desc": "Pa gen deskripsyon"
+  },
+  "clear": {
+    "name": "netwaye",
+    "desc": "Netwaye tout istwa chat la",
+    "no_admin": "❌ Se admin sèlman ki ka netwaye chat la.",
+    "success": "🧹 *Tout chat la netwaye ak siksè!*",
+    "error": "M pa kapab netwaye chat la.\\nSa ka rive paske WhatsApp mete restriksyon."
+  },
+  "antilien": {
+    "name": "antilyen",
+    "desc": "Konfigire Anti-Lyen nan gwoup la.",
+    "title": "🛡️ ANTI-LYEN",
+    "usage": "*Aksyon*: {prefixe}antilien <opsyon>\\n\\n🔹 *on*: Aktive (efase)\\n🔹 *warn*: Aktive + Bay avètisman\\n🔹 *kick*: Aktive + Retire manm lan\\n🔹 *supp*: Aktive + Efase\\n🔹 *off*: Dezaktive",
+    "off": "✅ *Anti-Lyen* dezaktive ak siksè.",
+    "on": "✅ *Anti-Lyen* aktive ak siksè.",
+    "success": "✅ *Anti-Lyen* aktive epi konfigire sou: *{choice}*",
+    "invalid": "❌ Opsyon an pa valid. Sèvi ak *on*, *off*, *warn*, *kick* oswa *supp*."
+  },
+  "antibot": {
+    "name": "antibot",
+    "desc": "Konfigire Anti-Bot nan gwoup la.",
+    "title": "🛡️ ANTI-BOT",
+    "usage": "*Aksyon*: {prefixe}antibot <opsyon>\\n\\n🔹 *on*: Aktive (efase)\\n🔹 *warn*: Aktive + Bay avètisman\\n🔹 *kick*: Aktive + Retire manm lan\\n🔹 *supp*: Aktive + Efase\\n🔹 *off*: Dezaktive",
+    "off": "✅ *Anti-Bot* dezaktive ak siksè.",
+    "on": "✅ *Anti-Bot* aktive ak siksè.",
+    "success": "✅ *Anti-Bot* aktive epi konfigire sou: *{choice}*",
+    "invalid": "❌ Opsyon an pa valid. Sèvi ak *on*, *off*, *warn*, *kick* oswa *supp*."
+  },
+  "welcome": {
+    "name": "byenvini",
+    "desc": "Konfigire mesaj byenvini.",
+    "title": "👋 ITILIZASYON BYENVINI",
+    "status": "*Estati*: {status}",
+    "usage": "🔹 *{prefixe}welcome yes*: Aktive\\n🔹 *{prefixe}welcome no*: Dezaktive\\n🔹 *{prefixe}welcome <mesaj>*: Mete mesaj ou vle a\\n\\n*Varyab*:\\n• @user: Manti itilizatè a\\n• #group: Non gwoup la\\n• #desc: Deskripsyon gwoup la",
+    "on": "*_Mesaj byenvini aktive!_*",
+    "off": "*_Mesaj byenvini dezaktive!_*",
+    "success": "*_Ou fin mete mesaj pa w la ak siksè!_*",
+    "yes": "wi",
+    "no": "non"
+  },
+  "goodbye": {
+    "name": "orevwa",
+    "desc": "Konfigire mesaj orevwa.",
+    "title": "👋 ITILIZASYON OREVWA",
+    "status": "*Estati*: {status}",
+    "usage": "🔹 *{prefixe}goodbye yes*: Aktive\\n🔹 *{prefixe}goodbye no*: Dezaktive\\n🔹 *{prefixe}goodbye <mesaj>*: Mete mesaj ou vle a\\n\\n*Varyab*:\\n• @user: Manti itilizatè a\\n• #group: Non gwoup la",
+    "on": "*_Mesaj orevwa aktive!_*",
+    "off": "*_Mesaj orevwa dezaktive!_*",
+    "success": "*_Ou fin mete mesaj orevwa pa w la ak siksè!_*",
+    "yes": "wi",
+    "no": "non"
+  },
+  "antipromote": {
+    "name": "antipromote",
+    "desc": "Aktive oswa dezaktive Anti-Promote.",
+    "usage": "Tanpri di 'on' oswa 'off'.",
+    "success": "🛡️ *Anti-Promote* kounye a sou {status}."
+  },
+  "antidemote": {
+    "name": "antidemote",
+    "desc": "Aktive oswa dezaktive Anti-Demote.",
+    "usage": "Tanpri di 'on' oswa 'off'.",
+    "success": "🛡️ *Anti-Demote* kounye a sou {status}."
+  },
+  "groupstatus": {
+    "name": "statugwoup",
+    "desc": "Montre estati sekirite gwoup la.",
+    "title": "📊 SEKIRITE GWOUP",
+    "label_link": "🔗 *Anti-Lyen*: {status}",
+    "label_bot": "🤖 *Anti-Bot*: {status}",
+    "label_tag": "🏷️ *Anti-Tag*: {status}",
+    "label_mention": "📢 *Anti-Manti*: {status}",
+    "label_spam": "⏳ *Anti-Spam*: {status}",
+    "label_welcome": "👋 *Byenvini*: {status}",
+    "label_goodbye": "👋 *Orevwa*: {status}",
+    "label_promote": "🛡️ *Promote*: {status}",
+    "label_demote": "🛡️ *Demote*: {status}"
+  },
+  "antitag_cmd": {
+    "name": "antitag",
+    "desc": "Konfigire Anti-Tag nan gwoup la.",
+    "title": "🛡️ ANTI-TAG",
+    "usage": "*Aksyon*: {prefixe}antitag <opsyon>\\n\\n🔹 *on*: Aktive (efase)\\n🔹 *warn*: Aktive + Bay avètisman\\n🔹 *kick*: Aktive + Retire manm lan\\n🔹 *supp*: Aktive + Efase\\n🔹 *off*: Dezaktive",
+    "off": "✅ *Anti-Tag* dezaktive ak siksè.",
+    "on": "✅ *Anti-Tag* aktive ak siksè.",
+    "success": "✅ *Anti-Tag* aktive epi konfigire sou: *{choice}*"
+  },
+  "antispam": {
+    "name": "antispam",
+    "desc": "Konfigire Anti-Spam nan gwoup la.",
+    "title": "🛡️ ANTI-SPAM",
+    "usage": "*Aksyon*: {prefixe}antispam <opsyon>\\n\\n🔹 *on*: Aktive (efase)\\n🔹 *warn*: Aktive + Bay avètisman\\n🔹 *kick*: Aktive + Retire manm lan\\n🔹 *supp*: Aktive + Efase\\n🔹 *off*: Dezaktive",
+    "off": "✅ *Anti-Spam* dezaktive ak siksè.",
+    "on": "✅ *Anti-Spam* aktive ak siksè.",
+    "success": "✅ *Anti-Spam* aktive epi konfigire sou: *{choice}*"
+  },
+  "antimentiongc": {
+    "name": "antimentiongc",
+    "desc": "Konfigire Anti-Manti jeneral.",
+    "title": "🛡️ ANTI-MENTIONGC",
+    "usage": "*Aksyon*: {prefixe}antimentiongc <opsyon>\\n\\n🔹 *on*: Aktive (efase)\\n🔹 *warn*: Aktive + Bay avètisman\\n🔹 *kick*: Aktive + Retire manm lan\\n🔹 *supp*: Aktive + Efase\\n🔹 *off*: Dezaktive",
+    "off": "✅ *Anti-MentionGC* dezaktive ak siksè.",
+    "on": "✅ *Anti-MentionGC* aktive ak siksè.",
+    "success": "✅ *Anti-MentionGC* aktive epi konfigire sou: *{choice}*"
+  },
+  "warn_cmd": {
+    "name": "avèti",
+    "desc": "Bay yon manm yon avètisman.",
+    "usage": "Tanpri manti moun nan oswa reponn yon mesaj li te voye.",
+    "success": "⚠️ @{user} resevwa yon avètisman. Total: {count}/3.",
+    "kick": "❌ @{user} gen 3 avètisman. L ap retire nan gwoup la!",
+    "reset": "✅ Tout avètisman pou @{user} efase."
+  },
+  "kickall": {
+    "name": "retiretout",
+    "desc": "Retire tout manm ki pa admin.",
+    "owner": "❌ Kòmand sa a se pou mèt bot la sèlman paske li ka efase tout moun.",
+    "empty": "Tout manm yo deja admin.",
+    "success": "✅ Netwayaj fini: *{count}* manm retire.",
+    "error": "M pa kapab retire yo. Asire w mwen se admin."
+  },
+  "tagadmin": {
+    "name": "mantiadmin",
+    "desc": "Manti tout admin yo.",
+    "title": "APÈL STAFF",
+    "msg": "📌 *Mesaj:* {text}"
+  },
+  "updatepp": {
+    "name": "updatepp",
+    "desc": "Chanje foto gwoup la.",
+    "usage": "❌ Reponn yon imaj pou w chanje foto gwoup la.",
+    "success": "✅ Foto gwoup la chanje!"
+  },
+  "revoke": {
+    "name": "revoke",
+    "desc": "Anile ansyen lyen an epi kreye yon nouvo.",
+    "success": "✅ Lyen envitasyon an chanje ak siksè!"
+  },
+  "leave": {
+    "name": "pati",
+    "desc": "Fè bot la kite gwoup la.",
+    "owner": "❌ Se mèt mwen sèlman ki ka di m pati.",
+    "msg": "👋 Orevwa tout moun! Se te yon plezi."
+  },
+  "gpsetting": {
+    "name": "gpsetting",
+    "desc": "Mete restriksyon oswa pèmèt moun chanje enfòmasyon gwoup la.",
+    "locked": "🔒 Se admin sèlman ki ka chanje enfòmasyon yo.",
+    "unlocked": "🔓 Tout moun ka chanje enfòmasyon yo.",
+    "invalid": "❌ Konfigirasyon an pa valid. Sèvi ak `locked` oswa `unlocked`."
+  },
+  "invite": {
+    "name": "envite",
+    "desc": "Voye yon lyen envitasyon bay yon nimewo espesifik.",
+    "usage": "❌ Tanpri bay yon nimewo (eg: .invite 509xxxxxxx)",
+    "msg": "Bonjou! Men lyen pou w antre nan gwoup nou an:\\n\\n{link}",
+    "success": "✅ Lyen an voye ak siksè bay +{num}.",
+    "error": "❌ M pa t kapab voye envitasyon an."
+  },
+  "promoteall": {
+    "name": "montetout",
+    "desc": "Mete tout manm yo admin.",
+    "empty": "Tout moun deja admin.",
+    "status": "👑 M ap mete {count} manm admin...",
+    "success": "✅ Tout moun se admin kounye a!"
+  },
+  "demoteall": {
+    "name": "desanntout",
+    "desc": "Retire tout admin yo.",
+    "empty": "Pa gen admin pou m retire.",
+    "status": "📉 M ap retire {count} admin...",
+    "success": "✅ Tout admin yo retire kounye a."
+  },
+  "menu": {
+    "name": "menu",
+    "desc": "Montre kategori yo ak nimewo oswa kòmand nan yon kategori.",
+    "salut": "👤 *Bonjou:* {pseudo}",
+    "uptime": "🚀 *Uptime:* {uptime}",
+    "total": "🧩 *Total:* {count} kòmand",
+    "choose": "*Tanpri chwazi yon kategori:*",
+    "usage": "*Sèvi ak {prefixe}menu <nimewo>*",
+    "usage2": "*Sèvi ak {prefixe}allmenu*",
+    "dev": "Devlopè: {dev}",
+    "allmenu_desc": "Montre tout kòmand yo nan kategori yo."
+  },
+  "help": {
+    "name": "èd",
+    "desc": "Montre èd detay sou yon kòmand oswa kategori.",
+    "title": "ÈD JENERAL",
+    "total": "Total: {count} kòmand",
+    "list_title": "LIS KÒMAND YO",
+    "cat_filter": "💡 *{prefixe}help cat=non*: Filtre pa kategori",
+    "menu_info": "💡 *{prefixe}menu*: Montre kategori yo",
+    "cat_not_found": "❌ Kategori *{cat}* sa a pa egziste.",
+    "cmd_not_found": "❌ Kòmand *{cmd}* sa a pa egziste.",
+    "detail_title": "INFO: {cmd}",
+    "label_cmd": "💠 *Kòmand*",
+    "label_cat": "📂 *Kategori*",
+    "label_desc": "📝 *Deskripsyon*",
+    "label_alias": "🔗 *Alias*",
+    "label_react": "⚡ *Reyaksyon*",
+    "usage": "*Itilizasyon*: {prefixe}{cmd} {usage}"
+  },
+  "categories": {
+    "dm": "DM",
+    "Conversion": "Konvèsyon",
+    "Download": "Telechaje",
+    "Extra": "Siplemantè",
+    "fun": "Divertisman",
+    "FX Audio": "Efè Odyo",
+    "groupe": "Jere Gwoup",
+    "IA": "IA",
+    "Logo": "Kreye Logo",
+    "menma-game": "Jwèt",
+    "NSFW": "Kontni Granmoun",
+    "outils": "Zouti",
+    "owner": "Mèt Bot la",
+    "reaction": "Reyaksyon",
+    "Search": "Info",
+    "Session": "Sisyon",
+    "status": "Stati",
+    "sticker": "Stikè"
+  },
+  "stickers": {
+    "add_name": "addstickcmd",
+    "add_desc": "Kole yon stikè ak yon kòmand. Reponn yon stikè ak non kòmand lan.",
+    "add_usage": "❌ Tanpri di non kòmand lan. Egzanp: {prefixe}addstickcmd menu",
+    "add_no_quoted": "❌ Tanpri reponn yon stikè.",
+    "add_success": "✅ Stikè a kole ak kòmand sa a: *{cmd}*",
+    "get_name": "getstickcmd",
+    "get_desc": "Montre lis kòmand ki kole ak stikè.",
+    "get_empty": "📭 Pa gen okenn stikè ki kole ak kòmand.",
+    "get_title": "KÒMAND STIKÈ",
+    "del_name": "delstickcmd",
+    "del_desc": "Retire stikè ki kole ak kòmand (reponn stikè a).",
+    "del_usage": "❌ Tanpri reponn stikè ou vle dekole a.",
+    "del_success": "🗑️ Stikè a pa kole ak okenn kòmand ankò.",
+    "del_not_found": "❌ Stikè sa a pa t kole ak okenn kòmand.",
+    "error": "❌ Erè: {error}"
+  },
+  "theme": {
+    "name": "tèm",
+    "desc": "Chanje jan bot la parèt.",
+    "not_found": "Fichye tèm nan pa jwenn.",
+    "usage": "Itilizasyon:\\n1. {prefixe}theme list (montre lis tèm yo)\\n2. {prefixe}theme [ID] (aktive yon tèm)\\n3. {prefixe}theme url [URL] (sèvi ak yon imaj ou vle)",
+    "list_title": "LIS TÈM YO",
+    "list_item": "ID: *{id}* - {nom} ({count} imaj)",
+    "list_footer": "Sèvi ak *{prefixe}theme [ID]* pou aktive l.",
+    "url_usage": "Tanpri bay yon lyen imaj ki valid.",
+    "url_success": "✅ Imaj ou bay la se tèm nan kounye a!",
+    "invalid_id": "ID tèm sa a pa valid. Sèvi ak *theme list*.",
+    "success": "✅ Tèm *{nom}* aktive!"
+  },
+  "test_cmd": {
+    "name": "tès",
+    "desc": "Tcheke si bot la anfòm",
+    "label_user": "👤 *Itilizatè*",
+    "label_prefix": "📡 *Prefiks*",
+    "label_uptime": "⏱️ *Uptime*",
+    "label_memory": "🧠 *Memwa*",
+    "label_dev": "👑 *Devlopè*",
+    "label_version": "🤖 *Vèsyon*",
+    "menu_info": "*Sèvi ak {prefixe}menu <nimewo>*",
+    "allmenu_info": "Sèvi ak {prefixe}allmenu*"
+  },
+  "alive": {
+    "name": "alive",
+    "desc": "Tcheke si bot la vivan",
+    "salut": "👋 *Bonjou*: {pseudo}",
+    "status": "🚀 *Estati*: Operasyonèl",
+    "uptime": "⏱️ *Uptime*: {uptime}",
+    "dev": "👑 *Dev*: {dev}"
+  },
+  "session": {
+    "qr_name": "qr",
+    "qr_desc": "Kreye yon kòd QR pou Session ID.",
+    "pair_name": "pair",
+    "pair_desc": "Kreye yon kòd pou Session ID.",
+    "wait": "⏳ *M ap kreye l...*",
+    "qr_title": "QR-CONNECT",
+    "qr_step1": "1. Ouvri WhatsApp ➜ Aparèy Konekte",
+    "qr_step2": "2. Peze 'Konekte yon aparèy'",
+    "qr_step3": "3. Eskane kòd sa a",
+    "pair_title": "PAIRING-CODE",
+    "pair_step1": "1. Aparèy Konekte ➜ Konekte ak nimewo telefòn",
+    "pair_step2": "2. Tape kòd sa a anba a:",
+    "pair_usage": "❌ *Tanpri bay nimewo w ak kòd peyi a (eg: .pair 509...)*",
+    "success_title": "MENMA-MD SESSION",
+    "success_msg": "✅ *Koneksyon an fèt ak siksè*",
+    "label_dev": "👤 *Dev*",
+    "label_session": "🔑 *ID Sesyon*",
+    "security_warning": "⚠️ *SEKIRITE*: PA JANM bay moun kle sa a! L ap ka fè tout sa li vle.",
+    "community_title": "KOMINOTE",
+    "expired": "❌ Sesyon an ekspire oswa gen yon erè.",
+    "qr_error": "❌ Erè pandan m t ap kreye kòd QR a.",
+    "server_error": "❌ Erè sèvè pandan m t ap kreye l.",
+    "conn_error": "❌ M pa t kapab jwenn sèvè sesyon an.",
+    "success_notice": "✅ *Koneksyon Reyisi !*\n\nID sesyon an ak enstriksyon yo te voye dirèkteman pa mesaj prive (DM) bay nimewo telefòn ki te konekte/makònen an.\n\n🔒 *Sekirite* : Pou rezon konfidansyalite, kle sesyon an pa parèt isit la pou evite nenpòt move itilizasyon si ou te jenere kòd sa a pou yon lòt moun."
+  },
+  "song": {
+    "name": "mizik",
+    "desc": "Telechaje mizik sou YouTube (pa non oswa lyen).",
+    "usage": "❌ Tanpri bay non mizik la oswa lyen YouTube la.",
+    "not_found": "❌ M pa jwenn anyen.",
+    "title": "MENMA-MD PLAY",
+    "label_title": "📝 *Tit:*",
+    "label_duration": "🕒 *Tan:*",
+    "label_posted": "📅 *Poste:*",
+    "label_views": "👁️ *Moun ki gade l:*",
+    "label_link": "🔗 *Lyen:*",
+    "error_dl": "❌ M pa t kapab telechaje odyo sa a. Eseye yon lòt lyen."
+  },
+  "video": {
+    "name": "videyo",
+    "desc": "Telechaje videyo sou YouTube (pa non oswa lyen).",
+    "usage": "❌ Tanpri bay non videyo a oswa lyen YouTube la.",
+    "not_found": "❌ M pa jwenn anyen.",
+    "title": "MENMA-MD VIDEO",
+    "error_dl": "❌ M pa t kapab telechaje videyo sa a. Eseye yon lòt lyen."
+  },
+  "tiktok": {
+    "name": "tiktok",
+    "desc": "Telechaje yon videyo TikTok.",
+    "usage": "Tanpri bay yon lyen TikTok.",
+    "error": "M pa t kapab telechaje videyo TikTok sa a.",
+    "audio_error": "M pa t kapab telechaje odyo sa a.",
+    "image_found": "📸 *{count} imaj jwenn.* M ap telechaje yo...",
+    "image_not_found": "M pa jwenn imaj. Sa ka pa yon slideshow."
+  },
+  "tiktokaudio": {
+    "name": "tiktokaudio",
+    "desc": "Telechaje odyo videyo TikTok."
+  },
+  "tiktokimage": {
+    "name": "tiktokimage",
+    "desc": "Telechaje imaj TikTok (Slideshow)."
+  },
+  "facebook": {
+    "name": "facebook",
+    "desc": "Telechaje videyo Facebook.",
+    "usage": "Tanpri bay yon lyen Facebook.",
+    "error": "M pa t kapab telechaje videyo Facebook sa a."
+  },
+  "instagram": {
+    "name": "instagram",
+    "desc": "Telechaje videyo oswa foto Instagram.",
+    "usage": "Tanpri bay yon lyen Instagram.",
+    "error": "M pa t kapab telechaje kontni Instagram sa a."
+  },
+  "twitter": {
+    "name": "twitter",
+    "desc": "Telechaje videyo Twitter/X.",
+    "usage": "Tanpri bay yon lyen Twitter/X.",
+    "error": "M pa t kapab telechaje videyo Twitter sa a."
+  },
+  "threads": {
+    "name": "threads",
+    "desc": "Telechaje kontni Threads.",
+    "usage": "Tanpri bay yon lyen Threads.",
+    "error": "M pa t kapab telechaje kontni Threads sa a."
+  },
+  "spotify": {
+    "name": "spotify",
+    "desc": "Telechaje mizik Spotify.",
+    "usage": "Tanpri bay yon lyen Spotify.",
+    "title": "MENMA-MD SPOTIFY",
+    "label_title": "📝 *Tit:*",
+    "label_artist": "👤 *Atis:*",
+    "error": "M pa t kapab telechaje mizik Spotify sa a."
+  },
+  "setsudo": {
+    "name": "setsudo",
+    "desc": "Ajoute yon nimewo kòm sudo",
+    "usage": "*Itilizasyon*: Manti oswa reponn\\nmoun ki pral sudo a.",
+    "success": "⭐ *{number}* ajoute ak siksè.\\nLi ka itilize kòmand admin yo kounye a."
+  },
+  "delsudo": {
+    "name": "delsudo",
+    "desc": "Retire yon nimewo nan sudo",
+    "usage": "❌ Tanpri bay nimewo a.",
+    "success": "🗑️ *{number}* retire nan sudo."
+  },
+  "listsudo": {
+    "name": "listsudo",
+    "desc": "Montre lis tout sudo yo",
+    "empty": "📋 Pa gen sudo ki anrejistre."
+  },
+  "presence": {
+    "name": "prezans",
+    "desc": "Chanje jan bot la parèt (online | typing | recording | nothing)",
+    "usage": "❌ Itilizasyon: presence <online | typing | recording | nothing>",
+    "success": "📶 Estati: *{choice}*"
+  },
+  "broadcast": {
+    "name": "transmisyon",
+    "desc": "Voye yon mesaj oswa medya bay tout gwoup yo.",
+    "usage": "❌ Tanpri bay tèks oswa medya pou w transmèt.",
+    "prefix": "📢 *MENMA-MD: TRANSMISYON* 📢\\n\\n",
+    "status": "🚀 *Transmisyon ap fèt...*\\n👥 Gwoup: {count}\\n⏳ Delay: 2s",
+    "success": "✅ Siksè: *{sent}*\\n📉 Erè: *{fail}*"
+  },
+  "bot_setname": {
+    "name": "botnon",
+    "desc": "Chanje non bot la sou WhatsApp",
+    "usage": "❌ Tanpri di nouvo non an.",
+    "success": "✅ Non bot la chanje nan: *{name}*"
+  },
+  "bot_bio": {
+    "name": "botbio",
+    "desc": "Chanje bio bot la",
+    "usage": "❌ Tanpri di nouvo bio a.",
+    "success": "✅ Bio bot la chanje."
+  },
+  "bot_pdp": {
+    "name": "botfoto",
+    "desc": "Chanje foto bot la",
+    "usage": "❌ Reponn yon imaj pou w chanje foto m.",
+    "success": "✅ Foto m chanje ak siksè!"
+  },
+  "join": {
+    "name": "antre",
+    "desc": "Fè bot la antre nan yon gwoup ak lyen",
+    "usage": "❌ Lyen an pa valid.",
+    "success": "✅ M antre nan gwoup la ak siksè!",
+    "error": "❌ Erè pandan m t ap antre: {error}"
+  },
+  "block": {
+    "name": "bloke",
+    "desc": "Bloke yon itilizatè",
+    "usage": "❌ Manti moun nan oswa itilize kòmand lan an prive.",
+    "self": "❌ *Erè*: Ou pa kapab bloke m pandan w ap pale avè m.",
+    "success": "✅ Itilizatè a bloke."
+  },
+  "unblock": {
+    "name": "debloke",
+    "desc": "Debloke yon itilizatè",
+    "usage": "❌ Manti moun nan oswa itilize kòmand lan an prive.",
+    "success": "✅ Itilizatè a debloke."
+  },
+  "setmode": {
+    "name": "setmòd",
+    "desc": "Chanje mòd bot la (piblik / prive)",
+    "usage": "*Itilizasyon*: {prefixe}setmode <public | private>",
+    "success": "⚙️ Estati: *{choice}*\\nChanjman an fèt nèt."
+  },
+  "restart": {
+    "name": "redemare",
+    "desc": "Redemare bot la",
+    "msg": "🔄 M ap redemare...\\nTanpri tann 10-20s."
+  },
+  "autoreact": {
+    "name": "otoreyaksyon",
+    "desc": "Konfigire reyaksyon otomatik (on, pm, gc, off)",
+    "status": "*Estati kounye a*: {status}",
+    "usage": "🔹 *{prefixe}autoreact on*: Tout kote\\n🔹 *{prefixe}autoreact pm*: Prive sèlman\\n🔹 *{prefixe}autoreact gc*: Gwoup sèlman\\n🔹 *{prefixe}autoreact off*: Dezaktive",
+    "success": "🎭 Konfigire sou: *{choice}*"
+  },
+  "checkupdate": {
+    "name": "tchekeupdate",
+    "desc": "Tcheke si gen mizajou sou GitHub",
+    "msg": "🔍 *M ap tcheke sèvè GitHub yo...*",
+    "uptodate": "✅ *𝙼𝙴𝙽𝙼𝙰-𝙼𝙳 deja nan dènye vèsyon an (v{version}).*",
+    "available": "🆕 *[ Mizajou ]* 🆕\\n\\n📦 *Estati*: Gen yon mizajou ki disponib!\\n📊 *Kantite commit*: {count}\\n🔗 *Sous*: {url}\\n\\n💡 Tape *{prefixe}update* pou w enstale l.\\n⚙️ Sèvi ak *{prefixe}update auto/alert* pou w konfigire l."
+  },
+  "update": {
+    "name": "update",
+    "desc": "Mete bot la ajou oswa konfigire (auto | alert)",
+    "auto": "🔄 *Mizajou otomatik*: {status}",
+    "alert": "🔔 *Alèt mizajou*: {status}",
+    "msg": "M ap mete ajou...",
+    "success": "Mizajou a fini ak siksè!"
+  },
+  "writemode": {
+    "name": "mòdekriti",
+    "desc": "Aktive mòd ekriti otomatik ak bèl karaktè.",
+    "status": "*Estati kounye a:* {status}\\n*Stil aktif:* {style}\\n*Sifiks aktif:* {suffix}\\n━━━━━━━━━━━━━━━━━━━━\\nItilizasyon: .writemode <nimewo> <sifiks>\\nEgzanp: .writemode 9 | 𝙼𝙴𝙽𝙼𝙰\\nDezaktive: .writemode off",
+    "off": "✅ *Mòd ekriti dezaktive.*",
+    "invalid": "❌ Nimewo stil la pa valid (chwazi ant 1 ak 60).",
+    "success": "✅ *Aktive!*\\n🎨 Stil: *{style}*\\n🏷️ Sifiks: *{suffix}*"
+  },
+  "lang": {
+    "name": "lang",
+    "desc": "Chanje lang bot la (fr | en | pt | es | de | ht)",
+    "usage": "*Itilizasyon*: {prefixe}lang <fr | en | pt | es | de | ht>",
+    "success": "🌐 Lang: *{choice}*"
+  },
+  "sticker": {
+    "name": "stikè",
+    "desc": "Kreye yon stikè ak yon imaj oswa videyo.",
+    "usage": "Tanpri manti yon imaj oswa videyo.",
+    "invalid_doc": "Dokiman an dwe yon imaj oswa videyo.",
+    "download_fail": "M pa t kapab telechaje medya sa a.",
+    "too_heavy": "Videyo a twò lou (maksimòm 7MB).",
+    "error": "M pa t kapab kreye stikè a."
+  },
+  "toimg": {
+    "name": "toimg",
+    "desc": "Convertit un sticker en image.",
+    "usage": "❌ Veuillez répondre à un sticker.",
+    "error": "❌ Erreur FFMPEG : {error}"
+  },
+  "tovideo": {
+    "name": "tovideo",
+    "desc": "Convertit un sticker animé en vidéo.",
+    "usage": "❌ Veuillez répondre à un sticker animé.",
+    "error": "❌ Erreur de conversion."
+  },
+  "togif": {
+    "name": "togif",
+    "desc": "Convertit une vidéo/sticker en GIF.",
+    "usage": "❌ Veuillez répondre à une vidéo ou un sticker.",
+    "error": "❌ Erreur de conversion en GIF."
+  },
+  "toaudio": {
+    "name": "toaudio",
+    "desc": "Convertit une vidéo en audio (mp3).",
+    "usage": "❌ Veuillez répondre à une vidéo.",
+    "error": "❌ Erreur de conversion."
+  },
+  "attp": {
+    "name": "attp",
+    "desc": "Génère un sticker animé avec du texte.",
+    "usage": "❌ Usage : .attp <texte>",
+    "error": "❌ Erreur lors de la génération de l'attp : {error}"
+  },
+  "ttp": {
+    "name": "ttp",
+    "desc": "Génère un sticker à partir de texte.",
+    "usage": "❌ Usage : .ttp <texte>",
+    "error": "❌ Erreur : {error}"
+  },
+  "crop": {
+    "name": "crop",
+    "desc": "Kreye yon stikè won.",
+    "error": "M pa t kapab kreye stikè won an."
+  },
+  "round": {
+    "name": "round",
+    "desc": "Kreye yon stikè kare ak pwent yo won.",
+    "too_heavy": "Videyo a twò lou (maksimòm 5MB).",
+    "error": "Erè pandan m t ap kreye stikè a."
+  },
+  "toimg": {
+    "name": "nanfoto",
+    "desc": "Chanje yon stikè an foto.",
+    "usage": "Tanpri manti yon stikè."
+  },
+  "tovideo": {
+    "name": "nanvideyo",
+    "desc": "Chanje yon stikè ki gen mouvman an videyo.",
+    "usage": "Tanpri manti yon stikè ki gen mouvman.",
+    "error": "Erè pandan konvèsyon an videyo."
+  },
+  "toaudio": {
+    "name": "nanodyo",
+    "desc": "Chanje yon videyo an odyo.",
+    "usage": "Tanpri manti yon videyo.",
+    "error": "Erè pandan konvèsyon an odyo."
+  },
+  "take": {
+    "name": "renonmen",
+    "desc": "Chanje non yon stikè (non pakè ak otè)."
+  },
+  "quotely": {
+    "name": "quotely",
+    "desc": "Kreye yon stikè ak yon mesaj.",
+    "usage": "Bay tèks la oswa reponn yon mesaj.",
+    "error": "Erè Quotely: {error}"
+  },
+  "attp": {
+    "name": "attp",
+    "desc": "Kreye yon stikè ki gen mouvman ak yon tèks.",
+    "usage": "Tanpri bay tèks la.",
+    "error": "M pa t kapab kreye ATTP a."
+  },
+  "ttp": {
+    "name": "ttp",
+    "desc": "Kreye yon stikè ak yon tèks (san mouvman).",
+    "error": "M pa t kapab kreye TTP a."
+  },
+  "wiki": {
+    "name": "wiki",
+    "desc": "Chèche enfòmasyon sou Wikipedia.",
+    "title": "WIKIPEDIA",
+    "usage": "Tanpri bay sijè w ap chèche a.",
+    "not_found": "M regrèt, m pa t kapab jwenn anyen sou sijè sa a."
+  },
+  "github_cmd": {
+    "name": "github",
+    "desc": "Montre enfòmasyon sou yon itilizatè GitHub.",
+    "title": "INFO GITHUB",
+    "usage": "Tanpri bay non itilizatè GitHub la.",
+    "not_found": "Itilizatè a pa jwenn.",
+    "bio": "📝 *Bio:* {bio}",
+    "location": "📍 *Kote li ye:* {location}",
+    "no_bio": "Pa gen bio",
+    "no_loc": "Pa spesifye"
+  },
+  "imdb": {
+    "name": "imdb",
+    "desc": "Chèche enfòmasyon sou fim oswa seri.",
+    "title": "INFO IMDB",
+    "usage": "Tanpri bay tit fim lan oswa seri a.",
+    "error": "Gen yon erè ki fèt pandan m t ap chèche a."
+  },
+  "pinterest": {
+    "name": "pinterest",
+    "desc": "Chèche imaj sou Pinterest.",
+    "title": "PINTEREST",
+    "usage": "Tanpri bay sijè w ap chèche a.",
+    "not_found": "M pa jwenn anyen.",
+    "error": "Erè Pinterest.",
+    "caption": "*Rezilta pou:* {query}"
+  },
+  "google": {
+    "name": "google",
+    "desc": "Fè yon rechèch sou entènèt.",
+    "title": "REZILTA RECHÈCH",
+    "usage": "Tanpri bay sijè w ap chèche a.",
+    "not_found": "M pa jwenn anyen.",
+    "error": "❌ Erè pandan rechèch la."
+  },
+  "img": {
+    "name": "img",
+    "desc": "Chèche imaj sou Google.",
+    "usage": "Tanpri bay non imaj w ap chèche a.",
+    "not_found": "M pa jwenn okenn imaj.",
+    "error": "❌ Erè pandan m t ap chèche imaj la."
+  },
+  "anime": {
+    "name": "anime",
+    "desc": "Chèche enfòmasyon sou yon anime.",
+    "title": "INFO ANIME",
+    "usage": "Tanpri bay non anime a.",
+    "not_found": "Anime a pa jwenn.",
+    "error": "❌ Erè pandan rechèch anime a."
+  },
+  "manga": {
+    "name": "manga",
+    "desc": "Chèche enfòmasyon sou yon manga.",
+    "title": "INFO MANGA",
+    "usage": "Tanpri bay non manga a.",
+    "not_found": "Manga a pa jwenn.",
+    "error": "❌ Erè pandan rechèch manga a."
+  },
+  "yts": {
+    "name": "yts",
+    "desc": "Chèche videyo sou YouTube.",
+    "title": "RECHÈCH YOUTUBE",
+    "usage": "Tanpri bay sijè w ap chèche a.",
+    "not_found": "M pa jwenn okenn videyo.",
+    "error": "❌ Erè pandan rechèch YouTube la."
+  },
+  "infos": {
+    "name": "nouvèl",
+    "desc": "Montre dènye nouvèl yo.",
+    "error": "M pa t kapab jwenn nouvèl yo.",
+    "title": "📰 *DÈNYÈ NOUVÈL (HT):*\\n\\n"
+  },
+  "chatbot": {
+    "name": "chatbot",
+    "desc": "Aktive oswa konfigire chatbot la",
+    "on": "✅ Aktive lokalman isit la.",
+    "all": "🚀 Aktive tout kote (Prive + Gwoup).",
+    "gc": "✅ Aktive pou tout gwoup yo.",
+    "pm": "✅ Aktive pou tout mesaj prive yo.",
+    "off": "❌ Dezaktive nèt.",
+    "status_title": "ESTATI CHATBOT",
+    "status_gc": "• Gwoup Global: {status}",
+    "status_pm": "• Prive Global: {status}",
+    "status_local": "• Lokal isit la: {status}",
+    "config_title": "KONFIGIRASYON CHATBOT",
+    "help_on": "➜ *{prefixe}chatbot on*: Aktive isit la",
+    "help_all": "➜ *{prefixe}chatbot all*: Aktive tout kote",
+    "help_gc": "➜ *{prefixe}chatbot gc*: Aktive pou tout gwoup",
+    "help_pm": "➜ *{prefixe}chatbot pm*: Aktive pou tout prive",
+    "help_off": "➜ *{prefixe}chatbot off*: Dezaktive tout",
+    "help_status": "➜ *{prefixe}chatbot status*: Gade estati"
+  },
+  "sendstatus": {
+    "name": "postestati",
+    "desc": "Repoze imaj oswa videyo sou pwòp estati pa w.",
+    "usage": "Reponn yon imaj oswa\\nvideyo pou w poste l.\\nItilizasyon: {prefixe}sendstatus [caption]",
+    "preparing": "M ap prepare estati a...",
+    "success": "Poste sou estati w!\\nVizibilite: {count} kontak."
+  },
+  "save_cmd": {
+    "name": "sove",
+    "desc": "Sove yon estati oswa mesaj lè w voye l pou tèt ou an prive.",
+    "usage": "❌ Tanpri reponn estati oswa mesaj ou vle sove a.",
+    "not_found": "❌ M pa t kapab jwenn kontni orijinal la.",
+    "error": "❌ Erè pandan voye a: {error}"
+  },
+  "fancy": {
+    "name": "fancy",
+    "desc": "Chanje jan tèks ou a parèt ak bèl karaktè.",
+    "usage": "Itilizasyon: {prefixe}fancy <nimewo> <tèks ou a>\\nEgzanp: {prefixe}fancy 12 bonjou\\n\\n_Tape {prefixe}fancylist pou w wè tout stil yo._",
+    "invalid": "❌ Nimewo stil la pa valid. Chwazi ant 1 ak {max}.",
+    "no_text": "❌ Tanpri bay tèks ou vle chanje a."
+  },
+  "fancylist": {
+    "name": "fancylist",
+    "desc": "Montre lis tout bèl stil ki disponib yo.",
+    "title": "STIL KI DISPONIB",
+    "usage": "Itilizasyon: {prefixe}fancy <nimewo> <tèks>"
+  },
+  "translate": {
+    "name": "tradi",
+    "desc": "Tradi tèks (eg: .trl ht hello | .trl list)",
+    "title": "LANG KI DISPONIB",
+    "usage": "Itilizasyon: {prefixe}trl <code> <tèks>\\nEg: {prefixe}trl en Bonjou",
+    "unknown": "❌ Kòd sa a pa valid: *{lang}*\\nFè *{prefixe}trl list* pou w wè lis lang yo.",
+    "error_usage": "╭───〔 ❌ ERÈ 〕───⬣\\n│ *Itilizasyon*: {prefixe}trl <lang> <tèks>\\n│ *Eg*: {prefixe}trl ht hello\\n│ *Lang*: {prefixe}trl list\\n╰──────────────────────────────⬣",
+    "result": "🌍 *Tradiksyon ({lang}):*\\n\\n{text}",
+    "error": "❌ Erè tradiksyon: {error}"
+  },
+  "google_link": {
+    "name": "googlelyen",
+    "desc": "Chèche sou Google",
+    "usage": "╭───〔 ❌ ERÈ 〕───⬣\\n│ *Itilizasyon*: {prefixe}google <sijè>\\n╰──────────────────────────────⬣",
+    "result": "🔍 *Rezilta rechèch pou {query}:*\\n\\nhttps://www.google.com/search?q={query}"
+  },
+  "weather": {
+    "name": "meteo",
+    "desc": "Montre jan tan an ye nan yon vil.",
+    "title": "METEO",
+    "usage": "Itilizasyon: {prefixe}weather <vil>",
+    "not_found": "Vil sa a pa jwenn.",
+    "result": "📍 *Kote a:* {city}\\n🌡️ *Tanperati:* {temp}°C\\n☁️ *Syèl:* {sky}\\n💧 *Imidite:* {humidity}\\n💨 *Van:* {wind}",
+    "error": "❌ M pa t kapab jwenn enfòmasyon sou meteo a."
+  },
+  "repo": {
+    "name": "repo",
+    "desc": "Montre repo GitHub bot la",
+    "title": "🧬 *𝙼𝙴𝙽𝙼𝙰-𝙼𝙳*",
+    "stars": "◈ *Zetwal* ➜ {count}",
+    "forks": "◈ *Forks* ➜ {count}",
+    "url": "◈ *Repo* ➜ {url}",
+    "fallback": "🧬 *Repo:* https://github.com/Dr-Djibi/Menma-MD\\n\\n👨‍💻"
+  },
+  "tempmail": {
+    "name": "tempmail",
+    "desc": "Kreye yon adrès imèl tanporè",
+    "error": "❌ M pa t kapab kreye imèl la.",
+    "result": "📧 *ADRÈS IMÈL TANPORÈ W LA:*\\n\\n📬 *Imèl:* {email}\\n\\n💡 Sèvi ak *.checkmail {email}* pou w li mesaj ou resevwa."
+  },
+  "checkmail": {
+    "name": "checkmail",
+    "desc": "Li mesaj ki nan yon imèl tanporè.",
+    "title": "BOITE RECEPTION",
+    "usage": "Itilizasyon: {prefixe}readmail <email>",
+    "empty": "📭 Pa gen mesaj.",
+    "error": "❌ Erè pandan m t ap li imèl yo."
+  },
+  "qmed": {
+    "name": "qmed",
+    "desc": "Jwèt Quiz Medsin (Dev sèlman)",
+    "restricted": "❌ Kòmand sa a se pou mèt bot la sèlman.",
+    "error_db": "❌ Erè pandan m t ap li fichye Database/medecine.json lan",
+    "list_title": "📚 SIJÈ YO",
+    "list_desc": "*Lis sijè:*\\n",
+    "usage": "Tape *{prefixe}qmed <sijè>* pou w jwe.\\n",
+    "not_found": "❌ Sijè sa a pa jwenn. Tape *{prefixe}qmed* pou w wè lis la.",
+    "already_active": "⚠️ Gen yon Quiz Medsin ki deja ap fèt isit la.",
+    "recruitment": "Tape *\"me\"* pou w patisipe.\\n*\"start\"* pou w kòmanse kounye a.\\n*\"stop\"* pou w kanpe l.\\n\\n",
+    "timer_title": "⏳ ENSKRIPSYON: 60S",
+    "canceled": "🏁 Jwèt la anile.",
+    "start": "🚀 *QUIZ ({matiere}) A KÒMANSE!*\\n\\n👥 *Moun k ap jwe*: {participants}",
+    "timeout": "⌛ *Tan an fini!*\\nRepons la: *{letter}* ({value})",
+    "results_title": "🏆 REZILTA - {matiere}"
+  },
+  "meme": {
+    "name": "meme",
+    "desc": "Voye yon meme owaza (Anglè)",
+    "error": "❌ M pa t kapab chaje meme lan: {error}",
+    "gif": "🌀 *Meme Animasyon*\\n",
+    "video": "🎥 *Meme Videyo*\\n",
+    "image": "🖼️ *{title}*\\n\\n🌐 r/{subreddit}"
+  },
+  "memefr": {
+    "name": "memefr",
+    "desc": "Meme an Franse",
+    "caption": "💬 *{title}*\\n\\n🌐 r/{subreddit}"
+  },
+  "lyric": {
+    "name": "pawòl",
+    "desc": "Chèche pawòl yon chante.",
+    "usage": "Tanpri bay tit chante a.",
+    "not_found": "Pawòl yo pa jwenn.",
+    "error": "❌ Erè pandan rechèch la."
+  },
+  "ss": {
+    "name": "ss",
+    "desc": "Pran yon foto yon sit entènèt.",
+    "usage": "Tanpri bay lyen sit la.",
+    "error": "M pa t kapab pran foto sit la."
+  },
+  "short": {
+    "name": "kout",
+    "desc": "Fè yon lyen parèt pi kout.",
+    "usage": "Tanpri bay lyen ou vle fè kout la.",
+    "error": "❌ Erè."
+  },
+  "calculate": {
+    "name": "kalkile",
+    "desc": "Fè yon kalkil matematik.",
+    "usage": "💡 *Egzanp*: {prefixe}calc 5+5*2",
+    "invalid": "❌ Gen karaktè ki pa pèmèt.",
+    "error": "❌ Erè kalkil."
+  },
+  "devise": {
+    "name": "lajan",
+    "desc": "Chanje yon lajan nan yon lòt.",
+    "usage": "💡 *Egzanp*: {prefixe}devise [montan] [de] [nan]\\n*(Eg: {prefixe}devise 100 USD HTG)*",
+    "not_found": "Lajan sa a pa jwenn.",
+    "error": "❌ Erè konvèsyon."
+  },
+  "logo": {
+    "name": "logo",
+    "desc_list": "Montre lis tout efè logo ki disponib yo.",
+    "list_title": "LOGO MENMA",
+    "textpro": "✨ *TEXTPRO.ME* ({count})",
+    "ephoto": "🎨 *EPHOTO360* ({count})",
+    "usage_title": "💡 *ITILIZASYON:*",
+    "usage_msg": "> {prefixe}non_efè tèks\\n> Eg: {prefixe}pencil Menma",
+    "error_text": "❌ ERÈ\\nOu manke tèks la pou: {name}",
+    "generating": "🕒 M AP KREYE L\\nEfè: {effect}\\nTèks: {text}",
+    "caption": "🎨 LOGO\\nTip: {effect}\\nTèks: {text}",
+    "fail": "⚠️ ERÈ\\nM pa t kapab kreye: {name}",
+    "error": "❌ ERÈ\\nErè pandan kreyasyon an."
+  },
+  "fx_audio": {
+    "list_title": "🎛️ *MENMA FX ODYO*",
+    "usage_msg": "💡 Reponn yon odyo/videyo ak `{prefixe}non_efè`\\n_Egzanp:_ `{prefixe}bassboost`",
+    "no_media": "❌ Tanpri reponn yon *odyo* oswa *videyo* pou w mete efè *{name}* lan.",
+    "applying": "{react} *M ap mete efè {name} lan*...",
+    "error": "❌ Erè pandan m t ap mete efè *{name}* lan."
+  },
+  "dm": {
+    "name": "dm",
+    "desc_jid": "Montre JID ou oswa JID gwoup la",
+    "desc_botjid": "Montre JID bot la",
+    "desc_owner": "Montre kat kontak mèt bot la",
+    "desc_dev": "Montre kat kontak devlopè a",
+    "desc_ping": "Tcheke vitès bot la",
+    "desc_uptime": "Montre konbe tan bot la genyen depi l limen",
+    "jid_group": "🆔 *JID Gwoup:* {groupJid}\\n👤 *JID ou:* {userJid}",
+    "jid_user": "👤 *JID ou:* {userJid}",
+    "botjid": "🤖 *JID Bot:* {botJid}",
+    "ping": "🏓 *Pong!* — Vitès: `{latence}ms`",
+    "uptime": "⏳ *Uptime:* `{hours}h {minutes}m {seconds}s`"
+  },
+  "dmots": {
+    "name": "dmots",
+    "desc": "Jwèt eliminasyon: Errate mo ki mele a!",
+    "already_active": "⚠️ Gen yon jwèt ki deja ap fèt. Fini l anvan.",
+    "title": "🎮 DMOTS - SIVIV",
+    "inscription": "Tape *'me'* oswa *'yes'* pou w patisipe!\\nInisyatè: *{pseudo}*\\nTape *'start'* oswa *'go'* pou w kòmanse.",
+    "timer": "⏳ *Enskripsyon: 60s*",
+    "canceled": "❌ *JWÈT ANILE*: Pa gen moun ki enskri!",
+    "start": "🚀 *JWÈT LA KÒMANSE!*\\n\\n👥 *Patisipan*: {participants}\\n\\n⚠️ Chak moun gen *20 segonn* pou reponn.\\nYon erè oswa tan fini = *ELIMINASYON*!",
+    "question_title": "🧩 DMOTS",
+    "player": "Moun k ap jwe: *{name}*",
+    "rank": "Rank: *{rank}*",
+    "word": "Mo: *{word}*",
+    "time": "⏳ 20 segonn!",
+    "rank_up": "🏆 *BRAVO {name}!* Ou moute nan rank *{rank}*!",
+    "correct": "✅ Bon repons! ({count}/3 pou w moute rank)",
+    "eliminated": "💀 *ELIMINE!* *{name}* fè erè.\\nMo a te: *{word}*",
+    "tour_end": "📣 *ROU LAN FINI!* {count} moun ki siviv.\\nM ap prepare lòt rou a...",
+    "winner": "👑 *VIKTWA!* *{name}* se sèl moun ki siviv!",
+    "end": "🏁 *JWÈT LA FINI*! Mèsi deske n te jwe."
+  },
+  "tictactoe": {
+    "name": "morpyon",
+    "desc": "Jwe jwèt morpyon ak yon zanmi oswa ak bot la.",
+    "usage": "⚠️ Tanpri manti yon moun (eg: *.ttt @moun*), reponn yon mesaj li, oswa tape *.ttt bot*!",
+    "self": "Ou pa ka jwe ak tèt ou!",
+    "invitation": "🎮 *{player}*, *{initiator}* vle jwe morpyon avè w!\\nReponn *\"yes\"* oswa *\"wi\"* nan 60 segonn pou w aksepte.",
+    "rejected": "❌ *{player}* pa aksepte jwe.",
+    "timeout": "⏳ Tan an fini! *{player}* pa t reponn.",
+    "accepted": "⚔️ *DEFI AKSEPTE!* Pare w...",
+    "title": "MORPYON",
+    "turn": "Se tou pa {emoji} *{player}*! (tape 1-9)",
+    "invalid": "⚠️ Nimewo sa a pa bon oswa li pran deja, *{player}*. Tape yon nimewo ki vid (1-9)!",
+    "abandon": "🏳️ *{player}* abandone... Jwèt la anile!",
+    "tie": "🤝 *MATCH NIL!*",
+    "win": "🏆 *BRAVO!*\\n\\n{board}\\n{emoji} *{player}* genyen!"
+  },
+  "verite": {
+    "name": "verite",
+    "desc": "Jwenn yon kesyon 'Verite'.",
+    "title": "🧐 *VERITE:*",
+    "error": "❌ Erè pandan m t ap chaje jwèt la."
+  },
+  "action": {
+    "name": "aksyon",
+    "desc": "Jwenn yon 'Aksyon'.",
+    "title": "🔥 *AKSYON:*",
+    "error": "❌ Erè pandan m t ap chaje jwèt la."
+  },
+  "vof": {
+    "name": "vof",
+    "desc": "Quiz Wi oswa Non.",
+    "title": "❓ *WI OSWA NON?*",
+    "question": "*Kesyon:* {question}",
+    "instruction": "💡 Reponn ak \"true\" oswa \"false\"!",
+    "correct": "✅ *BRAVO!* Se bon repons lan! 🎉",
+    "wrong": "❌ *TRÒ TA!* Repons la te: *{answer}*.",
+    "timeout": "⌛ *Tan an fini!* Repons la te: *{answer}*."
+  },
+  "pendu": {
+    "name": "pendu",
+    "desc": "Jwe jwèt Pendu.",
+    "title": "🪢 *JWÈT LA KÒMANSE!*",
+    "level": "*Nivo:* {level}",
+    "word": "*Mo:* {word}",
+    "attempts": "*Eseye:* {count}",
+    "instruction": "💡 Tape yon lèt pou w devine mo a!",
+    "invalid": "⚠️ Voye yon sèl lèt sèlman! (oswa tape 'ABANDON')",
+    "already": "🤨 Ou te eseye lèt sa a deja!",
+    "correct": "✅ Bon lèt!\\n\\n*Mo:* {word}\\n*Ou ka eseye:* {count} fwa ankò\\n*Lèt ou te voye:* {letters}",
+    "wrong": "❌ Se pa sa!\\n\\n*Mo:* {word}\\n*Ou ka eseye:* {count} fwa ankò\\n*Lèt ou te voye:* {letters}",
+    "win": "🏆 *BRAVO!* Ou jwenn mo a: *{word}*! 🎉",
+    "loss": "💀 *PENDU!* Ou pèdi. Mo a te: *{word}*."
+  },
+  "justeprix": {
+    "name": "prijis",
+    "desc": "Devine yon nimewo ant 1 ak 100.",
+    "title": "💰 *PRI JIS LA!*",
+    "instruction": "M chwazi yon nimewo ant *1 ak 100*.\\nDevine l lè w voye yon nimewo!",
+    "invalid": "⚠️ Tanpri voye yon nimewo ki valid!",
+    "win": "🏆 *OU GENYEN!* Nimewo a te *{target}*.\\nOu jwenn li nan *{attempts}* fwa! 🎉",
+    "plus": "📈 *Li PLIS!* (Eseye {count}/10)",
+    "moins": "📉 *Li MWEN!* (Eseye {count}/10)",
+    "loss": "💀 *OU PÈDI!* Ou fè 10 fwa deja. Nimewo a te: *{target}*."
+  },
+  "pileouface": {
+    "name": "pileouface",
+    "desc": "Voye yon pyès lajan (Pile oswa Fas).",
+    "title": "🪙 PILE OSWA FAS",
+    "spinning": "Pyès lajan an ap vire... 🕒",
+    "result": "🪙 REZILTA",
+    "outcome": "Li tonbe sou: *{result}*!",
+    "win": "✨ *Ou genyen!* Ou te chwazi {choice}.",
+    "loss": "💀 *Ou pèdi!* Ou te chwazi {choice}."
+  },
+  "casino": {
+    "name": "kazino",
+    "desc": "Jwe machin kazino.",
+    "title": "🎰 KAZINO",
+    "jackpot": "🎉 *JACKPOT!!!* Ou genyen! 💰",
+    "almost": "✨ *Prèske!* De foto parèy. 🥈",
+    "loss": "❌ *Ou pèdi!* Eseye ankò. 💸"
+  },
+  "math": {
+    "name": "mathe",
+    "desc": "Defi matematik rapid!",
+    "title": "🧮 *DEFI MATEMATIK!*",
+    "question": "Konbe sa fè: *{n1} {op} {n2}* ?",
+    "time": "⏳ Ou gen 15 segonn!",
+    "correct": "✅ *Bravo!* Se bon repons lan! 🎉",
+    "wrong": "❌ *Erè!* Repons la te *{answer}*.",
+    "timeout": "⌛ *Tan an fini!* Repons la te *{answer}*."
+  },
+  "deduo": {
+    "name": "deduo",
+    "desc": "Defi de (dice) ak yon zanmi oswa ak bot la.",
+    "title": "🎲 DEFI DE",
+    "me": "👤 *Ou*: {val}",
+    "opponent": "{emoji} *{name}*: {val}",
+    "win": "🏆 *Ou genyen!*",
+    "loss": "💀 *{name}* genyen!",
+    "tie": "🤝 *Match nil!*"
+  },
+  "bombe": {
+    "name": "bonm",
+    "desc": "Dekonekte yon bonm lè w chwazi bon fil la.",
+    "title": "💣 BONM LAN",
+    "msg": "Bonm lan pral eksploze! 😱\\nChwazi yon fil pou w dekonekte l:",
+    "instruction": "⏳ Reponn ak nimewo fil la!",
+    "boom": "💥 *BOOM!* Ou koupe move fil, bonm lan eksploze!",
+    "success": "✅ *Pouf!* Ou koupe fil {color} a epi ou sove tout moun! 🥳",
+    "wrong": "💥 *BOOM!* Fil {color} a fè l eksploze! Bonm lan te sou fil {bomb} lan.",
+    "timeout": "💥 *BOOM!* Trò ta, bonm lan eksploze!"
+  },
+  "ship": {
+    "name": "ship",
+    "desc": "Kalkile konbe de moun mityèl.",
+    "usage": "⚠️ Reponn yon mesaj oswa manti yon moun! 🌹",
+    "self": "❤️ Renmen tèt ou enpòtan, men eseye ak yon lòt moun!",
+    "title": "💘 SHIP",
+    "compatibility": "💖 Konpatibilite: *{percentage}%*",
+    "comment1": "💔 Sa parèt difisil, men ki konnen?",
+    "comment2": "🧡 Gen yon ti kòmansman...",
+    "comment3": "💖 Nou fèt youn pou lòt! 🌹",
+    "comment4": "❤️🔥 Sa se vrè lanmou! 😍",
+    "comment5": "💍 Maryaj ap fèt, nou se de moun ki fèt parèy! ✨"
+  },
+  "p4": {
+    "name": "liga4",
+    "desc": "Jwe Connect 4 ak yon zanmi oswa ak bot la.",
+    "already_active": "⚠️ Gen yon jwèt ki deja ap fèt isit la.",
+    "usage": "⚠️ Manti yon moun, reponn li oswa tape *.p4 bot*!",
+    "self": "Ou pa ka jwe ak tèt ou!",
+    "invitation": "🎮 *{player}*, *{initiator}* vle jwe Connect 4 avè w!\\nReponn *\"yes\"* nan 60 segonn pou w aksepte.",
+    "timeout": "⌛ Tan an fini!",
+    "accepted": "⚔️ *MÖGE DER BESSERE GEWINNEN!*",
+    "title": "CONNECT 4",
+    "turn": "\\nSe tou pa {chip} *{name}* (1-7)",
+    "abandon": "🏳️ *{name}* kite jwèt la.",
+    "invalid": "⚠️ Kolon sa a pa bon oswa li plen!",
+    "win": "🏆 *BRAVO!* {chip} *{name}* genyen!",
+    "tie": "🤝 *MATCH NIL!*"
+  },
+  "rps": {
+    "name": "ppt",
+    "desc": "Wòch Papye Sizo ak yon zanmi oswa bot la.",
+    "moves": "✊ Wòch...\\n✋ Papye...\\n✌️ Sizo!",
+    "usage": "⚠️ Chwazi: wòch, papye oswa sizo!",
+    "win": "🏆 Ou genyen!",
+    "loss_bot": "💀 Bot la genyen!",
+    "tie": "🤝 Match nil!",
+    "timeout": "⌛ Ou twò dousman!",
+    "duel": "⚔️ *DEFI!* {p1} vs {p2}\\nVoye chwa w la (*wòch*, *papye* oswa *sizo*) AN PRIVE bay bot la nan 30 segonn!",
+    "cancel": "❌ Defi a anile: Yon moun pa chwazi oswa chwa a pa bon.",
+    "win_duel": "🏆 *{name}* genyen!",
+    "tie_duel": "🤝 Match nil!",
+    "result_title": "REZILTA DEFI"
+  },
+  "wordle": {
+    "name": "wordle",
+    "desc": "Devine yon mo ki gen 5 lèt nan 6 fwa.",
+    "title": "WORDLE-MENMA",
+    "instruction": "Devine mo *5 lèt* la!\\nOu gen 6 fwa pou w eseye. Bòn chans. 🍀",
+    "usage": "⚠️ Voye yon mo *5 lèt* sèlman!",
+    "win": "🏆 *BRAVO!* Ou jwenn mo *{target}* la nan {count} fwa! 🎉",
+    "loss": "💀 *OU PÈDI!* Mo a te: *{target}*."
+  },
+  "quiz_cmd": {
+    "name": "quiz",
+    "desc": "Reponn yon kesyon kilti jeneral.",
+    "title": "MENMA-MD QUIZ",
+    "instruction": "⏳ 20s | Reponn ak lèt la (A, B, C oswa D)",
+    "correct": "✅ *BON REPONS!* 🎉\\nSe te vreman *{answer}*.",
+    "wrong": "❌ *MOVE REPONS!*\\nBon repons la te *{letter}) {answer}*.",
+    "timeout": "⌛ *Tan an fini!* Repons la te *{letter}) {answer}*."
+  },
+  "nsfw": {
+    "name": "nsfw",
+    "desc": "Montre menu kontni pou granmoun oswa voye yon imaj owaza.",
+    "title": "MENU NSFW",
+    "warning": "🔞 *Kontni Granmoun*",
+    "usage": "*Sèvi ak {prefixe}nsfw <non>*\\n*Egzanp: {prefixe}hentai*",
+    "unknown": "❌ Kategori `{choice}` sa a pa egziste. Sèvi ak `{prefixe}nsfw` pou w wè lis la.",
+    "no_media": "M pa jwenn imaj.",
+    "error": "❌ M pa t kapab chaje kontni an: {error}",
+    "caption": "🔞 *KONTNI {category}*",
+    "hentai_desc": "Voye imaj hentai owaza",
+    "neko_desc": "Voye imaj neko NSFW owaza",
+    "trap_desc": "Voye imaj trap NSFW owaza",
+    "blowjob_desc": "Voye imaj blowjob NSFW owaza"
+  },
+  "antidelete": {
+    "name": "antidelete",
+    "desc": "Konfigire oswa dezaktive Antidelete",
+    "title": "ANTIDELETE",
+    "status": "⚙️ *Estati:* {current}",
+    "options": "*Opsyon:*\\n◽ `pm`: Prive sèlman\\n◽ `gc`: Gwoup sèlman\\n◽ `status`: Estati sèlman\\n◽ `all`: Tout kote\\n◽ `no`: Dezaktive",
+    "tip": "💡 *Tip:* Ou ka konbine yo (eg: `pm,status`)",
+    "success": "SIKSÈ\\n✅ Konfigire sou: *{status}*"
+  },
+  "ascii": {
+    "name": "ascii",
+    "desc": "Chanje tèks an bèl desen ASCII (senp)",
+    "usage": "Itilizasyon: `{prefixe}ascii [tèks]`\\nEg: `{prefixe}ascii MENMA`",
+    "too_long": "❌ Tèks la twò long (maksimòm 10 lèt)."
+  },
+  "autolike": {
+    "name": "autolike",
+    "desc": "Aktive/Dezaktive like otomatik sou estati epi chwazi emoji.",
+    "title": "LIKE OTOMATIK ESTATI",
+    "status": "• *Estati kounye a*: {status}",
+    "emojis": "• *Emoji yo*: {emojis}",
+    "commands": "🔹 *Kòmand:*\\n- `{prefixe}autolike on`: Aktive\\n- `{prefixe}autolike off`: Dezaktive\\n- `{prefixe}autolike set <lis>`: Emoji yo\\n- `{prefixe}autolike set 1-5`: Modèl deja fèt",
+    "on": "✅ Like otomatik estati *aktive*!",
+    "off": "❌ Like otomatik estati *dezaktive*!",
+    "set_success": "✅ Modèl #{id} a chaje ak siksè!\\nEmoji yo: {emojis}",
+    "usage_set": "❌ Tanpri bay yon lis emoji oswa yon nimewo modèl (1-5).",
+    "no_emoji": "❌ M pa jwenn okenn emoji ki valid.",
+    "list_success": "✅ Lis emoji yo mete ajou ({count} emoji):\\n{emojis}",
+    "unknown": "❌ M pa konn aksyon sa a. Sèvi ak `{prefixe}autolike` pou w wè èd la."
+  },
+  "crypter": {
+    "encrypt_name": "ankripte",
+    "encrypt_desc": "Fèmen yon mesaj ak yon kòd sekrè.",
+    "encrypt_usage": "Itilizasyon:\\n`{prefixe}encrypt pass=kòdmwen msg=Sekrè mwen an`\\n\\n💡 Moun k ap resevwa l la dwe gen menm kòd la pou l ka ouvri l.",
+    "invalid": "❌ Sa w bay yo pa bon. Sèvi ak `pass=...` ak `msg=...`.",
+    "caption": "🔒 *Mesaj sa a fèmen pa {pseudo}*\\n\\n`{prefixe}decrypt pass={password} msg=[sa ki anlè a]`",
+    "fail": "❌ M pa t kapab fèmen mesaj la.",
+    "decrypt_name": "dekripte",
+    "decrypt_desc": "Ouvri yon mesaj ki te fèmen ak kòd.",
+    "decrypt_usage": "Itilizasyon:\\n`{prefixe}decrypt pass=kòdmwen msg=U2FsdGVk...`",
+    "decrypted": "🔓 *Men mesaj la:*\\n\\n> {text}",
+    "decrypt_fail": "❌ M pa t kapab ouvri mesaj la. Tcheke kòd la ak mesaj la."
+  },
+  "reaction": {
+    "error_load": "❌ M pa t kapab chaje animasyon anime a kounye a.",
+    "error": "❌ *ERÈ:* {error}",
+    "list": {
+      "calin": {
+        "name": "akolad",
+        "desc": "Bay yon akolad",
+        "phrase": "bay yon bèl akolad a",
+        "solo": "bezwen yon akolad"
+      },
+      "embrasser": {
+        "name": "bo",
+        "desc": "Bay yon moun yon bo",
+        "phrase": "bay yon gwo bo a",
+        "solo": "vle moun ba l bo"
+      },
+      "gifle": {
+        "name": "souflèt",
+        "desc": "Bay yon moun yon souflèt",
+        "phrase": "bay yon gwo souflèt a",
+        "solo": "bay tèt li yon souflèt"
+      },
+      "caresse": {
+        "name": "karès",
+        "desc": "Bay yon karès nan tèt",
+        "phrase": "bay yon karès nan tèt",
+        "solo": "ap bay tèt li karès"
+      },
+      "pleure": {
+        "name": "kriye",
+        "desc": "Kriye",
+        "phrase": "ap kriye devan",
+        "solo": "ap kriye fò"
+      },
+      "calinou": {
+        "name": "ti_karès",
+        "desc": "Bay yon ti karès",
+        "phrase": "ap fè ti karès ak",
+        "solo": "bezwen afeksyon anpil"
+      },
+      "assommer": {
+        "name": "bonk",
+        "desc": "Bay yon moun yon bonk nan tèt",
+        "phrase": "bay yon bonk nan tèt",
+        "solo": "bay tèt li yon bonk"
+      },
+      "frapper": {
+        "name": "kout_pye",
+        "desc": "Bay yon kout pye",
+        "phrase": "bay yon kout pye nan dèyè",
+        "solo": "ap voye kout pye nan lè"
+      },
+      "danse": {
+        "name": "danse",
+        "desc": "Danse",
+        "phrase": "ap danse ak",
+        "solo": "ap fè yon bèl demonstrasyon dans"
+      },
+      "embeter": {
+        "name": "manke_dega",
+        "desc": "Manke yon moun dega",
+        "phrase": "ap manke dega ak",
+        "solo": "anwiye epi li vle moun pale avè l"
+      },
+      "mordre": {
+        "name": "mòde",
+        "desc": "Mòde moun nan",
+        "phrase": "mòde",
+        "solo": "grangou epi li vle mòde yon bagay"
+      },
+      "tuer": {
+        "name": "touye",
+        "desc": "Elimine moun nan",
+        "phrase": "elimine nèt",
+        "solo": "vle detwi tout sa k nan wout li"
+      },
+      "check": {
+        "name": "toke",
+        "desc": "Toke men (High Five)",
+        "phrase": "toke men ak",
+        "solo": "ap tann yon moun toke men avè l..."
+      },
+      "saluer": {
+        "name": "salye",
+        "desc": "Di bonjou ak men",
+        "phrase": "ap salye",
+        "solo": "ap salye tout moun"
+      },
+      "fier": {
+        "name": "fyè",
+        "desc": "Parèt fyè",
+        "phrase": "ap gade ak anpil fyète",
+        "solo": "fyè de tèt li anpil jodi a"
+      },
+      "intimider": {
+        "name": "pouse_do",
+        "desc": "Pouse do/Entimide",
+        "phrase": "ap pouse do epi entimide",
+        "solo": "ap chèche kont vreman"
+      },
+      "rougir": {
+        "name": "wouji",
+        "desc": "Vin wouj (wouji)",
+        "phrase": "vin wouj anpil akoz",
+        "solo": "vin wouj nèt epi li wont"
+      },
+      "sourire": {
+        "name": "souri",
+        "desc": "Souri",
+        "phrase": "ap souri ba",
+        "solo": "gen yon bèl souri nan figi l, li nan bon atitid"
+      }
+    }
+  },
+  "prog": {
+    "name": "pwog",
+    "desc": "Jere mesaj ki pwograme pou voye plizyè fwa.",
+    "usage_title": "🕒 PWOG - ITILIZASYON",
+    "usage_msg": "*Pwograme voye mesaj*\\n{sep}\\n1️⃣ *KREYE YON TACH*\\n🔹 *Prive*:\\n  `{prefixe}prog pm num=xxx`\\n  `date=\"...\" msg=\"...\"`\\n\\n🔹 *Gwoup*:\\n  `{prefixe}prog gc jid=xxx`\\n  `date=\"...\" msg=\"...\"`\\n\\n2️⃣ *JERE YO*\\n◽ *Lis*: `{prefixe}prog list`\\n◽ *Efase*: `{prefixe}prog supp [ID]`\\n◽ *Netwaye*: `{prefixe}prog clear`\\n{inter}\\n🔁 *REPETISYON*:\\nonce, daily, monthly, yearly",
+    "no_tasks": "Pa gen tach pwograme.",
+    "list_title": "📋 TACH PWOGRAME",
+    "type_pm": "📩 Prive",
+    "type_gc": "👥 Gwoup",
+    "once": "Yon sèl fwa",
+    "daily": "Chak jou",
+    "monthly": "Chak mwa",
+    "yearly": "Chak ane",
+    "clear_success": "🧹 PWOG\\nTout tach yo efase.",
+    "supp_usage": "Itilizasyon: `{prefixe}prog supp [nimewo]`",
+    "supp_not_found": "❌ ERÈ\\nPa gen tach ak ID sa a: {id}",
+    "supp_success": "🗑️ PWOG\\nTach `{id}` efase ak siksè.",
+    "invalid_num": "📱 Nimewo telefòn nan pa bon. Eg: num=509xxxxxxx",
+    "invalid_jid": "❌ JID gwoup la pa bon (li dwe fini ak @g.us)",
+    "not_in_group": "❌ M pa nan gwoup sa a.",
+    "invalid_month": "🔤 Mwa a pa bon.",
+    "future_date": "⏳ Dat la dwe nan lavni!",
+    "task_success_title": "✅ TACH PWOGRAME"
+  },
+  "url": {
+    "name": "lyen",
+    "desc": "Kreye yon lyen Catbox pou yon medya ou reponn.",
+    "usage": "❌ Tanpri reponn yon medya pou w kreye lyen an.",
+    "invalid_media": "❌ Mesaj ou reponn nan pa gen medya (foto, videyo, odyo, dokiman, stikè).",
+    "success_title": "LYEN KREYE",
+    "error": "❌ Gen yon erè ki fèt: {error}"
+  },
+  "ocr": {
+    "name": "ocr",
+    "desc": "Pran tèks ki nan yon imaj (OCR).",
+    "usage": "❌ Tanpri reponn yon imaj pou m pran tèks la.",
+    "analyzing": "🔍 *M ap analize imaj la...*",
+    "no_result": "❌ M pa t kapab pran tèks nan imaj sa a.",
+    "no_text": "❌ Pa gen tèks nan imaj sa a.",
+    "success_title": "REZILTA OCR",
+    "extracted": "📜 *Tèks mwen jwenn nan:*",
+    "error": "❌ Erè OCR: {error}"
+  },
+  "misc": {
+    "wait": "Tanpri tann...",
+    "error": "❌ Gen yon erè ki fèt.",
+    "owner": "Kòmand sa a se pou mèt bot la sèlman.",
+    "admin": "Kòmand sa a se pou admin sèlman.",
+    "group": "Kòmand sa a mache sèlman nan gwoup.",
+    "botAdmin": "M dwe admin pou m ka fè sa."
+  }
+}

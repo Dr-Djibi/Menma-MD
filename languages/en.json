@@ -1,0 +1,1589 @@
+{
+  "profile": {
+    "name": "profile",
+    "desc": "Get profile picture",
+    "title": "📸 PROFILE",
+    "member": "Member: @{user}",
+    "error": "❌ Unable to get photo (private or non-existent account)."
+  },
+  "bio": {
+    "name": "bio",
+    "desc": "Show user status/bio",
+    "title": "📖 BIO",
+    "no_status": "No status.",
+    "error": "❌ Unable to get status."
+  },
+  "uptime": {
+    "name": "uptime",
+    "desc": "Show bot uptime",
+    "title": "⏱️ UPTIME",
+    "msg": "Online since: {up}"
+  },
+  "del": {
+    "name": "del",
+    "desc": "Delete a quoted message",
+    "no_owner": "❌ Command reserved for owner/sudo.",
+    "no_quoted": "❌ Reply to the message you want to delete.",
+    "error": "❌ Error: {error}"
+  },
+  "afk": {
+    "name": "afk",
+    "desc": "Set AFK mode (Away From Keyboard)",
+    "title": "💤 AFK",
+    "msg": "*{pseudo}* is now AFK.",
+    "reason": "Reason: {reason}"
+  },
+  "poll": {
+    "name": "poll",
+    "desc": "Create a poll",
+    "title": "📊 POLL",
+    "usage": "*Usage*: {prefixe}poll Question | Op1 | Op2",
+    "min_options": "At least 2 options are required.",
+    "error": "❌ Error: {error}"
+  },
+  "vv": {
+    "name": "vv",
+    "desc": "Retrieve a view-once message",
+    "no_quoted": "❌ Reply to a view-once message.",
+    "invalid": "❌ This is not a view-once message (Image, Video, or Audio).",
+    "not_vo": "❌ This message is not view-once.",
+    "error": "❌ Error during retrieval: {error}"
+  },
+  "vv2": {
+    "name": "vv2",
+    "desc": "Retrieve a view-once message and send it directly to the owner's DM"
+  },
+  "camouflage": {
+    "name": "camouflage",
+    "desc": "Hide a command behind a secret word (without prefix)"
+  },
+  "public_cmd": {
+    "set_name": "setpublic_cmd",
+    "set_desc": "Make a command accessible to everyone (even in private mode)",
+    "del_name": "delpublic_cmd",
+    "del_desc": "Remove a command from the public list",
+    "get_name": "getpublic_cmd",
+    "get_desc": "Display all public commands"
+  },
+  "horoscope": {
+    "name": "horoscope",
+    "desc": "Display daily horoscope for your sign.",
+    "title": "DAILY HOROSCOPE",
+    "date": "📅 *Date:* {date}",
+    "msg": "🔮 *Prediction:*\n{text}",
+    "invalid": "❌ Invalid sign. Example: .horoscope leo",
+    "error": "❌ Unable to retrieve horoscope."
+  },
+  "citation": {
+    "name": "citation",
+    "desc": "Send an inspiring quote.",
+    "title": "RANDOM QUOTE",
+    "text": "📜 *Quote:*\n{content}",
+    "author": "👤 *Author:* {author}",
+    "error": "❌ Failed to retrieve quote."
+  },
+  "top": {
+    "name": "top",
+    "desc": "Show top 3 members for a given subject.",
+    "title": "🏆 TOP 3: {sujet}",
+    "empty": "The group is strangely empty...",
+    "error_gp": "❌ This command only works in a group!"
+  },
+  "blague": {
+    "name": "blague",
+    "desc": "Send a random joke (translated English).",
+    "title": "JOKE OF THE DAY",
+    "single": "🤪 {joke}",
+    "twopart": "❓ {setup}\n\n💡 {delivery}",
+    "error": "❌ Joke error: {error}"
+  },
+  "anicit": {
+    "name": "anicit",
+    "desc": "Show random anime quote.",
+    "title": "🉐 *ANIME QUOTE*",
+    "content": "💬 \"{content}\"",
+    "character": "👤 *Character:* {character}",
+    "anime": "🎞️ *Anime:* {anime}",
+    "error": "❌ Unable to retrieve anime quote."
+  },
+  "fait": {
+    "name": "fait",
+    "desc": "Display an interesting fact.",
+    "title": "DID YOU KNOW?",
+    "msg": "📜 *Interesting fact:*\n> {text}",
+    "error": "❌ Fact retrieval error."
+  },
+  "avis": {
+    "name": "avis",
+    "desc": "Ask the bot's opinion on something.",
+    "usage": "What would you like my opinion on?",
+    "title": "OPINION",
+    "question": "🧐 *Question:* {question}",
+    "answer": "🧠 *My opinion:* {answer}",
+    "responses": [
+      "That's an excellent idea! ✅",
+      "I'm not quite convinced... 😕",
+      "Honestly? It's incredible! 😍",
+      "Meh, not great. 👎",
+      "It's simply brilliant! ✨",
+      "I'd rather not answer that... 🙊",
+      "10/10, no notes. 💯",
+      "That's a bit weird, right? 🧐"
+    ]
+  },
+  "humeur": {
+    "name": "humeur",
+    "desc": "Check the bot's current mood.",
+    "title": "🎭 *MY CURRENT MOOD:*",
+    "msg": "{mood}",
+    "moods": [
+      "Super happy! 😊✨",
+      "A bit tired... 😴",
+      "In work mode! 💻🔥",
+      "Rebellious! 😎",
+      "In love with code ❤️",
+      "A bit sad... 😢",
+      "Ready to conquer the world! 🌍🚀"
+    ]
+  },
+  "conseil": {
+    "name": "conseil",
+    "desc": "Get random advice.",
+    "title": "ADVICE",
+    "msg": "💡 *Advice of the day:*\n> {text}",
+    "error": "❌ Advice error."
+  },
+  "insta": {
+    "name": "insta",
+    "desc": "Search Instagram profile.",
+    "title": "📸 *INSTAGRAM INFO: {name}*",
+    "username": "👤 *Username:* {username}",
+    "bio": "📝 *Bio:* {bio}",
+    "followers": "👥 *Followers:* {followers}",
+    "following": "👤 *Following:* {following}",
+    "posts": "📦 *Posts:* {posts_count}",
+    "link": "🔗 *Link:* https://instagram.com/{username}",
+    "not_found": "User not found.",
+    "error": "❌ Instagram error."
+  },
+  "kick": {
+    "name": "kick",
+    "desc": "Kick a member from the group",
+    "usage": "*Usage*: Mention or reply\nto the member's message.",
+    "success": "✅ @{user} has been kicked from the group."
+  },
+  "add": {
+    "name": "add",
+    "desc": "Add a member to the group",
+    "usage": "*Usage*: {prefixe}add <number>\n*Ex*: {prefixe}add 224625xxxxxx",
+    "success": "✅ @{user} has been added to the group."
+  },
+  "promote": {
+    "name": "promote",
+    "desc": "Promote a member to administrator",
+    "usage": "*Usage*: Mention or reply\nto the member to promote.",
+    "success": "✅ @{user} is now an administrator!"
+  },
+  "demote": {
+    "name": "demote",
+    "desc": "Demote an administrator to member",
+    "usage": "*Usage*: Mention or reply\nto the admin to demote.",
+    "success": "✅ @{user} is no longer an administrator."
+  },
+  "tagall": {
+    "name": "tagall",
+    "desc": "Mention all group members",
+    "msg": "Attention everyone!",
+    "title": "TAG ALL",
+    "label_msg": "📣 *MESSAGE:*",
+    "label_by": "👤 *BY:*",
+    "total": "\n📊 *Total: {count} members*"
+  },
+  "hidetag": {
+    "name": "hidetag",
+    "desc": "Mention all members discreetly"
+  },
+  "open": {
+    "name": "open",
+    "desc": "Open the group",
+    "success": "🔓 Group opened! Everyone can message."
+  },
+  "close": {
+    "name": "close",
+    "desc": "Close the group (admins only)",
+    "success": "🔒 Group closed! Only admins can message."
+  },
+  "listmembers": {
+    "name": "listmembers",
+    "desc": "List all group members",
+    "title": "MEMBERS: {group}",
+    "total": "📊 *Total members*: {count}",
+    "admins": "👑 *ADMINS ({count})*",
+    "members": "👤 *MEMBERS ({count})*"
+  },
+  "setdesc": {
+    "name": "setdesc",
+    "desc": "Change group description",
+    "usage": "*Usage*: {prefixe}setdesc <text>",
+    "success": "✅ Description updated."
+  },
+  "setname": {
+    "name": "setname",
+    "desc": "Change group name",
+    "usage": "*Usage*: {prefixe}setname <text>",
+    "success": "✅ Group name changed to: *{name}*"
+  },
+  "linkgroupe": {
+    "name": "linkgroupe",
+    "desc": "Get group invite link",
+    "msg": "🔗 Invite link:\nhttps://chat.whatsapp.com/{code}"
+  },
+  "infogroupe": {
+    "name": "infogroupe",
+    "desc": "Display group information",
+    "title": "ℹ️ Group Information",
+    "label_name": "📛 *Name:* {name}",
+    "label_members": "👥 *Members:* {count}",
+    "label_admins": "👑 *Admins:* {count}",
+    "label_date": "📅 *Created on:* {date}",
+    "label_desc": "📝 *Description:*",
+    "no_desc": "No description"
+  },
+  "clear": {
+    "name": "clear",
+    "desc": "Clear chat history entirely",
+    "no_admin": "❌ Only administrators can clear history.",
+    "success": "🧹 *History cleared successfully!*",
+    "error": "Unable to clear history.\nThis may be due to a WhatsApp restriction."
+  },
+  "antilien": {
+    "name": "antilien",
+    "desc": "Configure group Anti-Link.",
+    "title": "🛡️ ANTI-LINK",
+    "usage": "*Action*: {prefixe}antilien <option>\n\n🔹 *on*: Enable (delete)\n🔹 *warn*: Enable + Warn\n🔹 *kick*: Enable + Kick\n🔹 *supp*: Enable + Delete\n🔹 *off*: Disable",
+    "off": "✅ *Anti-Link* disabled successfully.",
+    "on": "✅ *Anti-Link* enabled successfully.",
+    "success": "✅ *Anti-Link* enabled and configured to: *{choice}*",
+    "invalid": "❌ Invalid option. Use *on*, *off*, *warn*, *kick*, or *supp*."
+  },
+  "antibot": {
+    "name": "antibot",
+    "desc": "Configure group Anti-Bot.",
+    "title": "🛡️ ANTI-BOT",
+    "usage": "*Action*: {prefixe}antibot <option>\n\n🔹 *on*: Enable (delete)\n🔹 *warn*: Enable + Warn\n🔹 *kick*: Enable + Kick\n🔹 *supp*: Enable + Delete\n🔹 *off*: Disable",
+    "off": "✅ *Anti-Bot* disabled successfully.",
+    "on": "✅ *Anti-Bot* enabled successfully.",
+    "success": "✅ *Anti-Bot* enabled and configured to: *{choice}*",
+    "invalid": "❌ Invalid option. Use *on*, *off*, *warn*, *kick*, or *supp*."
+  },
+  "welcome": {
+    "name": "welcome",
+    "desc": "Configure welcome message.",
+    "title": "👋 WELCOME USAGE",
+    "status": "*Status*: {status}",
+    "usage": "🔹 *{prefixe}welcome yes*: Enable\n🔹 *{prefixe}welcome no*: Disable\n🔹 *{prefixe}welcome <message>*: Set message\n\n*Variables*:\n• @user: Mentions the user\n• #group: Group name\n• #desc: Group description",
+    "on": "*_Welcome messages enabled!_*",
+    "off": "*_Welcome messages disabled!_*",
+    "success": "*_Welcome message customized successfully!_*",
+    "yes": "yes",
+    "no": "no"
+  },
+  "goodbye": {
+    "name": "goodbye",
+    "desc": "Configure goodbye message.",
+    "title": "👋 GOODBYE USAGE",
+    "status": "*Status*: {status}",
+    "usage": "🔹 *{prefixe}goodbye yes*: Enable\n🔹 *{prefixe}goodbye no*: Disable\n🔹 *{prefixe}goodbye <message>*: Set message\n\n*Variables*:\n• @user: Mentions the user\n• #group: Group name",
+    "on": "*_Goodbye messages enabled!_*",
+    "off": "*_Goodbye messages disabled!_*",
+    "success": "*_Goodbye message customized successfully!_*",
+    "yes": "yes",
+    "no": "no"
+  },
+  "antipromote": {
+    "name": "antipromote",
+    "desc": "Enable or disable Anti-Promote.",
+    "usage": "Please specify 'on' or 'off'.",
+    "success": "🛡️ *Anti-Promote* is now {status}."
+  },
+  "antidemote": {
+    "name": "antidemote",
+    "desc": "Enable or disable Anti-Demote.",
+    "usage": "Please specify 'on' or 'off'.",
+    "success": "🛡️ *Anti-Demote* is now {status}."
+  },
+  "groupstatus": {
+    "name": "groupstatus",
+    "desc": "Display group security status.",
+    "title": "📊 GROUP SECURITY",
+    "label_link": "🔗 *Anti-Link*: {status}",
+    "label_bot": "🤖 *Anti-Bot*: {status}",
+    "label_tag": "🏷️ *Anti-Tag*: {status}",
+    "label_mention": "📢 *Anti-Mention*: {status}",
+    "label_spam": "⏳ *Anti-Spam*: {status}",
+    "label_welcome": "👋 *Welcome*: {status}",
+    "label_goodbye": "👋 *Goodbye*: {status}",
+    "label_promote": "🛡️ *Promote*: {status}",
+    "label_demote": "🛡️ *Demote*: {status}"
+  },
+  "antitag_cmd": {
+    "name": "antitag",
+    "desc": "Configure group Anti-Tag.",
+    "title": "🛡️ ANTI-TAG",
+    "usage": "*Action*: {prefixe}antitag <option>\n\n🔹 *on*: Enable (delete)\n🔹 *warn*: Enable + Warn\n🔹 *kick*: Enable + Kick\n🔹 *supp*: Enable + Delete\n🔹 *off*: Disable",
+    "off": "✅ *Anti-Tag* disabled successfully.",
+    "on": "✅ *Anti-Tag* enabled successfully.",
+    "success": "✅ *Anti-Tag* enabled and configured to: *{choice}*"
+  },
+  "antispam": {
+    "name": "antispam",
+    "desc": "Configure group Anti-Spam.",
+    "title": "🛡️ ANTI-SPAM",
+    "usage": "*Action*: {prefixe}antispam <option>\n\n🔹 *on*: Enable (delete)\n🔹 *warn*: Enable + Warn\n🔹 *kick*: Enable + Kick\n🔹 *supp*: Enable + Delete\n🔹 *off*: Disable",
+    "off": "✅ *Anti-Spam* disabled successfully.",
+    "on": "✅ *Anti-Spam* enabled successfully.",
+    "success": "✅ *Anti-Spam* enabled and configured to: *{choice}*"
+  },
+  "antimentiongc": {
+    "name": "antimentiongc",
+    "desc": "Configure general Anti-Mention.",
+    "title": "🛡️ ANTI-MENTIONGC",
+    "usage": "*Action*: {prefixe}antimentiongc <option>\n\n🔹 *on*: Enable (delete)\n🔹 *warn*: Enable + Warn\n🔹 *kick*: Enable + Kick\n🔹 *supp*: Enable + Delete\n🔹 *off*: Disable",
+    "off": "✅ *Anti-MentionGC* disabled successfully.",
+    "on": "✅ *Anti-MentionGC* enabled successfully.",
+    "success": "✅ *Anti-MentionGC* enabled and configured to: *{choice}*"
+  },
+  "warn_cmd": {
+    "name": "warn",
+    "desc": "Warn a user.",
+    "usage": "Please mention the target or reply to a message.",
+    "success": "⚠️ @{user} has received a warning. Total: {count}/3.",
+    "kick": "❌ @{user} has reached 3 warnings. Kicking!",
+    "reset": "✅ Warnings for @{user} have been reset."
+  },
+  "kickall": {
+    "name": "kickall",
+    "desc": "Remove all non-administrator members.",
+    "owner": "❌ This highly destructive command is reserved for the bot owner.",
+    "empty": "All members are already administrators.",
+    "success": "✅ Cleanup completed: *{count}* members kicked.",
+    "error": "Kick failed. Make sure I am an administrator."
+  },
+  "tagadmin": {
+    "name": "tagadmin",
+    "desc": "Mention all administrators.",
+    "title": "STAFF CALL",
+    "msg": "📌 *Message:* {text}"
+  },
+  "updatepp": {
+    "name": "updatepp",
+    "desc": "Change group profile picture.",
+    "usage": "❌ Reply to an image to change the group photo.",
+    "success": "✅ Group photo updated!"
+  },
+  "revoke": {
+    "name": "revoke",
+    "desc": "Revoke old link and generate a new one.",
+    "success": "✅ Invite link reset successfully!"
+  },
+  "leave": {
+    "name": "leave",
+    "desc": "Make the bot leave the group.",
+    "owner": "❌ Only the owner can order me to leave.",
+    "msg": "👋 Goodbye everyone! It was a pleasure."
+  },
+  "gpsetting": {
+    "name": "gpsetting",
+    "desc": "Restrict or allow modification of group info.",
+    "locked": "🔒 Modifications restricted to administrators.",
+    "unlocked": "🔓 Modifications open to all members.",
+    "invalid": "❌ Invalid setting. Use `locked` or `unlocked`."
+  },
+  "invite": {
+    "name": "invite",
+    "desc": "Send invite link to a specified number.",
+    "usage": "❌ Specify a number (e.g. .invite 224612414116)",
+    "msg": "Hi! Here is the link to join our group:\n\n{link}",
+    "success": "✅ Link sent successfully to +{num}.",
+    "error": "❌ Unable to send invitation."
+  },
+  "promoteall": {
+    "name": "promoteall",
+    "desc": "Promote all members to administrators.",
+    "empty": "Everyone is already an admin.",
+    "status": "👑 Promoting {count} members...",
+    "success": "✅ Everyone is now an administrator!"
+  },
+  "demoteall": {
+    "name": "demoteall",
+    "desc": "Demote all administrators.",
+    "empty": "No administrators to demote.",
+    "status": "📉 Demoting {count} administrators...",
+    "success": "✅ All administrators have been demoted."
+  },
+  "menu": {
+    "name": "menu",
+    "desc": "Displays categories by numbers or category commands.",
+    "salut": "👤 *Hello:* {pseudo}",
+    "uptime": "🚀 *Uptime:* {uptime}",
+    "total": "🧩 *Total:* {count} commands",
+    "choose": "*Please choose a category:*",
+    "usage": "*Use {prefixe}menu <number>*",
+    "usage2": "*Use {prefixe}allmenu*",
+    "dev": "Developer: {dev}",
+    "allmenu_desc": "Displays all commands by categories."
+  },
+  "help": {
+    "name": "help",
+    "desc": "Displays detailed help for a command or category.",
+    "title": "GENERAL HELP",
+    "total": "Total: {count} commands",
+    "list_title": "COMMAND LIST",
+    "cat_filter": "💡 *{prefixe}help cat=name*: Filter by category",
+    "menu_info": "💡 *{prefixe}menu*: Show menus",
+    "cat_not_found": "❌ Unknown category *{cat}*.",
+    "cmd_not_found": "❌ Command *{cmd}* not found.",
+    "detail_title": "INFO: {cmd}",
+    "label_cmd": "💠 *Command*",
+    "label_cat": "📂 *Category*",
+    "label_desc": "📝 *Description*",
+    "label_alias": "🔗 *Alias*",
+    "label_react": "⚡ *Reaction*",
+    "usage": "*Usage*: {prefixe}{cmd} {usage}"
+  },
+  "categories": {
+    "dm": "DM",
+    "Conversion": "Conversion",
+    "Download": "Download",
+    "Extra": "Extra & Info",
+    "fun": "Entertainment",
+    "FX Audio": "Audio Effects",
+    "groupe": "Group Management",
+    "IA": "AI",
+    "Logo": "Logo Creation",
+    "menma-game": "Games & Mini-games",
+    "NSFW": "Adult Content",
+    "outils": "Tools & Utilities",
+    "owner": "Owner (Sudo)",
+    "reaction": "Reactions",
+    "Search": "Search & Info",
+    "Session": "Session & Connection",
+    "status": "Status & Profile",
+    "sticker": "Stickers"
+  },
+  "stickers": {
+    "add_name": "addstickcmd",
+    "add_desc": "Link a sticker to a command. Reply to a sticker with the command name.",
+    "add_usage": "❌ Please specify the command name. Example: {prefixe}addstickcmd menu",
+    "add_no_quoted": "❌ Please reply to a sticker.",
+    "add_success": "✅ Sticker linked to command: *{cmd}*",
+    "get_name": "getstickcmd",
+    "get_desc": "Show list of commands linked to stickers.",
+    "get_empty": "📭 No command stickers found.",
+    "get_title": "STICKER COMMANDS",
+    "del_name": "delstickcmd",
+    "del_desc": "Delete a sticker-command link (reply to sticker).",
+    "del_usage": "❌ Please reply to the sticker you want to unlink.",
+    "del_success": "🗑️ Link removed for this sticker.",
+    "del_not_found": "❌ No link found for this sticker.",
+    "error": "❌ Error: {error}"
+  },
+  "theme": {
+    "name": "theme",
+    "desc": "Change the bot's visual theme.",
+    "not_found": "Theme file not found.",
+    "usage": "Usage:\n1. {prefixe}theme list (show themes)\n2. {prefixe}theme [ID] (activate a theme)\n3. {prefixe}theme url [URL] (use custom image)",
+    "list_title": "AVAILABLE THEMES",
+    "list_item": "ID: *{id}* - {nom} ({count} images)",
+    "list_footer": "Use *{prefixe}theme [ID]* to activate a theme.",
+    "url_usage": "Please provide a valid image URL.",
+    "url_success": "✅ Custom URL set as theme!",
+    "invalid_id": "Invalid theme ID. Use *theme list*.",
+    "success": "✅ Theme *{nom}* activated!"
+  },
+  "test_cmd": {
+    "name": "test",
+    "desc": "Check bot health",
+    "label_user": "👤 *User*",
+    "label_prefix": "📡 *Prefix*",
+    "label_uptime": "⏱️ *Uptime*",
+    "label_memory": "🧠 *Memory*",
+    "label_dev": "👑 *Developer*",
+    "label_version": "🤖 *Version*",
+    "menu_info": "*Use {prefixe}menu <number>*",
+    "allmenu_info": "*Use {prefixe}allmenu*"
+  },
+  "alive": {
+    "name": "alive",
+    "desc": "Check if the bot is alive",
+    "salut": "👋 *Hello*: {pseudo}",
+    "status": "🚀 *Status*: Operational",
+    "uptime": "⏱️ *Uptime*: {uptime}",
+    "dev": "👑 *Dev*: {dev}"
+  },
+  "session": {
+    "qr_name": "qr",
+    "qr_desc": "Generates a QR code for Session ID.",
+    "pair_name": "pair",
+    "pair_desc": "Generates a pairing code for Session ID.",
+    "wait": "⏳ *Generating...*",
+    "qr_title": "QR-CONNECT",
+    "qr_step1": "1. Open WhatsApp ➜ Linked Devices",
+    "qr_step2": "2. Tap 'Link a device'",
+    "qr_step3": "3. Scan this code",
+    "pair_title": "PAIRING-CODE",
+    "pair_step1": "1. Linked Devices ➜ Link with phone number",
+    "pair_step2": "2. Enter the code below:",
+    "pair_usage": "❌ *Specify your number with country code (e.g. .pair 224...)*",
+    "success_title": "MENMA-MD SESSION",
+    "success_msg": "✅ *Connection Successful*",
+    "label_dev": "👤 *Dev*",
+    "label_session": "🔑 *Session ID*",
+    "security_warning": "⚠️ *SECURITY*: NEVER share this key! It gives full access.",
+    "community_title": "COMMUNITY",
+    "expired": "❌ Session expired or generation error.",
+    "qr_error": "❌ QR Code generation error.",
+    "server_error": "❌ Server error during generation.",
+    "conn_error": "❌ Unable to reach session server.",
+    "success_notice": "✅ *Connection Successful!*\n\nThe Session ID and usage instructions have been sent directly via private message (DM) to the phone number that was connected/paired.\n\n🔒 *Security*: For privacy reasons, the session key is not displayed here to prevent any usurpation if you generated this code for someone else."
+  },
+  "song": {
+    "name": "song",
+    "desc": "Download YouTube music (by name or link).",
+    "usage": "❌ Please provide a song name or YouTube link.",
+    "not_found": "❌ No results found.",
+    "title": "MENMA-MD PLAY",
+    "label_title": "📝 *Title:*",
+    "label_duration": "🕒 *Duration:*",
+    "label_posted": "📅 *Posted:*",
+    "label_views": "👁️ *Views:*",
+    "label_link": "🔗 *Link:*",
+    "error_dl": "❌ Unable to download this audio. Try another link."
+  },
+  "video": {
+    "name": "video",
+    "desc": "Download YouTube video (by name or link).",
+    "usage": "❌ Please provide a video name or YouTube link.",
+    "not_found": "❌ No results found.",
+    "title": "MENMA-MD VIDEO",
+    "error_dl": "❌ Unable to download this video. Try another link."
+  },
+  "tiktok": {
+    "name": "tiktok",
+    "desc": "Download a TikTok video.",
+    "usage": "Please provide a TikTok link.",
+    "error": "❌ Unable to download this TikTok content.",
+    "audio_error": "❌ Unable to download this audio.",
+    "image_found": "📸 *{count} images found.* Downloading...",
+    "image_not_found": "❌ No images found."
+  },
+  "tiktokaudio": {
+    "name": "ttmp3",
+    "desc": "Download audio from a TikTok video."
+  },
+  "tiktokimage": {
+    "name": "ttimage",
+    "desc": "Download images from a TikTok (Slideshow)."
+  },
+  "facebook": {
+    "name": "facebook",
+    "desc": "Download a Facebook video.",
+    "usage": "Please provide a Facebook link.",
+    "error": "❌ Unable to download this Facebook video."
+  },
+  "instagram": {
+    "name": "instagram",
+    "desc": "Download an Instagram video or photo.",
+    "usage": "Please provide an Instagram link.",
+    "error": "❌ Unable to download this Instagram content."
+  },
+  "twitter": {
+    "name": "twitter",
+    "desc": "Download a Twitter/X video.",
+    "usage": "Please provide a Twitter/X link.",
+    "error": "❌ Unable to download this Twitter video."
+  },
+  "threads": {
+    "name": "threads",
+    "desc": "Download Threads content.",
+    "usage": "Please provide a Threads link.",
+    "error": "❌ Unable to download this Threads content."
+  },
+  "spotify": {
+    "name": "spotify",
+    "desc": "Download a Spotify song.",
+    "usage": "Please provide a Spotify link.",
+    "title": "MENMA-MD SPOTIFY",
+    "label_title": "📝 *Title :*",
+    "label_artist": "👤 *Artist :*",
+    "error": "❌ Unable to download this Spotify music."
+  },
+  "setsudo": {
+    "name": "setsudo",
+    "desc": "Add a number as sudo",
+    "usage": "*Usage*: Mention or reply\nto the future sudo.",
+    "success": "⭐ *{number}* added successfully.\nThey now have access to admin commands."
+  },
+  "delsudo": {
+    "name": "delsudo",
+    "desc": "Remove a number from sudos",
+    "usage": "❌ Specify a number.",
+    "success": "🗑️ *{number}* removed from sudos."
+  },
+  "listsudo": {
+    "name": "listsudo",
+    "desc": "List all sudos",
+    "empty": "📋 No sudos registered."
+  },
+  "presence": {
+    "name": "presence",
+    "desc": "Change bot presence (online | typing | recording | nothing)",
+    "usage": "❌ Usage: presence <online | typing | recording | nothing>",
+    "success": "📶 Status: *{choice}*"
+  },
+  "broadcast": {
+    "name": "broadcast",
+    "desc": "Broadcast a message or media to all groups.",
+    "usage": "❌ Please provide text or media to broadcast.",
+    "prefix": "📢 *MENMA-MD: BROADCAST* 📢\n\n",
+    "status": "🚀 *Broadcast in progress...*\n👥 Target groups: {count}\n⏳ Anti-ban delay: 2s",
+    "success": "✅ Success: *{sent}*\n📉 Failures: *{fail}*"
+  },
+  "bot_setname": {
+    "name": "setname",
+    "desc": "Change bot's WhatsApp name",
+    "usage": "❌ Specify the new name.",
+    "success": "✅ Bot name updated: *{name}*"
+  },
+  "bot_bio": {
+    "name": "bio",
+    "desc": "Change bot's bio",
+    "usage": "❌ Specify the new bio.",
+    "success": "✅ Bot bio updated."
+  },
+  "bot_pdp": {
+    "name": "setpdp",
+    "desc": "Change bot's profile picture",
+    "usage": "❌ Reply to an image to change my PP.",
+    "success": "✅ Profile picture updated successfully!"
+  },
+  "join": {
+    "name": "join",
+    "desc": "Make bot join a group via link",
+    "usage": "❌ Invalid invitation link.",
+    "success": "✅ Group joined successfully!",
+    "error": "❌ Join failed: {error}"
+  },
+  "block": {
+    "name": "block",
+    "desc": "Block a user",
+    "usage": "❌ Mention someone to block or use command in DM.",
+    "self": "❌ *Error*: You cannot block me while chatting with me (auto-block).",
+    "success": "✅ User blocked."
+  },
+  "unblock": {
+    "name": "unblock",
+    "desc": "Unblock a user",
+    "usage": "❌ Mention someone to unblock or use command in DM.",
+    "success": "✅ User unblocked."
+  },
+  "setmode": {
+    "name": "setmode",
+    "desc": "Change bot mode (public / private)",
+    "usage": "*Usage*: {prefixe}setmode <public | private>",
+    "success": "⚙️ Status: *{choice}*\nPermanent change applied."
+  },
+  "restart": {
+    "name": "restart",
+    "desc": "Restart the bot",
+    "msg": "🔄 Restarting...\nPlease wait 10-20s."
+  },
+  "autoreact": {
+    "name": "autoreact",
+    "desc": "Configure auto-reactions (on, pm, gc, off)",
+    "status": "*Current status*: {status}",
+    "usage": "🔹 *{prefixe}autoreact on*: Everywhere\n🔹 *{prefixe}autoreact pm*: Private\n🔹 *{prefixe}autoreact gc*: Groups\n🔹 *{prefixe}autoreact off*: Disable",
+    "success": "🎭 Configured to: *{choice}*"
+  },
+  "checkupdate": {
+    "name": "checkupdate",
+    "desc": "Check for updates on GitHub",
+    "msg": "🔍 *Analyzing GitHub servers...*",
+    "uptodate": "✅ *𝙼𝙴𝙽𝙼𝙰-𝙼𝙳 is already at the latest version (v{version}).*",
+    "available": "🆕 *[ Update ]* 🆕\n\n📦 *State*: Update available!\n📊 *Commit count*: {count}\n🔗 *Source*: {url}\n\n💡 Type *{prefixe}update* to install.\n⚙️ Use *{prefixe}update auto/alert* to configure."
+  },
+  "update": {
+    "name": "update",
+    "desc": "Update the bot or configure (auto | alert)",
+    "auto": "🔄 *Auto update*: {status}",
+    "alert": "🔔 *Update alerts*: {status}",
+    "msg": "Updating...",
+    "success": "Update completed successfully!"
+  },
+  "writemode": {
+    "name": "writemode",
+    "desc": "Enable/Configure stylised auto-writing mode.",
+    "status": "*Current status:* {status}\n*Active style:* {style}\n*Active suffix:* {suffix}\n━━━━━━━━━━━━━━━━━━━━\nUsage: .writemode <num> <suffix>\nExample: .writemode 9 | 𝙼𝙴𝙽𝙼𝙰\nDisable: .writemode off",
+    "off": "✅ *Write Mode disabled.*",
+    "invalid": "❌ Invalid style number (choose between 1 and 60).",
+    "success": "✅ *Enabled!*\n🎨 Style: *{style}*\n🏷️ Suffix: *{suffix}*"
+  },
+  "lang": {
+    "name": "lang",
+    "desc": "Change bot language ",
+    "usage": "*Usage*: {prefixe}lang fr | en \n| pt | es | de | ht",
+    "success": "🌐 Language: *{choice}*"
+  },
+  "sticker": {
+    "name": "sticker",
+    "desc": "Creates a sticker from image or video.",
+    "usage": "Please mention an image or video.",
+    "invalid_doc": "Document must be an image or video.",
+    "download_fail": "Media could not be downloaded.",
+    "too_heavy": "Video is too heavy for sticker (max 7MB).",
+    "error": "Sticker creation failed."
+  },
+  "toimg": {
+    "name": "toimg",
+    "desc": "Converts a sticker to image.",
+    "usage": "❌ Please reply to a sticker.",
+    "error": "❌ FFMPEG Error: {error}"
+  },
+  "tovideo": {
+    "name": "tovideo",
+    "desc": "Converts animated sticker to video.",
+    "usage": "❌ Please reply to an animated sticker.",
+    "error": "❌ Conversion error."
+  },
+  "togif": {
+    "name": "togif",
+    "desc": "Converts video/sticker to GIF.",
+    "usage": "❌ Please reply to a video or sticker.",
+    "error": "❌ GIF conversion error."
+  },
+  "toaudio": {
+    "name": "toaudio",
+    "desc": "Converts video to audio (mp3).",
+    "usage": "❌ Please reply to a video.",
+    "error": "❌ Conversion error."
+  },
+  "attp": {
+    "name": "attp",
+    "desc": "Generates an animated sticker with text.",
+    "usage": "❌ Usage: .attp <text>",
+    "error": "❌ Error during attp generation: {error}"
+  },
+  "ttp": {
+    "name": "ttp",
+    "desc": "Generates a sticker from text.",
+    "usage": "❌ Usage: .ttp <text>",
+    "error": "❌ Error: {error}"
+  },
+  "crop": {
+    "name": "crop",
+    "desc": "Creates a circular sticker (Etcrop).",
+    "error": "Circular sticker failed."
+  },
+  "round": {
+    "name": "round",
+    "desc": "Creates a square sticker with rounded corners.",
+    "too_heavy": "Video is too heavy for sticker (max 5MB).",
+    "error": "Rounded sticker failed."
+  },
+  "take": {
+    "name": "take",
+    "desc": "Rename a sticker (Change pack and author)."
+  },
+  "quotely": {
+    "name": "quotely",
+    "desc": "Creates a sticker from a message.",
+    "usage": "Please provide text or reply to a message.",
+    "error": "Quotely error: {error}"
+  },
+  "wiki": {
+    "name": "wiki",
+    "desc": "Search information on Wikipedia.",
+    "title": "WIKIPEDIA",
+    "usage": "Please provide a search topic.",
+    "not_found": "Sorry, I couldn't find anything on this topic."
+  },
+  "github_cmd": {
+    "name": "github",
+    "desc": "Display GitHub user information.",
+    "title": "GITHUB INFO",
+    "usage": "Please provide a GitHub username.",
+    "not_found": "User not found.",
+    "bio": "📝 *Bio:* {bio}",
+    "location": "📍 *Location:* {location}",
+    "no_bio": "No bio",
+    "no_loc": "Not specified"
+  },
+  "imdb": {
+    "name": "imdb",
+    "desc": "Search movie or series information.",
+    "title": "IMDB INFO",
+    "usage": "Please provide the movie or series title.",
+    "error": "An error occurred during search."
+  },
+  "pinterest": {
+    "name": "pinterest",
+    "desc": "Search images on Pinterest.",
+    "title": "PINTEREST",
+    "usage": "Please provide a search topic.",
+    "not_found": "No results found.",
+    "error": "Pinterest search error.",
+    "caption": "*Result for:* {query}"
+  },
+  "google": {
+    "name": "google",
+    "desc": "Perform a web search.",
+    "title": "SEARCH RESULTS",
+    "usage": "Please provide a search topic.",
+    "not_found": "No results found.",
+    "error": "❌ Error during search."
+  },
+  "img": {
+    "name": "img",
+    "desc": "Search for images on Google.",
+    "usage": "Please provide an image query.",
+    "not_found": "No images found.",
+    "error": "❌ Error during image search."
+  },
+  "anime": {
+    "name": "anime",
+    "desc": "Search for info on an anime.",
+    "title": "ANIME INFO",
+    "usage": "Please provide an anime name.",
+    "not_found": "Anime not found.",
+    "error": "❌ Error during Anime search."
+  },
+  "manga": {
+    "name": "manga",
+    "desc": "Search for info on a manga.",
+    "title": "MANGA INFO",
+    "usage": "Please provide a manga name.",
+    "not_found": "Manga not found.",
+    "error": "❌ Error during Manga search."
+  },
+  "yts": {
+    "name": "yts",
+    "desc": "Search for videos on YouTube.",
+    "title": "YOUTUBE SEARCH",
+    "usage": "Please provide a search topic.",
+    "not_found": "No videos found.",
+    "error": "❌ Error during YouTube search."
+  },
+  "infos": {
+    "name": "infos",
+    "desc": "Display latest news.",
+    "error": "Unable to retrieve news.",
+    "title": "📰 *LATEST NEWS (EN):*\n\n"
+  },
+  "chatbot": {
+    "name": "chatbot",
+    "desc": "Enable or configure the chatbot",
+    "on": "✅ Enabled locally here.",
+    "all": "🚀 Enabled everywhere (Private + Groups).",
+    "gc": "✅ Enabled for all groups.",
+    "pm": "✅ Enabled for all privates.",
+    "off": "❌ Disabled completely.",
+    "status_title": "CHATBOT STATUS",
+    "status_gc": "• Global Groups: {status}",
+    "status_pm": "• Global Private: {status}",
+    "status_local": "• Local here: {status}",
+    "config_title": "CHATBOT CONFIGURATION",
+    "help_on": "➜ *{prefixe}chatbot on*: Enable here",
+    "help_all": "➜ *{prefixe}chatbot all*: Enable everywhere",
+    "help_gc": "➜ *{prefixe}chatbot gc*: Enable all groups",
+    "help_pm": "➜ *{prefixe}chatbot pm*: Enable all privates",
+    "help_off": "➜ *{prefixe}chatbot off*: Disable everything",
+    "help_status": "➜ *{prefixe}chatbot status*: See status"
+  },
+  "sendstatus": {
+    "name": "sendstatus",
+    "desc": "Repost image or video to your own status.",
+    "usage": "Please reply to an image or\nvideo to post it.\nUsage: {prefixe}sendstatus [caption]",
+    "preparing": "Preparing status...",
+    "success": "Posted to your status!\nVisibility: {count} contacts."
+  },
+  "save_cmd": {
+    "name": "save",
+    "desc": "Save a status or message by sending it to yourself privately.",
+    "usage": "❌ Please reply to the status or message you want to save.",
+    "not_found": "❌ Unable to locate original content. Make sure to reply correctly.",
+    "error": "❌ Error during sending: {error}"
+  },
+  "fancy": {
+    "name": "fancy",
+    "desc": "Apply a 'fancy' style to your text.",
+    "usage": "Usage: {prefixe}fancy <number> <your text>\nExample: {prefixe}fancy 12 hello\n\n_Type {prefixe}fancylist to see all styles._",
+    "invalid": "❌ Invalid style. Choose between 1 and {max}.",
+    "no_text": "❌ Please enter text to transform."
+  },
+  "fancylist": {
+    "name": "fancylist",
+    "desc": "Display list of all available 'fancy' styles.",
+    "title": "AVAILABLE STYLES",
+    "usage": "Usage: {prefixe}fancy <num> <text>"
+  },
+  "translate": {
+    "name": "translate",
+    "desc": "Translate text (e.g. .trl fr hello | .trl list)",
+    "title": "AVAILABLE LANGUAGES",
+    "usage": "Usage: {prefixe}trl <code> <text>\nEx: {prefixe}trl en Hello",
+    "unknown": "❌ Unknown code: *{lang}*\nDo *{prefixe}trl list* to see languages.",
+    "error_usage": "╭───〔 ❌ ERROR 〕───⬣\n│ *Usage*: {prefixe}trl <lang> <text>\n│ *Ex*: {prefixe}trl en bonjour\n│ *Languages*: {prefixe}trl list\n╰──────────────────────────────⬣",
+    "result": "🌍 *Translation ({lang}):*\n\n{text}",
+    "error": "❌ Translation error: {error}"
+  },
+  "google_link": {
+    "name": "google",
+    "desc": "Search on Google",
+    "usage": "╭───〔 ❌ ERROR 〕───⬣\n│ *Usage*: {prefixe}google <query>\n╰──────────────────────────────⬣",
+    "result": "🔍 *Search result for {query}:*\n\nhttps://www.google.com/search?q={query}"
+  },
+  "weather": {
+    "name": "weather",
+    "desc": "Displays weather for a city.",
+    "title": "WEATHER",
+    "usage": "Usage: {prefixe}weather <city>",
+    "not_found": "City not found.",
+    "result": "📍 *Location:* {city}\n🌡️ *Temperature:* {temp}°C\n☁️ *Sky:* {sky}\n💧 *Humidity:* {humidity}\n💨 *Wind:* {wind}",
+    "error": "❌ Unable to retrieve weather."
+  },
+  "repo": {
+    "name": "repo",
+    "desc": "Display the bot's GitHub repo",
+    "title": "🧬 *𝙼𝙴𝙽𝙼𝙰-𝙼𝙳*",
+    "stars": "◈ *Stars* ➜ {count}",
+    "forks": "◈ *Forks* ➜ {count}",
+    "url": "◈ *Repo* ➜ {url}",
+    "fallback": "🧬 *Repo:* https://github.com/Dr-Djibi/Menma-MD\n\n👨‍💻"
+  },
+  "tempmail": {
+    "name": "tempmail",
+    "desc": "Generate a temporary email address",
+    "error": "❌ Unable to generate email.",
+    "result": "📧 *YOUR TEMPORARY EMAIL ADDRESS:*\n\n📬 *Email:* {email}\n\n💡 Use *.checkmail {email}* to read received messages."
+  },
+  "checkmail": {
+    "name": "checkmail",
+    "desc": "Read messages from a temporary email.",
+    "title": "INBOX",
+    "usage": "Usage: {prefixe}readmail <email>",
+    "empty": "📭 No messages found.",
+    "error": "❌ Error reading emails."
+  },
+  "qmed": {
+    "name": "qmed",
+    "desc": "Multiplayer Medicine Quiz Game (Dev only)",
+    "restricted": "❌ Command strictly reserved for the bot owner (dev).",
+    "error_db": "❌ Error reading Database/medecine.json file",
+    "list_title": "📚 SUBJECTS",
+    "list_desc": "*List of subjects:*\n",
+    "usage": "Type *{prefixe}qmed <subject>* to play.\n",
+    "not_found": "❌ Subject not found. Type *{prefixe}qmed* to see the list.",
+    "already_active": "⚠️ A Medicine Quiz is already in progress in this group/chat.",
+    "recruitment": "Type *\"me\"* to participate.\n*\"start\"* to launch now.\n*\"stop\"* to stop.\n\n",
+    "timer_title": "⏳ RECRUITMENT: 60S",
+    "canceled": "🏁 Game canceled.",
+    "start": "🚀 *THE QUIZ ({matiere}) BEGINS!*\n\n👥 *Players*: {participants}",
+    "timeout": "⌛ *Time up!*\nAnswer: *{letter}* ({value})",
+    "results_title": "🏆 RESULTS - {matiere}"
+  },
+  "meme": {
+    "name": "meme",
+    "desc": "Send a random meme (English)",
+    "error": "❌ Unable to load meme: {error}",
+    "gif": "🌀 *Animated Meme*\n",
+    "video": "🎥 *Video Meme*\n",
+    "image": "🖼️ *{title}*\n\n🌐 r/{subreddit}"
+  },
+  "memefr": {
+    "name": "memefr",
+    "desc": "Random French memes (images, GIFs, videos)",
+    "caption": "💬 *{title}*\n\n🌐 r/{subreddit}"
+  },
+  "lyric": {
+    "name": "lyric",
+    "desc": "Search for song lyrics.",
+    "usage": "Please provide a song title.",
+    "not_found": "Lyrics not found.",
+    "error": "❌ Lyrics Error."
+  },
+  "ss": {
+    "name": "ss",
+    "desc": "Take a screenshot of a website.",
+    "usage": "Please provide the website URL.",
+    "error": "Unable to capture the site."
+  },
+  "short": {
+    "name": "short",
+    "desc": "Shorten a long URL.",
+    "usage": "Please provide the URL to shorten.",
+    "error": "❌ Shortening Error."
+  },
+  "calculate": {
+    "name": "calculate",
+    "desc": "Perform a mathematical calculation (Tool).",
+    "usage": "💡 *Usage*: {prefixe}calc 5+5*2",
+    "invalid": "❌ Invalid expression: Unauthorized characters.",
+    "error": "❌ Calculation error: Incorrect expression."
+  },
+  "devise": {
+    "name": "devise",
+    "desc": "Convert one currency to another.",
+    "usage": "💡 *Usage*: {prefixe}devise [amount] [from] [to]\n*(Ex: {prefixe}devise 100 USD EUR)*",
+    "not_found": "Currency not found.",
+    "error": "❌ Conversion error."
+  },
+  "logo": {
+    "name": "logo",
+    "desc_list": "Displays list of all available logo effects.",
+    "list_title": "MENMA LOGOS",
+    "textpro": "✨ *TEXTPRO.ME* ({count})",
+    "ephoto": "🎨 *EPHOTO360* ({count})",
+    "usage_title": "💡 *USAGE:*",
+    "usage_msg": "> {prefixe}effect_name text\n> Ex: {prefixe}pencil Menma",
+    "error_text": "❌ ERROR\nMissing text for: {name}",
+    "generating": "🕒 GENERATING\nEffect: {effect}\nText: {text}",
+    "caption": "🎨 LOGO\nType: {effect}\nText: {text}",
+    "fail": "⚠️ FAIL\nUnable to generate: {name}",
+    "error": "❌ ERROR\nError during creation."
+  },
+  "fx_audio": {
+    "list_title": "🎛️ *MENMA FX AUDIO*",
+    "usage_msg": "💡 Reply to an audio/video with `{prefixe}effectname`\n_Example:_ `{prefixe}bassboost`",
+    "no_media": "❌ Please reply to an *audio* or *video* to apply the *{name}* effect.",
+    "applying": "{react} *Applying {name} effect*...",
+    "error": "❌ Error applying *{name}* effect."
+  },
+  "dm": {
+    "name": "dm",
+    "desc_jid": "Shows your JID or the group JID",
+    "desc_botjid": "Shows the bot JID",
+    "desc_owner": "Shows the owner's contact card",
+    "desc_dev": "Shows the developer's contact card",
+    "desc_ping": "Check bot latency",
+    "desc_uptime": "Show bot uptime",
+    "jid_group": "🆔 *Group JID:* {groupJid}\n👤 *Your JID:* {userJid}",
+    "jid_user": "👤 *Your JID:* {userJid}",
+    "botjid": "🤖 *Bot JID:* {botJid}",
+    "ping": "🏓 *Pong!* — Latency: `{latence}ms`",
+    "uptime": "⏳ *Uptime:* `{hours}h {minutes}m {seconds}s`"
+  },
+  "dmots": {
+    "name": "dmots",
+    "desc": "Survival elimination game: Guess the scrambled word!",
+    "already_active": "⚠️ A game is already in progress in this chat. Finish it first.",
+    "title": "🎮 DMOTS - SURVIVAL",
+    "inscription": "Type *'me'* or *'yes'* to participate!\nInitiator: *{pseudo}*\nType *'start'* or *'go'* to launch.",
+    "timer": "⏳ *Registration: 60s*",
+    "canceled": "❌ *GAME CANCELED*: No participants!",
+    "start": "🚀 *GAME BEGINS!*\n\n👥 *Participants*: {participants}\n\n⚠️ Each player has *20 seconds* to answer.\nAn error or timeout = *ELIMINATION*!",
+    "question_title": "🧩 DMOTS",
+    "player": "Player: *{name}*",
+    "rank": "Rank: *{rank}*",
+    "word": "Word: *{word}*",
+    "time": "⏳ 20 seconds!",
+    "rank_up": "🏆 *WELL DONE {name}!* You advanced to rank *{rank}*!",
+    "correct": "✅ Correct! ({count}/3 to rank up)",
+    "eliminated": "💀 *ELIMINATED!* *{name}* failed.\nThe word was: *{word}*",
+    "tour_end": "📣 *ROUND OVER!* {count} survivors left.\nPreparing next round...",
+    "winner": "👑 *VICTORY!* *{name}* is the last survivor!",
+    "end": "🏁 *GAME OVER*! Thanks for playing."
+  },
+  "tictactoe": {
+    "name": "tictactoe",
+    "desc": "Play Tic-Tac-Toe against a friend or the bot.",
+    "usage": "⚠️ Please mention a player (e.g. *.ttt @someone*), reply to their message, or type *.ttt bot* to play against me!",
+    "self": "You cannot play against yourself!",
+    "invitation": "🎮 *{player}*, you've been challenged by *{initiator}* to Tic-Tac-Toe!\nReply *\"yes\"* or *\"oui\"* within 60 seconds to accept.",
+    "rejected": "❌ *{player}* did not accept the challenge.",
+    "timeout": "⏳ Time up! *{player}* didn't respond in time.",
+    "accepted": "⚔️ *CHALLENGE ACCEPTED!* Get ready...",
+    "title": "TIC-TAC-TOE",
+    "turn": "It's {emoji} *{player}*'s turn! (type 1-9)",
+    "invalid": "⚠️ Invalid cell or already taken, *{player}*. Type an empty number (1-9)!",
+    "abandon": "🏳️ *{player}* abandoned... Match canceled!",
+    "tie": "🤝 *DRAW!*",
+    "win": "🏆 *CONGRATULATIONS!*\n\n{board}\n{emoji} *{player}* won!"
+  },
+  "aouv": {
+    "name": "aouv",
+    "desc": "Start an interactive Truth or Dare game with gender choice.",
+    "error": "❌ Error loading game."
+  },
+  "verite": {
+    "name": "verite",
+    "desc": "Get a 'Truth' question for Truth or Dare.",
+    "title": "🧐 *TRUTH:*",
+    "error": "❌ Error loading game."
+  },
+  "action": {
+    "name": "action",
+    "desc": "Get an 'Action' dare for Truth or Dare.",
+    "title": "🔥 *DARE:*",
+    "error": "❌ Error loading game."
+  },
+  "vof": {
+    "name": "vof",
+    "desc": "True or False Quiz.",
+    "title": "❓ *TRUE OR FALSE?*",
+    "question": "*Question:* {question}",
+    "instruction": "💡 Answer with \"true\" or \"false\"!",
+    "correct": "✅ *WELL DONE!* Correct answer! 🎉",
+    "wrong": "❌ *TOO BAD!* The answer was: *{answer}*.",
+    "timeout": "⌛ *Time up!* The answer was *{answer}*."
+  },
+  "pendu": {
+    "name": "pendu",
+    "desc": "Play Hangman.",
+    "title": "🪢 *HANGMAN BEGINS!*",
+    "level": "*Level:* {level}",
+    "word": "*Word:* {word}",
+    "attempts": "*Attempts:* {count}",
+    "instruction": "💡 Type a letter to guess!",
+    "invalid": "⚠️ Please send only one letter! (or type 'ABANDON')",
+    "already": "🤨 You already tried that letter!",
+    "correct": "✅ Good guess!\n\n*Word:* {word}\n*Attempts left:* {count}\n*Letters tried:* {letters}",
+    "wrong": "❌ Missed!\n\n*Word:* {word}\n*Attempts left:* {count}\n*Letters tried:* {letters}",
+    "win": "🏆 *WELL DONE!* You found the word: *{word}*! 🎉",
+    "loss": "💀 *HANGED!* You lost. The word was: *{word}*."
+  },
+  "justeprix": {
+    "name": "justeprix",
+    "desc": "Guess a number between 1 and 100.",
+    "title": "💰 *THE RIGHT PRICE!*",
+    "instruction": "I chose a number between *1 and 100*.\nGuess it by sending a number!",
+    "invalid": "⚠️ Please send a valid number!",
+    "win": "🏆 *YOU WIN!* The number was indeed *{target}*.\nFound in *{attempts}* attempts! 🎉",
+    "plus": "📈 *It's MORE!* (Attempt {count}/10)",
+    "moins": "📉 *It's LESS!* (Attempt {count}/10)",
+    "loss": "💀 *LOST!* You reached 10 attempts. The number was: *{target}*."
+  },
+  "pileouface": {
+    "name": "pileouface",
+    "desc": "Flip a coin (Heads or Tails).",
+    "title": "🪙 HEADS OR TAILS",
+    "spinning": "The coin is spinning... 🕒",
+    "result": "🪙 RESULT",
+    "outcome": "It landed on: *{result}*!",
+    "win": "✨ *You won!* You chose {choice}.",
+    "loss": "💀 *You lost!* You chose {choice}."
+  },
+  "casino": {
+    "name": "casino",
+    "desc": "Play the slot machine.",
+    "title": "🎰 CASINO",
+    "jackpot": "🎉 *JACKPOT!!!* You won! 💰",
+    "almost": "✨ *Almost!* Two identical symbols. 🥈",
+    "loss": "❌ *Lost!* Try again. 💸"
+  },
+  "math": {
+    "name": "math",
+    "desc": "Quick math challenge: solve the operation!",
+    "title": "🧮 *MATH CHALLENGE!*",
+    "question": "How much is: *{n1} {op} {n2}* ?",
+    "time": "⏳ You have 15 seconds!",
+    "correct": "✅ *Well done!* Correct answer! 🎉",
+    "wrong": "❌ *Wrong!* The answer was *{answer}*.",
+    "timeout": "⌛ *Time up!* The answer was *{answer}*."
+  },
+  "deduo": {
+    "name": "de-duo",
+    "desc": "Dice duel against a friend or the bot.",
+    "title": "🎲 DICE DUEL",
+    "me": "👤 *You*: {val}",
+    "opponent": "{emoji} *{name}*: {val}",
+    "win": "🏆 *You won!*",
+    "loss": "💀 *{name}* won!",
+    "tie": "🤝 *Draw!*"
+  },
+  "bombe": {
+    "name": "bombe",
+    "desc": "Defuse a bomb by choosing the right wire.",
+    "title": "💣 THE BOMB",
+    "msg": "The bomb is about to explode! 😱\nChoose a wire to defuse it:",
+    "instruction": "⏳ Reply with the wire number!",
+    "boom": "💥 *BOOM!* Wrong move, the bomb exploded!",
+    "success": "✅ *Phew!* You cut the {color} wire and saved everyone! 🥳",
+    "wrong": "💥 *BOOM!* The {color} wire triggered the explosion! The bomb was on the {bomb} wire.",
+    "timeout": "💥 *BOOM!* Too late, the bomb exploded!"
+  },
+  "ship": {
+    "name": "ship",
+    "desc": "Calculate love compatibility between two people.",
+    "usage": "⚠️ Reply to a message or mention someone to see your compatibility! 🌹",
+    "self": "❤️ Self-love is important, but try with someone else!",
+    "title": "💘 SHIP",
+    "compatibility": "💖 Compatibility: *{percentage}%*",
+    "comment1": "💔 A bit difficult, but who knows?",
+    "comment2": "🧡 There's a beginning of something...",
+    "comment3": "💖 You're made for each other! 🌹",
+    "comment4": "❤️🔥 It's true love! 😍",
+    "comment5": "💍 Wedding bells, you're soulmates! ✨"
+  },
+  "p4": {
+    "name": "p4",
+    "desc": "Play Connect 4 against a friend or the bot.",
+    "already_active": "⚠️ A game is already in progress in this chat.",
+    "usage": "⚠️ Mention a player, reply to their message, or type *.p4 bot*!",
+    "self": "You cannot play against yourself!",
+    "invitation": "🎮 *{player}*, challenged by *{initiator}* to Connect 4!\nReply *\"yes\"* within 60s to accept.",
+    "timeout": "⌛ Time up!",
+    "accepted": "⚔️ *MAY THE BEST PLAYER WIN!*",
+    "title": "CONNECT 4",
+    "turn": "\nIt's {chip} *{name}*'s turn (1-7)",
+    "abandon": "🏳️ *{name}* abandoned the game.",
+    "invalid": "⚠️ Invalid or full column!",
+    "win": "🏆 *CONGRATULATIONS!* {chip} *{name}* won!",
+    "tie": "🤝 *DRAW!*"
+  },
+  "rps": {
+    "name": "rps",
+    "desc": "Play Rock Paper Scissors against a friend or the bot.",
+    "moves": "✊ Rock...\n✋ Paper...\n✌️ Scissors!",
+    "usage": "⚠️ Choose: rock, paper, or scissors!",
+    "win": "🏆 You won!",
+    "loss_bot": "💀 The bot won!",
+    "tie": "🤝 Draw!",
+    "timeout": "⌛ Too slow!",
+    "duel": "⚔️ *DUEL!* {p1} vs {p2}\nSend your choice (*rock*, *paper*, or *scissors*) PRIVATELY to the bot within 30s!",
+    "cancel": "❌ Duel canceled: A player didn't give their choice or invalid choice.",
+    "win_duel": "🏆 *{name}* wins!",
+    "tie_duel": "🤝 Draw!",
+    "result_title": "DUEL RESULT"
+  },
+  "wordle": {
+    "name": "wordle",
+    "desc": "Guess a 5-letter word in 6 attempts.",
+    "title": "WORDLE-MENMA",
+    "instruction": "Guess the *5-letter* word!\nYou have 6 attempts. Good luck. 🍀",
+    "usage": "⚠️ Send only a *5-letter* word!",
+    "win": "🏆 *WELL DONE!* You found the word *{target}* in {count} tries! 🎉",
+    "loss": "💀 *LOST!* The word was: *{target}*."
+  },
+  "quiz_cmd": {
+    "name": "quiz",
+    "desc": "Answer a general knowledge quiz.",
+    "title": "MENMA-MD QUIZ",
+    "instruction": "⏳ 20s | Answer with the letter (A, B, C, or D)",
+    "correct": "✅ *CORRECT ANSWER!* 🎉\nIt was indeed *{answer}*.",
+    "wrong": "❌ *WRONG ANSWER!*\nThe correct answer was *{letter}) {answer}*.",
+    "timeout": "⌛ *Time up!* The answer was *{letter}) {answer}*."
+  },
+  "nsfw": {
+    "name": "nsfw",
+    "desc": "Shows NSFW menu or sends random image.",
+    "title": "NSFW MENU",
+    "warning": "🔞 *Adult content*",
+    "usage": "*Use {prefixe}nsfw <name>*\n*Example: {prefixe}hentai*",
+    "unknown": "❌ Category `{choice}` unknown. Use `{prefixe}nsfw` to see the list.",
+    "no_media": "No image found.",
+    "error": "❌ Unable to load content: {error}",
+    "caption": "🔞 *{category} CONTENT*",
+    "hentai_desc": "Sends random hentai image",
+    "neko_desc": "Sends random NSFW neko image",
+    "trap_desc": "Sends random NSFW trap image",
+    "blowjob_desc": "Sends random NSFW blowjob image"
+  },
+  "antidelete": {
+    "name": "antidelete",
+    "desc": "Configure or disable Antidelete",
+    "title": "ANTIDELETE",
+    "status": "⚙️ *Status:* {current}",
+    "options": "*Options:*\n◽ `pm`: Private only\n◽ `gc`: Groups only (DM)\n◽ `gc-org`: Group (same group)\n◽ `gc-pm`: Group (to your DMs)\n◽ `status`: Status only\n◽ `all`: Everywhere\n◽ `no`: Disable",
+    "tip": "💡 *Tip:* You can combine options (e.g. `pm,status`)",
+    "success": "SUCCESS\n✅ Configured to: *{status}*"
+  },
+  "ascii": {
+    "name": "ascii",
+    "desc": "Transform text into ASCII art (basic)",
+    "usage": "Usage: `{prefixe}ascii [text]`\nEx: `{prefixe}ascii MENMA`",
+    "too_long": "❌ Text too long (max 10 characters)."
+  },
+  "autolike": {
+    "name": "autolike",
+    "desc": "Enable/Disable status auto-like and choose emojis (sets or list).",
+    "title": "AUTO-LIKE STATUS",
+    "status": "• *Current state*: {status}",
+    "emojis": "• *Emojis*: {emojis}",
+    "commands": "🔹 *Commands:*\n- `{prefixe}autolike on`: Enable\n- `{prefixe}autolike off`: Disable\n- `{prefixe}autolike set <list>`: Emojis\n- `{prefixe}autolike set 1-5`: Preset",
+    "on": "✅ Status auto-like *enabled*!",
+    "off": "❌ Status auto-like *disabled*!",
+    "set_success": "✅ Set #{id} loaded successfully!\nEmojis: {emojis}",
+    "usage_set": "❌ Please provide an emoji list or a set number (1-5).",
+    "no_emoji": "❌ No valid emoji detected.",
+    "list_success": "✅ Emoji list updated ({count} emojis):\n{emojis}",
+    "unknown": "❌ Unknown action. Use `{prefixe}autolike` to see help."
+  },
+  "crypter": {
+    "encrypt_name": "encrypt",
+    "encrypt_desc": "Encrypts a message with a password.",
+    "encrypt_usage": "Usage:\n`{prefixe}encrypt pass=mypass msg=My secret`\n\n💡 The recipient must use the same password to decrypt.",
+    "invalid": "❌ Invalid parameters. Use `pass=...` and `msg=...`.",
+    "caption": "🔒 *Message encrypted by {pseudo}*\n\n`{prefixe}decrypt pass={password} msg=[above]`",
+    "fail": "❌ Encryption failed.",
+    "decrypt_name": "decrypt",
+    "decrypt_desc": "Decrypts an encrypted message.",
+    "decrypt_usage": "Usage:\n`{prefixe}decrypt pass=mypass msg=U2FsdGVk...`",
+    "decrypted": "🔓 *Message decrypted:*\n\n> {text}",
+    "decrypt_fail": "❌ Unable to decrypt. Check password and message."
+  },
+  "reaction": {
+    "error_load": "❌ Unable to load Anime animation currently.",
+    "error": "❌ *ERROR:* {error}",
+    "list": {
+      "calin": {
+        "name": "hug",
+        "desc": "Give an interactive hug",
+        "phrase": "gave a hug to",
+        "solo": "needs a hug"
+      },
+      "embrasser": {
+        "name": "kiss",
+        "desc": "Kiss someone",
+        "phrase": "gave a big kiss to",
+        "solo": "wants kisses"
+      },
+      "gifle": {
+        "name": "slap",
+        "desc": "Slap someone",
+        "phrase": "gave a huge slap to",
+        "solo": "slaps themselves"
+      },
+      "caresse": {
+        "name": "pat",
+        "desc": "Pat someone's head",
+        "phrase": "patted the head of",
+        "solo": "pats their own head"
+      },
+      "pleure": {
+        "name": "cry",
+        "desc": "Cry",
+        "phrase": "is crying loudly in front of",
+        "solo": "is crying their heart out"
+      },
+      "calinou": {
+        "name": "cuddle",
+        "desc": "Give a big cuddle",
+        "phrase": "is cuddling with",
+        "solo": "badly needs affection"
+      },
+      "assommer": {
+        "name": "bonk",
+        "desc": "Bonk someone",
+        "phrase": "bonked",
+        "solo": "bonks their own head"
+      },
+      "frapper": {
+        "name": "kick",
+        "desc": "Give a kick",
+        "phrase": "kicked the butt of",
+        "solo": "is kicking the air"
+      },
+      "danse": {
+        "name": "dance",
+        "desc": "Dance",
+        "phrase": "is dancing with",
+        "solo": "is giving a magnificent dance demonstration"
+      },
+      "embeter": {
+        "name": "bully",
+        "desc": "Bully someone",
+        "phrase": "is bullying and poking",
+        "solo": "is bored and seeking attention"
+      },
+      "mordre": {
+        "name": "bite",
+        "desc": "Bite the target",
+        "phrase": "bit",
+        "solo": "is hungry and wants to bite something"
+      },
+      "tuer": {
+        "name": "kill",
+        "desc": "Destroy the target",
+        "phrase": "completely disintegrated",
+        "solo": "wants to destroy everything in their path"
+      },
+      "check": {
+        "name": "check",
+        "desc": "High Five",
+        "phrase": "gave a High Five to",
+        "solo": "is waiting for a High Five from someone..."
+      },
+      "saluer": {
+        "name": "wave",
+        "desc": "Wave hello",
+        "phrase": "is waving at",
+        "solo": "waves at everyone"
+      },
+      "fier": {
+        "name": "proud",
+        "desc": "Look proud",
+        "phrase": "looks with pride and superior spirit at",
+        "solo": "is very proud of themselves today"
+      },
+      "intimider": {
+        "name": "poke",
+        "desc": "Poke/Intimidate",
+        "phrase": "is cruelly poking and intimidating",
+        "solo": "is really looking for trouble"
+      },
+      "rougir": {
+        "name": "blush",
+        "desc": "Blush",
+        "phrase": "blushes intensely because of",
+        "solo": "is all red and embarrassed"
+      },
+      "sourire": {
+        "name": "smile",
+        "desc": "Smile",
+        "phrase": "smiles warmly seeing",
+        "solo": "is flashing a very nice smile, in a good mood"
+      }
+    }
+  },
+  "prog": {
+    "name": "prog",
+    "desc": "Manages scheduled messages with repetition (daily, monthly, etc.).",
+    "usage_title": "🕒 PROG - USAGE",
+    "usage_msg": "*Schedule message sending*\n{sep}\n1️⃣ *CREATE A TASK*\n🔹 *Private*:\n  `{prefixe}prog pm num=xxx`\n  `date=\"...\" msg=\"...\"`\n\n🔹 *Group*:\n  `{prefixe}prog gc jid=xxx`\n  `date=\"...\" msg=\"...\"`\n\n2️⃣ *MANAGEMENT*\n◽ *List*: `{prefixe}prog list`\n◽ *Delete*: `{prefixe}prog supp [ID]`\n◽ *Clear*: `{prefixe}prog clear`\n{inter}\n🔁 *REPETITION*:\nonce, daily, monthly, yearly",
+    "no_tasks": "No scheduled tasks.",
+    "list_title": "📋 SCHEDULED TASKS",
+    "type_pm": "📩 Private",
+    "type_gc": "👥 Group",
+    "once": "Once",
+    "daily": "Daily",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "clear_success": "🧹 PROG\nAll tasks have been deleted.",
+    "supp_usage": "Usage: `{prefixe}prog supp [number]`",
+    "supp_not_found": "❌ ERROR\nNo task found with ID: {id}",
+    "supp_success": "🗑️ PROG\nTask `{id}` successfully deleted.",
+    "invalid_num": "📱 Invalid number format. Ex: num=22462200000",
+    "invalid_jid": "❌ Invalid group JID (must end with @g.us)",
+    "not_in_group": "❌ I am not in this group.",
+    "invalid_month": "🔤 Invalid month.",
+    "future_date": "⏳ Date must be in the future!",
+    "task_success_title": "✅ TASK SCHEDULED"
+  },
+  "url": {
+    "name": "url",
+    "desc": "Generates a Catbox link for a replied media.",
+    "usage": "❌ Please reply to a media to generate the URL.",
+    "invalid_media": "❌ Replied message does not contain a valid media (image, video, audio, document, sticker).",
+    "success_title": "LINK GENERATED",
+    "error": "❌ An error occurred during upload: {error}"
+  },
+  "ocr": {
+    "name": "ocr",
+    "desc": "Extract text from an image (OCR).",
+    "usage": "❌ Please reply to an image to extract text.",
+    "analyzing": "🔍 *Analyzing image...*",
+    "no_result": "❌ Unable to extract text from this image (no result).",
+    "no_text": "❌ No text detected on this image.",
+    "success_title": "OCR RESULT",
+    "extracted": "📜 *Extracted text:*",
+    "error": "❌ OCR Error: {error}"
+  },
+  "misc": {
+    "wait": "Please wait...",
+    "error": "❌ An error occurred.",
+    "owner": "This command is reserved for the owner.",
+    "admin": "This command is reserved for administrators.",
+    "group": "This command can only be used in groups.",
+    "botAdmin": "I must be an administrator to perform this action."
+  },
+  "setvar": {
+    "name": "setvar",
+    "desc": "Définir ou mettre à jour une variable d'environnement (Persistant)",
+    "usage": "❌ Usage : setvar <CLE> <VALEUR>\nEx: setvar PREFIX .",
+    "success": "✅ Variable *{key}* mise à jour.\n💡 Valeur : *{value}*\n\nℹ️ Redémarrez le bot pour appliquer certains changements système."
+  },
+  "getvar": {
+    "name": "getvar",
+    "desc": "Récupérer la valeur d'une variable d'environnement",
+    "usage": "❌ Usage : getvar <CLE>",
+    "success": "🔑 Clé : *{key}*\n📄 Valeur : *{value}*",
+    "not_found": "❌ Variable *{key}* non trouvée."
+  },
+  "delvar": {
+    "name": "delvar",
+    "desc": "Supprimer une variable d'environnement personnalisée",
+    "usage": "❌ Usage : delvar <CLE>",
+    "success": "✅ Variable *{key}* supprimée avec succès.",
+    "not_found": "❌ Variable *{key}* introuvable."
+  },
+  "allvar": {
+    "name": "allvar",
+    "desc": "Lister toutes les variables d'environnement personnalisées",
+    "empty": "📭 Aucune variable personnalisée définie."
+  },
+  "setmention": {
+    "name": "setmention",
+    "desc": "Configure une réponse automatique lors d'une mention (Owner).",
+    "usage": "❌ Usage : {prefixe}setmention msg=ton_message url=lien",
+    "success": "✅ *Réponse automatique aux mentions configurée !*"
+  },
+  "getmention": {
+    "name": "getmention",
+    "desc": "Voir la réponse automatique configurée.",
+    "empty": "📭 Aucune réponse configurée.",
+    "success": "📝 *Réponse actuelle :*\n\nMsg : {msg}\nURL : {url}"
+  },
+  "delmention": {
+    "name": "delmention",
+    "desc": "Supprimer la réponse automatique aux mentions.",
+    "success": "✅ *Réponse automatique supprimée.*"
+  },
+  "autodownload": {
+    "name": "autodownload",
+    "desc": "Téléchargement automatique des médias depuis un lien"
+  },
+  "allmenu": {
+    "name": "allmenu",
+    "desc": "Affiche toutes les commandes par catégories."
+  },
+  "newsletter": {
+    "name": "newsletter",
+    "desc": "Récupère les infos et le JID d'une chaîne WhatsApp via son lien.",
+    "usage": "❌ Usage : {prefixe}newsletter <lien_de_la_chaine>",
+    "error": "❌ Impossible de récupérer les infos de cette chaîne.",
+    "title": "📡 INFOS CHAÎNE",
+    "label_name": "📛 *Nom :* {name}",
+    "label_jid": "🆔 *JID :* {jid}",
+    "label_subs": "👥 *Abonnés :* {subs}",
+    "label_desc": "📝 *Description :* {desc}",
+    "hint": "💡 *Astuce :* Pour utiliser cette chaîne sur votre bot, tapez :\n> {prefixe}setvar CHANNEL_JID {jid}"
+  },
+  "resetwarn": {
+    "name": "resetwarn",
+    "desc": "Réinitialise les avertissements d'un utilisateur"
+  },
+  "acceptall": {
+    "name": "acceptall",
+    "desc": "Accepter toutes les demandes d'adhésion"
+  },
+  "rejectall": {
+    "name": "rejectall",
+    "desc": "Rejeter toutes les demandes d'adhésion"
+  },
+  "botjid": {
+    "name": "botjid",
+    "desc": "Afficher le JID du bot"
+  },
+  "readviewonce": {
+    "name": "readviewonce",
+    "desc": "Lire un vue unique"
+  },
+  "getpp": {
+    "name": "getpp",
+    "desc": "Obtenir la photo de profil d'un utilisateur"
+  },
+  "logolist": {
+    "name": "logolist",
+    "desc": "Afficher la liste des logos disponibles"
+  }
+}
