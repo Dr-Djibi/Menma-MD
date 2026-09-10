@@ -1,0 +1,5 @@
+import{menmacmd as f}from"../lib/menmacmd.js";import c from"../lib/style.js";import{trd as t}from"../lib/i18n.js";import i from"../lib/styleHelper.js";const g=i.GENERATED_BY;f({name:t("fancy.name"),alias:["font","style","txt"],classe:"outils",react:"\u{1F3A8}",desc:t("fancy.desc")},async(m,y,l)=>{const{arg:s,repondre:n,prefixe:o}=l,a=Object.keys(c).filter(d=>!isNaN(parseInt(d)));if(!s||s.length===0)return n(t("fancy.usage",{prefixe:o}));let e=parseInt(s[0]),r;if(isNaN(e))e=12,r=s.join(" ");else{if(e<1||e>a.length)return n(t("fancy.invalid",{max:a.length}));r=s.slice(1).join(" ")}if(!r)return n(t("fancy.no_text"));const p=c.apply(c[e.toString()],r);n(p)}),f({name:t("fancylist.name"),alias:["fancylist"],classe:"outils",react:"\u{1F4DC}",desc:t("fancylist.desc")},async(m,y,l)=>{const{repondre:s,prefixe:n}=l,o=Object.keys(c).filter(e=>!isNaN(parseInt(e)));let a=i.TOP(t("fancylist.title"))+`
+`;o.forEach(e=>{const r=c.apply(c[e],"Style "+e);a+=i.LINE(`${e}. ${r}
+`)}),a+=i.INTER()+`
+`+i.LINE(t("fancylist.usage",{prefixe:n})+`
+`)+i.BTM+g,s(a)});

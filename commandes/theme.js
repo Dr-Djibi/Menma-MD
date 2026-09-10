@@ -1,0 +1,5 @@
+import{menmacmd as u}from"../lib/menmacmd.js";import{setTheme as l}from"../Database/theme.js";import f from"fs";import _ from"path";import{fileURLToPath as d}from"url";import{dirname as T}from"path";import i from"../lib/styleHelper.js";import{trd as t}from"../lib/i18n.js";const p=d(import.meta.url),E=T(p);u({name:t("theme.name"),classe:"owner",react:"\u{1F3A8}",desc:t("theme.desc")},async(L,w,{repondre:m,arg:s,prefixe:c})=>{const h=_.join(E,"..","lib","theme.json");if(!f.existsSync(h))return m(t("theme.not_found"));const a=JSON.parse(f.readFileSync(h,"utf-8"));if(!s||s.length===0)return m(t("theme.usage",{prefixe:c}));const o=s[0].toLowerCase();if(o==="list"){let e=i.TOP(t("theme.list_title"))+`
+`;return a.forEach(r=>{e+=i.LINE(t("theme.list_item",{id:r.id,nom:r.nom,count:r.theme.length})+`
+`)}),e+=i.INTER()+`
+`+i.LINE(t("theme.list_footer",{prefixe:c})+`
+`)+i.BTM,m(e)}if(o==="url"){const e=s.slice(1).join("");return!e||!e.startsWith("http")?m(t("theme.url_usage")):(await l(e,"url"),m(t("theme.url_success")))}const n=a.find(e=>e.id===o);if(!n)return m(t("theme.invalid_id"));await l(n.id,"id"),m(t("theme.success",{nom:n.nom}))});
