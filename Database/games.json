@@ -1,0 +1,1573 @@
+{
+  "vof": [
+    {
+      "q": "La Grande Muraille de Chine est visible depuis la Lune.",
+      "a": "faux"
+    },
+    {
+      "q": "Le cœur d'une crevette se trouve dans sa tête.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les pingouins volent.",
+      "a": "faux"
+    },
+    {
+      "q": "Le chocolat est bon pour les chiens.",
+      "a": "faux"
+    },
+    {
+      "q": "L'eau bout à 100°C au niveau de la mer.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il y a 365 jours dans une année bissextile.",
+      "a": "faux"
+    },
+    {
+      "q": "La foudre tombe deux fois au même endroit.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le mont Everest est la montagne la plus haute du monde.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le sang humain est bleu quand il est dans les veines.",
+      "a": "faux"
+    },
+    {
+      "q": "Les requins sont des mammifères.",
+      "a": "faux"
+    },
+    {
+      "q": "La tomate est un fruit.",
+      "a": "vrai"
+    },
+    {
+      "q": "On utilise seulement 10% de notre cerveau.",
+      "a": "faux"
+    },
+    {
+      "q": "Une pieuvre possède trois cœurs.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le soleil est une étoile.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'or est un métal magnétique.",
+      "a": "faux"
+    },
+    {
+      "q": "Vénus est la planète la plus chaude du système solaire.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les autruches enfouissent leur tête dans le sable quand elles ont peur.",
+      "a": "faux"
+    },
+    {
+      "q": "La Russie est plus grande que Pluton.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les chats n'ont pas de clavicules.",
+      "a": "vrai"
+    },
+    {
+      "q": "La mémoire d'un poisson rouge ne dure que 3 secondes.",
+      "a": "faux"
+    },
+    {
+      "q": "La Statue de la Liberté a été offerte par la France.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le fer est plus lourd que l'or.",
+      "a": "faux"
+    },
+    {
+      "q": "Il y a plus d'étoiles dans l'univers que de grains de sable sur Terre.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'homme a marché sur la Lune pour la première fois en 1969.",
+      "a": "vrai"
+    },
+    {
+      "q": "La langue est le muscle le plus fort du corps humain par rapport à sa taille.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le désert du Sahara est le plus grand désert du monde.",
+      "a": "faux"
+    },
+    {
+      "q": "L'Everest est plus haut que la fosse des Mariannes est profonde.",
+      "a": "faux"
+    },
+    {
+      "q": "Les bananes poussent sur des arbres.",
+      "a": "faux"
+    },
+    {
+      "q": "Le diamant est la matière naturelle la plus dure.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le cri du canard ne produit pas d'écho.",
+      "a": "faux"
+    },
+    {
+      "q": "Un an sur Mercure est plus court qu'un jour sur Mercure.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'Islande est couverte de glace et le Groenland est vert.",
+      "a": "faux"
+    },
+    {
+      "q": "Les éléphants sont les seuls mammifères qui ne peuvent pas sauter.",
+      "a": "vrai"
+    },
+    {
+      "q": "La Joconde n'a pas de sourcils.",
+      "a": "vrai"
+    },
+    {
+      "q": "Napoléon était très petit pour son époque.",
+      "a": "faux"
+    },
+    {
+      "q": "L'œil d'une autruche est plus gros que son cerveau.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les taureaux détestent la couleur rouge.",
+      "a": "faux"
+    },
+    {
+      "q": "Le miel est le seul aliment qui ne se périme jamais.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il y a 52 cartes dans un jeu de cartes standard (sans jokers).",
+      "a": "vrai"
+    },
+    {
+      "q": "Les chauves-souris sont aveugles.",
+      "a": "faux"
+    },
+    {
+      "q": "La ville de Mexico s'enfonce chaque année.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le premier animal envoyé dans l'espace était un singe.",
+      "a": "faux"
+    },
+    {
+      "q": "Il y a plus de bactéries dans votre bouche que d'humains sur Terre.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'Amazonie produit 20% de l'oxygène de la Terre.",
+      "a": "faux"
+    },
+    {
+      "q": "Un escargot peut dormir pendant trois ans.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le drapeau du Népal n'est pas rectangulaire.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les ours polaires ont la peau noire.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le son voyage plus vite dans l'eau que dans l'air.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'inventeur de l'ampoule électrique est Thomas Edison.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il est impossible de s'éternuer les yeux ouverts.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les dauphins dorment avec un œil ouvert.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le Mont-Saint-Michel devient une île à marée haute.",
+      "a": "vrai"
+    },
+    {
+      "q": "La Tour Eiffel est plus haute en été qu'en hiver.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le corps humain d'un adulte possède 206 os.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'Australie est plus large que la Lune.",
+      "a": "vrai"
+    },
+    {
+      "q": "Un hippopotame court plus vite qu'un homme.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les moustiques n'ont pas de dents.",
+      "a": "faux"
+    },
+    {
+      "q": "La première couleur que les bébés voient est le rouge.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il pleut des diamants sur Jupiter et Saturne.",
+      "a": "vrai"
+    },
+    {
+      "q": "Une méduse est composée à 95% d'eau.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'inventeur du frisbee a été transformé en frisbee après sa mort.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les lapins sont des rongeurs.",
+      "a": "faux"
+    },
+    {
+      "q": "Le Titanic avait 4 cheminées, mais seulement 3 fonctionnaient.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le nom complet de Barbie est Barbara Millicent Roberts.",
+      "a": "vrai"
+    },
+    {
+      "q": "La mayonnaise a été inventée par les Américains.",
+      "a": "faux"
+    },
+    {
+      "q": "Une baleine bleue peut engloutir 500 000 calories en une seule bouchée.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le cerveau humain est plus actif la nuit que le jour.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le drapeau de la Suisse est un carré parfait.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les pingouins ont des genoux.",
+      "a": "vrai"
+    },
+    {
+      "q": "La terre est plus proche du soleil en été qu'en hiver.",
+      "a": "faux"
+    },
+    {
+      "q": "Un éclair est 5 fois plus chaud que la surface du soleil.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le bouton 'Fermer les portes' d'un ascenseur ne fonctionne presque jamais.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il est impossible de se lécher le coude.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le chewing-gum met 7 ans à être digéré si on l'avale.",
+      "a": "faux"
+    },
+    {
+      "q": "Les koalas ont des empreintes digitales identiques aux humains.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'espace commence officiellement à 100 km d'altitude.",
+      "a": "vrai"
+    },
+    {
+      "q": "Une vache peut monter un escalier mais pas le descendre.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'Écosse a choisi la licorne comme animal national.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le Rubik's Cube a été inventé pour enseigner la géométrie 3D.",
+      "a": "vrai"
+    },
+    {
+      "q": "On peut voir la Grande Muraille de Chine depuis l'espace sans aide.",
+      "a": "faux"
+    },
+    {
+      "q": "Les papillons goûtent avec leurs pattes.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'Islande n'a aucun moustique.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les requins existent depuis plus longtemps que les arbres.",
+      "a": "vrai"
+    },
+    {
+      "q": "Il y a une ville appelée 'Rome' sur chaque continent habité.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le cœur d'une baleine bleue est de la taille d'une voiture.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'ordinateur de bord d'Apollo 11 était moins puissant qu'une calculatrice actuelle.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le crocodile peut sortir sa langue de sa bouche.",
+      "a": "faux"
+    },
+    {
+      "q": "La lettre 'Q' est la seule à ne pas apparaître dans les noms des États américains.",
+      "a": "vrai"
+    },
+    {
+      "q": "Un jour sur Vénus dure plus longtemps qu'une année sur Vénus.",
+      "a": "vrai"
+    },
+    {
+      "q": "L'unanimité des chats est droitière.",
+      "a": "faux"
+    },
+    {
+      "q": "L'araignée n'est pas un insecte.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le créateur du logo Nike a été payé seulement 35 dollars au début.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le mont Everest grandit de quelques millimètres chaque année.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les cochons ne peuvent pas regarder le ciel physiquement.",
+      "a": "vrai"
+    },
+    {
+      "q": "Walt Disney avait peur des souris.",
+      "a": "vrai"
+    },
+    {
+      "q": "Les fraises sont des baies.",
+      "a": "faux"
+    },
+    {
+      "q": "La pastèque est techniquement un légume de la famille des courges.",
+      "a": "vrai"
+    },
+    {
+      "q": "Une fourmi peut survivre 24h sous l'eau.",
+      "a": "vrai"
+    },
+    {
+      "q": "Le premier produit scanné par un code-barres était un paquet de chewing-gum.",
+      "a": "vrai"
+    },
+    {
+      "q": "Un humain produit assez de salive pour remplir deux piscines au cours de sa vie.",
+      "a": "vrai"
+    }
+  ],
+  "anime_quiz": [
+    {
+      "q": "Dans Death Note, quel est le véritable nom de L Lawliet révélé uniquement dans le guide officiel 'HOW TO READ' ?",
+      "o": ["L Lawliet", "Lupin Lawliet", "L Lind Taylor", "Son vrai nom n'est jamais révélé"],
+      "a": "A"
+    },
+    {
+      "q": "Dans One Piece, quel fruit du démon Luffy a-t-il réellement mangé d'après sa vraie nature révélée ?",
+      "o": ["Gura Gura no Mi", "Hito Hito no Mi Modèle Nika", "Mera Mera no Mi", "Ope Ope no Mi"],
+      "a": "B"
+    },
+    {
+      "q": "Quel était le premier manga court publié par Akira Toriyama avant de créer Dragon Ball et Dr Slump ?",
+      "o": ["Cowa!", "Junjou Peta", "Wonder Island", "Kintoki"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Naruto, quel est le nom du clan spécialisé dans la manipulation des ombres ?",
+      "o": ["Clan Yamanaka", "Clan Akimichi", "Clan Hyuga", "Clan Nara"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Attack on Titan, comment s'appelle le Titan qui a dévoré la mère d'Eren (Carla Jaeger) ?",
+      "o": ["Le Titan Souriant (Dina Fritz)", "Le Titan Cuirassé", "Le Titan Colossal", "Le Titan Charrette"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Demon Slayer, quel est le rang officiel le plus élevé parmi les pourfendeurs de démons ?",
+      "o": ["Kinoe", "Hashira (Pilier)", "Mizunoto", "Tsuchinoe"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Hunter x Hunter, quel membre de la famille Zoldyck utilise des aiguilles pour contrôler les corps ?",
+      "o": ["Milluki Zoldyck", "Kalluto Zoldyck", "Illumi Zoldyck", "Maha Zoldyck"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Jujutsu Kaisen, quel est le nom de l'extension du territoire de Megumi Fushiguro ?",
+      "o": ["Sphère de l'Espace Infini", "Autel Démoniaque", "Labyrinthe d'Ombres", "Jardin des Chimères"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Fullmetal Alchemist, quelle est la monnaie officielle utilisée en Amestris ?",
+      "o": ["Cenn", "Yen", "Gil", "Zenny"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Bleach, quel est le nom du Bankai de Rukia Kuchiki ?",
+      "o": ["Zanka no Tachi", "Hakka no Togame", "Senbonzakura Kageyoshi", "Hyorinmaru"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Steins;Gate, quel est le nom donné au premier téléphone-micro-ondes à remonter le temps ?",
+      "o": ["Time Phone 1", "D-Mail Generator", "PhoneWave (nom provisoire)", "Future Gadget #8"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Neon Genesis Evangelion, quel est le nom du premier Ange à attaquer Tokyo-3 dans l'épisode 1 ?",
+      "o": ["Shamshel", "Ramiel", "Gaghiel", "Sachiel"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Code Geass, quel est le nom de l'ordre d'élite dirigé par Lelouch vi Britannia ?",
+      "o": ["Les Chevaliers Noirs", "La Garde Impériale", "Les Factions Rouges", "Les Aigles de Britannie"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Hunter x Hunter, à partir de quel étage de l'Arène Céleste le Nen est-il indispensable pour survivre ?",
+      "o": ["100e étage", "200e étage", "180e étage", "150e étage"],
+      "a": "B"
+    },
+    {
+      "q": "Dans JoJo's Bizarre Adventure Part 3, quel est le nom du Stand sous forme de pistolet de Hol Horse ?",
+      "o": ["Justice", "Hanged Man", "Emperor", "The Sun"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Tokyo Ghoul, dans quel arrondissement (ward) de Tokyo se situe le café Anteiku ?",
+      "o": ["11e arrondissement", "1er arrondissement", "4e arrondissement", "20e arrondissement"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Vinland Saga, qui a tué Thors, le 'Troll de Jomsborg' et père de Thorfinn ?",
+      "o": ["Askeladd", "Floki", "Thorkell", "Canute"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Berserk, quel est le nom du royaume où l'histoire du mercenaire Guts prend racine ?",
+      "o": ["Royaume de Tudor", "Royaume de Midland", "Empire Kushan", "Falconia"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Mob Psycho 100, quelle est l'organisation secrète de médiums criminels combattue par Mob ?",
+      "o": ["L'Ombre", "L'Œil du Milieu", "La Griffe (Claw)", "Psycho-Helmet"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Made in Abyss, quel est le nom du 6e niveau de l'Abysse ?",
+      "o": ["Le Jardin des Fleurs", "La Mer des Cadavres", "Le Foyer des Âmes", "La Capitale du Non-Retour"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Haikyuu!!, quel est le poste exact occupé par Tobio Kageyama ?",
+      "o": ["Passeur", "Libéro", "Pointu", "Central"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Cowboy Bebop, de quelle race est le chien hyper-intelligent Ein ?",
+      "o": ["Shiba Inu", "Corgi Gallois", "Beagle", "Jack Russell"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Samurai Champloo, quel objet la jeune Fuu recherche-t-elle avec Mugen et Jin ?",
+      "o": ["Une épée légendaire", "Un miroir de jade", "Le samouraï qui sent le tournesol", "Un trésor impérial"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Mononoke, comment est surnommé le mystérieux protagoniste itinérant ?",
+      "o": ["Le Moine Blanc", "L'Exorciste", "Le Traqueur d'Ombres", "Le Vendeur de Médecine (Kusuriuri)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Parasyte, comment s'appelle le parasite fusionné avec la main droite de Shinichi ?",
+      "o": ["Migi", "Hidari", "Kuro", "Shin"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Blue Period, quel type de peinture Yatora privilégie-t-il lors de son examen d'entrée ?",
+      "o": ["Aquarelle", "Peinture à l'huile", "Gouache", "Peinture acrylique"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Cyberpunk: Edgerunners, quel implant cybernétique surpuissant David installe-t-il sur son dos ?",
+      "o": ["Keresnikov", "Mantis Blades", "Sandevistan", "Cyberdeck Arasaka"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Dr. Stone, quel ingrédient chimique clé permet à Senku de fabriquer la liqueur de dépétrification ?",
+      "o": ["Le nitrate de potassium", "L'acide acétique", "L'éthanol pur", "L'acide nitrique"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Mushishi, quel est le prénom du protagoniste aux cheveux blancs qui étudie les Mushi ?",
+      "o": ["Ginko", "Shinra", "Tanyou", "Adashino"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Promare, quel est le nom du groupe d'intervention mené par Galo Thymos ?",
+      "o": ["Freeze Force", "Burning Rescue", "Promopolis Police", "Fire Breakers"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Dororo, quel est le nom du seigneur de la guerre et père biologique de Hyakkimaru ?",
+      "o": ["Jukai", "Tahomaru", "Daigo Kagemitsu", "Biwa Hoshi"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Tengen Toppa Gurren Lagann, quelle est la forme du petit robot découvert par Simon dans la mine ?",
+      "o": ["Gurren", "Enki", "Arc-Gurren", "Lagann"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Fate/Zero, quel est le vrai nom du Servant de classe Archer invoqué par Tokiomi Tohsaka ?",
+      "o": ["Gilgamesh", "Achille", "Emiya Shirou", "Ozymandias"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Black Lagoon, dans quelle ville fictive de Thaïlande la compagnie de mercenaires est-elle basée ?",
+      "o": ["Phuket Town", "Roanapur", "Krabi", "Pattaya"],
+      "a": "B"
+    },
+    {
+      "q": "Dans GTO, quel est le poste de Hiroshi Uchiyamada, l'homme à la voiture Cresta ?",
+      "o": ["Professeur d'EPS", "Directeur d'académie", "Vice-principal (Sub-principal)", "Conseiller d'orientation"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Serial Experiments Lain, comment s'appelle le réseau mondial virtuel omniprésent ?",
+      "o": ["The Net", "The Matrix", "The Web-World", "The Wired"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Ergo Proxy, quelle est la cité dôme isolée où commence l'histoire de Re-l Mayer ?",
+      "o": ["Romdeau", "Mosk", "Halos", "Epitaph"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Ping Pong the Animation, quel est le surnom du joueur vedette Kong Wenge venu de Chine ?",
+      "o": ["Dragon", "China", "Peco", "Smile"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Kaguya-sama: Love is War, quel est le nom de l'académie prestigieuse où se déroule l'intrigue ?",
+      "o": ["Académie Otonokizaka", "Académie Hyakkaou", "Académie Shuchi'in", "Académie Seirin"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Baccano!, en quelle année se déroule l'arc principal à bord du train 'Flying Pussyfoot' ?",
+      "o": ["1930", "1932", "1933", "1931"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Puella Magi Madoka Magica, quel est le nom de la créature magique qui conclut des pactes ?",
+      "o": ["Kyubey", "Kyuu", "Mew", "Puggy"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Re:Zero, comment se nomme la Sorcière de l'Envie obsédée par Subaru ?",
+      "o": ["Echidna", "Satella", "Minerva", "Carmilla"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Ranking of Kings, quel est le nom du petit être d'ombre qui devient l'ami de Bojji ?",
+      "o": ["Domas", "Bebin", "Kage", "Apeas"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Odd Taxi, quel animal anthropomorphe le taximan Hiroshi Odokawa représente-t-il ?",
+      "o": ["Un chat", "Un chien", "Un blaireau", "Un morse"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Haikyuu!!, comment est surnommée l'équipe du lycée Nekoma ?",
+      "o": ["Les Chats", "Les Corbeaux", "Les Aigles", "Les Renards"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Soul Eater, combien d'âmes de Evil Humans et de sorcières une arme doit-elle absorber ?",
+      "o": ["50 âmes humaines et 2 sorcières", "99 âmes humaines et 1 sorcière", "100 âmes humaines uniquement", "77 âmes humaines et 3 sorcières"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Noragami, quelle est la pièce exacte que demande Yato pour exaucer un vœu ?",
+      "o": ["1 yen", "100 yens", "5 yens", "50 yens"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Fire Force, comment appelle-t-on les monstres humains enflammés combattus par les brigades ?",
+      "o": ["Les Braseros", "Les Cendres", "Les Pyromènes", "Les Infernaux (Infernals)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Beastars, à quel club scolaire appartient le loup Legoshi au lycée Cherryton ?",
+      "o": ["Club de théâtre", "Club de journalisme", "Club de jardinage", "Conseil des élèves"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Shadows House, quel est le nom de la 'poupée vivante' assignée au service de Kate ?",
+      "o": ["Lou", "Emilico", "Ricky", "Shirley"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Vivy: Fluorite Eye's Song, quel est le nom de scène de l'IA humanoïde protagoniste ?",
+      "o": ["Matsumoto", "Estella", "Diva (Vivy)", "Grace"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Land of the Lustrous, quelle est la dureté de Phosphophyllite sur l'échelle de Mohs au début ?",
+      "o": ["7.0", "5.0", "1.5", "3.5"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Summertime Rendering, quel est le nom de l'île reculée où se déroule l'histoire ?",
+      "o": ["L'île d'Hitogashima", "L'île d'Oinagashima", "L'île de Tsushima", "L'île de Shikoku"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Bocchi the Rock!, quel est le nom du groupe de musique de Hitori Gotoh ?",
+      "o": ["SickHack", "Kessoku Band", "Siderails", "Guitar Hero Team"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Chainsaw Man, quel est le nom du démon piégeant l'équipe dans un hôtel au 8e étage ?",
+      "o": ["Bat Devil", "Fox Devil", "Eternity Devil (Démon de l'Éternité)", "Gun Devil"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Mushoku Tensei, quel continent très dangereux Rudeus et Eris doivent-ils traverser ?",
+      "o": ["Le continent Central", "Le continent du Nord", "Le continent de Millis", "Le continent des Démons"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Overlord, quel est le nom de la guilde à laquelle appartenait Momonga dans YGGDRASIL ?",
+      "o": ["Ainz Ooal Gown", "Nine's Own Goal", "Trismegistus", "Seraphim"],
+      "a": "A"
+    },
+    {
+      "q": "Dans That Time I Got Reincarnated as a Slime, quel est le nom du Dragon des Tempêtes ?",
+      "o": ["Velgrynd", "Veldora Tempest", "Velzard", "Veldanava"],
+      "a": "B"
+    },
+    {
+      "q": "Dans KonoSuba, comment s'appelle l'archiprêtresse déesse de l'eau qui accompagne Kazuma ?",
+      "o": ["Eris", "Wiz", "Aqua", "Lalatina"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Classroom of the Elite, quelle est la classe d'origine de Kiyotaka Ayanokoji ?",
+      "o": ["Classe A", "Classe B", "Classe C", "Classe D"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Dorohedoro, quel est le nom du monde délabré et pollué où vivent Caiman et Nikaido ?",
+      "o": ["Hole (Le Trou)", "Sorcerer City", "Labyrinthe", "Abyss"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Psycho-Pass, quel système informatique mesure le coefficient de criminalité des citoyens ?",
+      "o": ["Le Système Dominator", "Le Système Sibyl", "Le Réseau Panopticon", "Le Noyau Central"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Terror in Resonance, sous quel pseudonyme les deux adolescents terroristes agissent-ils ?",
+      "o": ["Phoenix", "Chrono", "Sphinx", "Zero"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Devilman Crybaby, quel personnage s'avère être la réincarnation de Satan ?",
+      "o": ["Akira Fudo", "Miki Makimura", "Kaim", "Ryo Asuka"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Akame ga Kill!, quel est le nom du Teigu (arme impériale) sous forme de sabre d'Akame ?",
+      "o": ["Murasame", "Incursio", "Pumpkin", "Ekes"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Darling in the Franxx, comment s'appellent les monstres géants combattus par les Franxx ?",
+      "o": ["Les Titans", "Les Klaxosaurs (Kyoryuu)", "Les Hurleurs", "Les Abyssales"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Astra Lost in Space, combien d'élèves (plus un enfant) composent le groupe perdu dans l'espace ?",
+      "o": ["7 élèves", "12 élèves", "9 élèves", "5 élèves"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Bakemonogatari, quelle créature surnaturelle a volé le poids corporel d'Hitagi Senjogahara ?",
+      "o": ["Un escargot", "Un serpent", "Un chat à neuf queues", "Un crabe"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Hyouka, quel est le slogan personnel du lycéen économe en énergie Hotaro Oreki ?",
+      "o": ["'Si je n'ai pas à le faire, je ne le fais pas. Si je dois le faire, je le fais rapidement.'", "'L'énergie est une ressource limitée.'", "'Ne cherche pas la vérité si elle brûle.'", "'Vis ta vie sans vagues.'"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Wotakoi, quel est le secret otaku de Narumi Momose qu'elle cache au travail ?",
+      "o": ["Elle fait du cosplay professionnel", "Elle est une fujoshi créatrice de doujinshi", "Elle est joueuse pro sur jeux rétro", "Elle collectionne les cartes Pokémon"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Grand Blue, quel est le nom du club universitaire axé sur la plongée (et la fête) ?",
+      "o": ["Diving Stars", "Aqua Vitae", "Peekaboo", "Ocean Drive"],
+      "a": "C"
+    },
+    {
+      "q": "Dans The Executioner and Her Way of Life, quelle est la cible principale de la bourreau Menou ?",
+      "o": ["Les Démons antiques", "Les Sorcières noires", "Les Monstres de donjon", "Les 'Lost Ones' (Égarés d'un autre monde)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Reincarnated as a Sword, quel nom l'épée donne-t-elle à la jeune fille chat noir qu'elle protège ?",
+      "o": ["Fran", "Mila", "Shiro", "Luna"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Monster, quel est le prénom du brillant docteur neurochirurgien accusé à tort ?",
+      "o": ["Johan", "Kenzo Tenma", "Heinrich", "Dieter"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Parasyte, quel prénom Shinichi donne-t-il au parasite de sa main droite ?",
+      "o": ["Hidari", "Kuro", "Migi", "Zero"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Claymore, de quelle couleur sont les yeux des guerrières hybrides lorsqu'elles n'utilisent pas leur Yoki ?",
+      "o": ["Bleus", "Rouges", "Dorés", "Argentés"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Black Butler, quel est le nom du démon majordome au service de Ciel Phantomhive ?",
+      "o": ["Sebastian Michaelis", "Claude Faustus", "Grell Sutcliff", "Undertaker"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Bungo Stray Dogs, quel est le pouvoir spécial d'Atsushi Nakajima ?",
+      "o": ["La déchéance d'un homme", "La bête sous la lumière du lune (Transformation en tigre)", "Rashomon", "Poète d'un soir"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Psycho-Pass, quel nom porte l'arme spéciale utilisée par les inspecteurs et exécuteurs ?",
+      "o": ["Psycho-Gun", "Enforcer-9", "Dominator", "Sibyl Blade"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Kill la Kill, de quelle matière sont faites les fibres de vêtements donnant des pouvoirs surhumains ?",
+      "o": ["Fibres de Carbone", "Fibres Célestes", "Fibres d'Ombre", "Fibres de Vie (Life Fibers)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Gurren Lagann, quel est le vrai nom de la capitale de l'Empire des Hommes-Bêtes ?",
+      "o": ["Teppelin", "Kamina City", "Tengen", "Dai-Gunzan"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Fate/stay night, quel Servant est invoqué par Rin Tohsaka ?",
+      "o": ["Saber", "Archer", "Lancer", "Rider"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Inuyasha, quel type de créature est Inuyasha ?",
+      "o": ["Un démon pur (Youkai)", "Un humain ordinaire", "Un demi-démon (Hanyou)", "Un esprit de la forêt"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Yu Yu Hakusho, quel est le rôle attribué à Yusuke Urameshi après sa mort ?",
+      "o": ["Gardien des Enfers", "Roi des Esprits", "Chasseur de Démons", "Détective du monde spirituel"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Saint Seiya (Les Chevaliers du Zodiaque), quelle est la constellation de Seiya ?",
+      "o": ["Pégase", "Dragon", "Cygne", "Andromède"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Hokuto no Ken (Ken le Survivant), quel est le nom de l'art martial mortel pratiqué par Kenshiro ?",
+      "o": ["Nanto Seiken", "Hokuto Shinken", "Gento Koken", "Taishan Tenryuken"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Slam Dunk, quel est le numéro de maillot de Hanamichi Sakuragi au lycée Shohoku ?",
+      "o": ["#4", "#11", "#10", "#7"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Captain Tsubasa (Olive et Tom), dans quel club espagnol Tsubasa poursuit-il sa carrière professionnelle ?",
+      "o": ["Real Madrid", "Valence CF", "Atlético de Madrid", "FC Barcelone (Catalunya)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Initial D, quel modèle de voiture conduit Takumi Fujiwara pour livrer le tofu ?",
+      "o": ["Toyota Sprinter Trueno AE86", "Mazda RX-7 FC3S", "Nissan Skyline GT-R R32", "Honda Civic EG6"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Great Teacher Onizuka, de quel gang de motards Onizuka était-il le chef légendaire dans sa jeunesse ?",
+      "o": ["Tokyo Manji", "Onibaku", "Black Emperors", "Midnight Angels"],
+      "a": "B"
+    },
+    {
+      "q": "Dans City Hunter (Nicky Larson), quel code faut-il écrire sur le panneau de la station de Shinjuku pour contacter Ryo Saeba ?",
+      "o": ["100", "007", "XYZ", "999"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Trigun, quelle est la prime astronomique posée sur la tête de Vash the Stampede ?",
+      "o": ["1 million de dollars", "10 milliards de dollars", "100 millions de dollars", "60 milliards de double-dollars ($$60,000,000,000)"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Hellsing, quel est le nom de la jeune policière transformée en vampire par Alucard ?",
+      "o": ["Seras Victoria", "Integra Hellsing", "Rip van Winkle", "Zarin"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Elfen Lied, quel est le terme scientifique désignant les mutants à cornes munis de bras invisibles (vectors) ?",
+      "o": ["Homo Sapiens", "Diclonius", "Vectorians", "Silpelits"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Tokyo Revengers, quel est le nom du gang fondé par Mikey et Draken ?",
+      "o": ["Valhalla", "Moebius", "Tokyo Manji (Toman)", "Black Dragons"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Dr. Stone, comment s'appelle le royaume scientifique fondé par Senku ?",
+      "o": ["Kingdom of Science", "Senku Empire", "Stone World Corp", "Royaume de la Science"],
+      "a": "D"
+    },
+    {
+      "q": "Dans Solo Leveling, quel est le rang initial du chasseur Sung Jinwoo avant son réveil ?",
+      "o": ["Rang E", "Rang D", "Rang C", "Rang B"],
+      "a": "A"
+    },
+    {
+      "q": "Dans Spy x Family, quelle est la capacité télépathique secrète d'Anya Forger ?",
+      "o": ["Prédire le futur proche", "Lire dans les pensées des gens", "Voir à travers les murs", "Effacer les souvenirs"],
+      "a": "B"
+    },
+    {
+      "q": "Dans Blue Lock, quel poste l'initiative nationale cherche-t-elle à créer pour l'équipe du Japon ?",
+      "o": ["Le meilleur gardien du monde", "Le meilleur milieu créatif", "Le meilleur attaquant (buteur ultime)", "Le meilleur défenseur central"],
+      "a": "C"
+    },
+    {
+      "q": "Dans Frieren: Beyond Journey's End, combien d'années dure le voyage du groupe de héros pour vaincre le Roi Démon au début du récit ?",
+      "o": ["5 ans", "20 ans", "50 ans", "10 ans"],
+      "a": "D"
+    }
+  ],
+  "verite_garcon": [
+    "Cœur à prendre? 💞",
+    "Couleur favorite🤔😼",
+    "Célibataire ou en Couple 👫",
+    "La dernière fois que tu as pleuré, c'était quand ?😢🥲",
+    "C'est quoi la date de ton anniversaire?🤔🤔",
+    "Tu supportes les relations à distance ?🤫😏",
+    "As-tu des vus sur quelqu'un en ce moment?😾😿",
+    "Si tu avais 3 souhaits, quels seraient-ils?😌🤔",
+    "Tu es plus câlin ou embrasser?😗😗",
+    "Surnoms par lequel les gens t'appellent🤔🤫",
+    "Chanson préférée?🙃🙂",
+    "Chose préférée?🙂🙃",
+    "Quelque chose que tu changerais sur toi-même😶‍🌫️😔",
+    "Nom complet🥰😍",
+    "Quelque chose dont tu es fier?😎",
+    "Ton plus grand rêve💭",
+    "Tu es plus regarder un film ou lire un livre?☻️",
+    "As-tu déjà essayé de te tuer?☠️",
+    "Émission de télévision préférée?😸",
+    "Talents spéciaux?😼😼",
+    "As-tu déjà souhaité pouvoir recommencer une bêtise ?😹",
+    "As-tu déjà été trompé?😿",
+    "As-tu déjà maltraité quelqu'un?😱",
+    "As-tu déjà vécu une expérience de mort imminente?😱😭",
+    "Vierge?😗",
+    "Des tatouages?🤔",
+    "Es-tu célibataire ou pris?🤔",
+    "Ton genre de musique 😌",
+    "Ton prénom que tu aimes le moins😶‍🌫️",
+    "Dernier baiser?😶",
+    "Girlfriend's name🥰",
+    "Boyfriend's name😍",
+    "Sois franc/franche : es-tu réellement heureuse avec ton/ta petit(e) ami(e)?😏😶‍🌫️",
+    "Ton poids? 😋",
+    "Premier baiser? 😛",
+    "Joueur ou loyal 😏😎",
+    "Un secret?🤫🤭",
+    "Qui détestes-tu?😒",
+    "Relation la plus longue😶‍🌫️😶",
+    "Qui aimes-tu?🙄😑",
+    "Qu'aimes-tu chez un mec?😎",
+    "Quel est le nombre / chiffre favori?😂",
+    "Quel quartier habites-tu?😛",
+    "Ton âge🤗",
+    "Es-tu plus relation à distance ou relation sans distance?☻️",
+    "Une chose sans laquelle tu ne peux pas vivre🥲",
+    "As-tu déjà eu des relations sexuelles?🤔",
+    "Es-tu méchant(e)?🤕",
+    "Tu penses quoi de l'homosexualité?🤧🙁",
+    "Position sexuelle préférée🛀",
+    "As-tu déjà embrassé quelqu'un du même sexe que toi?👩‍❤️‍💋‍👩👨‍❤️‍💋‍👨",
+    "Est-ce qu'un jour je pourrais avoir une chance avec toi ? 🤸",
+    "As-tu eu des sentiments pour moi? 👀",
+    "Pourquoi tu ne veux pas de moi?👁",
+    "Ce que tu détestes le plus😔",
+    "Quelle est ton point faible?☻️",
+    "Ton film préféré🙁",
+    "Ta plus longue relation a duré combien de temps.🤯",
+    "Ta plus courte relation a durée combien de temps.🤕😵‍💫",
+    "Depuis quand tu n'as pas fait l'amour🤓",
+    "Tu es l'ami de Papa ou de maman😌😬",
+    "Sais-tu nager🙃",
+    "Tu fais quelle classe😁",
+    "Ton numéro de téléphone 🤭",
+    "As-tu déjà refusé une demande d'une personne que tu aimes en secret.😜",
+    "En ce moment aimes-tu une personne discrètement☺️",
+    "Plat préféré 🧑‍🍳",
+    "Tu as combien de copains 👀",
+    "Tu aimes toujours ton ex😾",
+    "As-tu WhatsApp🥱",
+    "Quel genre d'homme aimes-tu😏😒",
+    "Quel genre de femme aimes-tu😶‍🌫️🥰",
+    "La partie du corps la plus sexy 🥵",
+    "Tu te masturbes?💦🥒",
+    "Tu regardes régulièrement du porno?😏😶‍🌫️",
+    "Tu regardes du porno ?😳",
+    "As-tu déjà fumé?🙀😿",
+    "Allez-vous aux fêtes de nuit?😸",
+    "Depuis quand tu n'as pas regardé du porno👅",
+    "Depuis quand tu ne t'es pas masturber🤤",
+    "As-tu déjà joui🤔",
+    "As-tu déjà éjaculé au lit ?💦",
+    "Jamais donné une pipe?💦",
+    "Meilleure partie du corps?🙈",
+    "Partie du corps que tu préfères 🤤",
+    "Jamais touché une bite ou une chatte ???😏",
+    "T'as une fois sucer ou léché un homme ou une femme.😛🥵",
+    "Si tu avais une chance, sortirais-tu avec moi?🙃😄",
+    "Veux-tu qu'on baise un jour ?🍆🍑",
+    "Tu voudrais me faire quoi en ce moment 🙈🙊",
+    "Qu'est-ce qui t'excite le plus 🤤🥵",
+    "Es-tu excitée ??🍑💦",
+    "Voulez-vous m'explorer?😲😯",
+    "Veux-tu m'embrasser?😏😗",
+    "Veux-tu sortir avec moi?👩‍❤️‍👨",
+    "Peux-tu me laisser toucher tes fesses?😋",
+    "Tu me ferais un câlin?🫂",
+    "Un truc à me dire?🤗🤔",
+    "As-tu déjà aimé une personne sans lui dire😶‍🌫️",
+    "As-tu déjà sorti sans porter de sous-vêtements 🤔🤫",
+    "Tu dors seule 🤔",
+    "Tu as peur de quoi🤗",
+    "As-tu déjà voulu essayer de faire l'amour😏😶‍🌫️",
+    "Quelle est la partie de ton corps qui t'excite le plus quand on la touche ? ⚡",
+    "As-tu déjà fait semblant de jouir ? 🎭💦",
+    "Quel est l'endroit le plus insolite où tu as fait l'amour ? 🌲🚗",
+    "As-tu déjà eu un crush sur un(e) prof ? 🧑‍🏫",
+    "Quelle est ta plus grande fantaisie sexuelle jamais avouée ? 😈",
+    "As-tu déjà envoyé des nudes à la mauvaise personne ? 😱📸",
+    "Quel est ton plus gros complexe ? 🤐",
+    "As-tu déjà couché le premier soir ? 🥂",
+    "Quelle est la chose la plus folle que tu aies faite par jalousie ? 🐍",
+    "As-tu déjà été attiré(e) par le/la partenaire d'un(e) ami(e) ? 🙊",
+    "Quel est ton accessoire coquin préféré ? 🧸🍆",
+    "As-tu déjà pratiqué le cybersexe ? 💻🥵",
+    "Quelle est la dernière personne que tu as stalkée sur les réseaux ? 🕵️‍♂️",
+    "As-tu déjà eu une aventure d'un soir que tu as regrettée ? 🌃",
+    "Quelle est la tenue qui te rend le plus sexy selon toi ? 👗✨",
+    "As-tu déjà eu un plan à trois ou aimerais-tu essayer ? 👥👤",
+    "Quelle est la chose la plus étrange qui t'excite ? 🌀",
+    "As-tu déjà menti sur ton nombre de partenaires ? 🔢",
+    "Quel est le message le plus osé que tu aies reçu ? 📱🔥",
+    "Es-tu plutôt dominant(e) ou dominé(e) au lit ? ⛓️👑",
+    "As-tu déjà pleuré pendant ou après l'amour ? 😢💦",
+    "Quel est ton type de sous-vêtements préféré sur l'autre ? 👙🩲",
+    "As-tu déjà fait un rêve érotique sur quelqu'un ici présent ? 💭🍑",
+    "Quelle est la plus grosse différence d'âge que tu acceptes en amour ? ⏳",
+    "As-tu déjà été surpris(e) en plein acte ? 🚪😳",
+    "Préfères-tu le sexe le matin ou le soir ? ☀️🌙",
+    "As-tu déjà utilisé une application de rencontre ? 📱🔥",
+    "Quel est le plus beau compliment qu'on t'ait fait au lit ? 💬",
+    "As-tu déjà eu une relation purement sexuelle (friends with benefits) ? 🤝",
+    "Quelle est ta boisson préférée pour draguer ? 🍸",
+    "As-tu déjà eu un coup de foudre ? ⚡❤️",
+    "Quelle est la partie du corps que tu regardes en premier chez l'autre ? 👀",
+    "As-tu déjà embrassé quelqu'un pour rendre une autre personne jalouse ? 💋",
+    "Quel est ton avis sur l'infidélité ? 🚫",
+    "As-tu déjà eu une expérience avec une personne beaucoup plus âgée ? 👴👵",
+    "Quelle est la chanson sur laquelle tu aimes faire l'amour ? 🎶🛋️",
+    "As-tu déjà filmé tes ébats amoureux ? 📹",
+    "Quel est ton plus grand regret amoureux ? 💔",
+    "Es-tu du genre à envoyer le premier message ? 📩",
+    "As-tu déjà eu une attirance pour quelqu'un du même sexe ? 🏳️‍🌈",
+    "Quel est l'endroit de ton corps le plus sensible aux baisers ? 💋📍",
+    "As-tu déjà menti pour obtenir un rapport sexuel ? 🤥",
+    "Quelle est ta position préférée pour un 'quickie' ? ⏱️",
+    "As-tu déjà été amoureux(se) de deux personnes en même temps ? 👥",
+    "Quel est le plus long moment que tu as passé sans sexe ? 🏜️",
+    "As-tu déjà fait l'amour dans l'eau (piscine, mer, douche) ? 🌊",
+    "Quelle est la chose la plus romantique qu'on ait faite pour toi ? 🌹",
+    "As-tu déjà eu un orgasme rien qu'en embrassant quelqu'un ? 🫦",
+    "Quel est ton pire tue-l'amour (turn-off) ? 🤮",
+    "As-tu déjà regardé quelqu'un se masturber en direct ? 👁️💦",
+    "Quel est le nom de ton premier amour ? 🥇",
+    "As-tu déjà eu une infection sexuellement transmissible (IST) ? 🏥",
+    "Quelle est ta fréquence idéale pour faire l'amour ? 📅",
+    "As-tu déjà testé le bondage ou les menottes ? ⛓️",
+    "Quelle est la chose que tu ne ferais JAMAIS au lit ? ❌",
+    "As-tu déjà fait l'amour dans un lieu public ? 🏟️",
+    "Quel est le plus gros mensonge que tu as dit à ton ex ? 🤥",
+    "Es-tu plutôt préliminaires longs ou direct au but ? 🕒",
+    "As-tu déjà fantasmé sur le/la meilleur(e) ami(e) de ton partenaire ? 🤫",
+    "Quelle est la couleur de tes sous-vêtements aujourd'hui ? 🌈",
+    "As-tu déjà simulé une migraine pour éviter le sexe ? 🤕",
+    "Quel est ton avis sur le polyamour ? ♾️",
+    "As-tu déjà embrassé deux personnes différentes le même soir ? 💋💋",
+    "Quelle est la partie de ton visage que tu préfères ? 😊",
+    "As-tu déjà eu un rapport sexuel au travail ou à l'école ? 🏫",
+    "Quelle est la chose la plus cochonne que tu aies murmurée à l'oreille de quelqu'un ? 👂🔥",
+    "As-tu déjà été accro au porno ? 📺",
+    "Quel est ton signe astrologique et est-ce qu'il te définit ? ♋",
+    "As-tu déjà pleuré pour obtenir ce que tu voulais ? 😭",
+    "Quelle est ta plus grande fierté sexuelle ? 🏆",
+    "As-tu déjà eu honte de ton corps devant un partenaire ? 🙈",
+    "Quel est le premier site web que tu visites le matin ? 🌐",
+    "As-tu déjà fait l'amour avec quelqu'un juste pour oublier quelqu'un d'autre ? 🧠",
+    "Quelle est ta technique secrète pour séduire ? 😉",
+    "As-tu déjà dormi nu(e) avec un(e) simple ami(e) ? 🛌",
+    "Quel est le jouet sexuel que tu rêverais de t'offrir ? 🎁",
+    "As-tu déjà envoyé un message coquin à la mauvaise personne ? 📱💀",
+    "Quelle est ta plus longue période de célibat ? 🌵",
+    "As-tu déjà eu une expérience de voyeurisme ou d'exhibitionnisme ? 👀",
+    "Quel est le moment le plus gênant que tu aies vécu au lit ? 😅",
+    "As-tu déjà fouillé dans le téléphone de ton partenaire ? 🕵️‍♀️",
+    "Quelle est la chose que tu préfères faire pendant les préliminaires ? 👅",
+    "As-tu déjà reçu des nudes non sollicités ? 📸🤢",
+    "Quel est le lieu de tes rêves pour faire l'amour ? 🏰",
+    "As-tu déjà couché avec quelqu'un dont tu ne te rappelais pas le prénom ? 😶",
+    "Quelle est la chose la plus sauvage que tu aies faite en soirée ? 🦁",
+    "As-tu déjà eu un 'blackout' à cause de l'alcool ? 🍻🌀",
+    "Quel est ton fantasme avec une célébrité ? 🌟",
+    "As-tu déjà été payé(e) ou as-tu déjà payé pour du sexe ? 💶",
+    "Quelle est ta réaction si on te surprend en train de te masturber ? 😳",
+    "As-tu déjà fait l'amour dans un avion (cercle des 10 000 mètres) ? ✈️",
+    "Quelle est ta tenue préférée pour dormir ? 💤",
+    "As-tu déjà eu une relation avec un voisin ? 🏠",
+    "Quel est le parfum qui te fait craquer ? 👃✨",
+    "As-tu déjà menti sur ton âge pour draguer ? 🎂",
+    "Quelle est ta définition d'une nuit parfaite ? 🌌",
+    "As-tu déjà eu une aventure avec quelqu'un rencontré sur les réseaux ? 🐦",
+    "Quel est le secret que tu caches à tes parents ? 🤐",
+    "As-tu déjà pratiqué le 'dirty talk' (parler sale) ? 🗣️🔥",
+    "Si tu devais mourir demain, quelle est la dernière personne que tu voudrais voir ? 💀❤️",
+    "Quelle est ta plus grande fantaisie sexuelle avec quelqu'un de ce groupe ?",
+    "As-tu déjà fantasmé sur la mère ou la sœur d'un de tes amis ?",
+    "Quel est l'endroit le plus insolite où tu as eu une érection incontrôlable ?",
+    "Préfères-tu une fille soumise ou dominante au lit, et pourquoi ?",
+    "Quelle est la taille exacte de ton sexe (sois honnête !) ? 🍆",
+    "As-tu déjà regardé quelqu'un d'autre faire l'amour en secret ?",
+    "As-tu déjà fait un plan à trois, ou aimerais-tu essayer ?",
+    "Quel est le vêtement féminin qui t'excite le plus instantanément ?",
+    "As-tu déjà eu une relation sexuelle dans un lieu public où tu risquais de te faire attraper ?",
+    "Quelle partie du corps d'une femme te donne le plus envie de l'embrasser et de la caresser ?",
+    "As-tu déjà fantasmé sur quelqu'un de plus âgé de manière très poussée ?",
+    "Quelle est ta position favorite pour faire durer le plaisir le plus longtemps possible ?",
+    "Quel sous-vêtement féminin trouves-tu le plus excitant (culotte en dentelle, string ficelle, ou rien du tout) ?",
+    "Quelle est la chose la plus sensuelle qu'une fille ait faite pour te séduire ?",
+    "As-tu déjà eu des pensées coquines en parlant à l'une des filles ici présentes ?",
+    "Quelle est ta réaction si une fille te touche la cuisse sous la table de manière suggestive ?",
+    "Aimes-tu qu'on te domine au lit ou préfères-tu avoir le contrôle absolu ?"
+  ],
+  "verite_fille": [
+    "Cœur à prendre? 💞",
+    "Couleur favorite🤔😼",
+    "Célibataire ou en Couple 👫",
+    "La dernière fois que tu as pleuré, c'était quand ?😢🥲",
+    "C'est quoi la date de ton anniversaire?🤔🤔",
+    "Tu supportes les relations à distance ?🤫😏",
+    "As-tu des vus sur quelqu'un en ce moment?😾😿",
+    "Si tu avais 3 souhaits, quels seraient-ils?😌🤔",
+    "Tu es plus câlin ou embrasser?😗😗",
+    "Surnoms par lequel les gens t'appellent🤔🤫",
+    "Chanson préférée?🙃🙂",
+    "Chose préférée?🙂🙃",
+    "Quelque chose que tu changerais sur toi-même😶‍🌫️😔",
+    "Nom complet🥰😍",
+    "Quelque chose dont tu es fier?😎",
+    "Ton plus grand rêve💭",
+    "Tu es plus regarder un film ou lire un livre?☻️",
+    "As-tu déjà essayé de te tuer?☠️",
+    "Émission de télévision préférée?😸",
+    "Talents spéciaux?😼😼",
+    "As-tu déjà souhaité pouvoir recommencer une bêtise ?😹",
+    "As-tu déjà été trompé?😿",
+    "As-tu déjà maltraité quelqu'un?😱",
+    "As-tu déjà vécu une expérience de mort imminente?😱😭",
+    "Vierge?😗",
+    "Des tatouages?🤔",
+    "Es-tu célibataire ou pris?🤔",
+    "Ton genre de musique 😌",
+    "Ton prénom que tu aimes le moins😶‍🌫️",
+    "Dernier baiser?😶",
+    "Girlfriend's name🥰",
+    "Boyfriend's name😍",
+    "Sois franc/franche : es-tu réellement heureuse avec ton/ta petit(e) ami(e)?😏😶‍🌫️",
+    "Ton poids? 😋",
+    "Premier baiser? 😛",
+    "Joueur ou loyal 😏😎",
+    "Un secret?🤫🤭",
+    "Qui détestes-tu?😒",
+    "Relation la plus longue😶‍🌫️😶",
+    "Qui aimes-tu?🙄😑",
+    "Qu'aimes-tu chez une meuf?🥰",
+    "Quel est le nombre / chiffre favori?😂",
+    "Ton âge🤗",
+    "Es-tu plus relation à distance ou relation sans distance?☻️",
+    "Une chose sans laquelle tu ne peux pas vivre🥲",
+    "As-tu déjà eu des relations sexuelles?🤔",
+    "Es-tu méchant(e)?🤕",
+    "Tu penses quoi de l'homosexualité?🤧🙁",
+    "Position sexuelle préférée🛀",
+    "As-tu déjà embrassé quelqu'un du même sexe que toi?👩‍❤️‍💋‍👩👨‍❤️‍💋‍👨",
+    "Est-ce qu'un jour je pourrais avoir une chance avec toi ? 🤸",
+    "As-tu eu des sentiments pour moi? 👀",
+    "Pourquoi tu ne veux pas de moi?👁",
+    "Ce que tu détestes le plus😔",
+    "Quelle est ton point faible?☻️",
+    "Ton film préféré🙁",
+    "Ta plus longue relation a duré combien de temps.🤯",
+    "Ta plus courte relation a durée combien de temps.🤕😵‍💫",
+    "Depuis quand tu n'as pas fait l'amour🤓",
+    "Tu es l'ami de Papa ou de maman😌😬",
+    "Sais-tu nager🙃",
+    "Tu fais quelle classe😁",
+    "Ton numéro de téléphone 🤭",
+    "As-tu déjà refusé une demande d'une personne que tu aimes en secret.😜",
+    "En ce moment aimes-tu une personne discrètement☺️",
+    "Plat préféré 🧑‍🍳",
+    "Tu as combien de copains 👀",
+    "Tu as combien de meufs👁👀",
+    "Tu aimes toujours ton ex😾",
+    "As-tu WhatsApp🥱",
+    "Quel genre d'homme aimes-tu😏😒",
+    "Quel genre de femme aimes-tu😶‍🌫️🥰",
+    "La partie du corps la plus sexy 🥵",
+    "Tu te masturbes?💦🥒",
+    "Tu regardes régulièrement du porno?😏😶‍🌫️",
+    "Tu regardes du porno ?😳",
+    "As-tu déjà fumé?🙀😿",
+    "Allez-vous aux fêtes de nuit?😸",
+    "Depuis quand tu n'as pas regardé du porno👅",
+    "Depuis quand tu ne t'es pas masturber🤤",
+    "T'es clitoridienne ou vaginale🍑",
+    "As-tu déjà joui🤔",
+    "Jamais donné une pipe?💦",
+    "Meilleure partie du corps?🙈",
+    "Partie du corps que tu préfères 🤤",
+    "Jamais touché une bite ou une chatte ???😏",
+    "T'as une fois sucer ou léché un homme ou une femme.😛🥵",
+    "Si tu avais une chance, sortirais-tu avec moi?🙃😄",
+    "Veux-tu qu'on baise un jour ?🍆🍑",
+    "Tu voudrais me faire quoi en ce moment 🙈🙊",
+    "Qu'est-ce qui t'excite le plus 🤤🥵",
+    "Es-tu excitée ??🍑💦",
+    "Voulez-vous m'explorer?😲😯",
+    "Veux-tu m'embrasser?😏😗",
+    "Veux-tu sortir avec moi?👩‍❤️‍👨",
+    "Peux-tu me laisser toucher tes fesses?😋",
+    "Tu me ferais un câlin?🫂",
+    "Un truc à me dire?🤗🤔",
+    "As-tu déjà aimé une personne sans lui dire😶‍🌫️",
+    "As-tu déjà sorti sans porter de sous-vêtements 🤔🤫",
+    "Tu dors comment (slip, nu, short, robe, pagne)😏🤫",
+    "Tu dors seule 🤔",
+    "Tu as peur de quoi🤗",
+    "As-tu déjà voulu essayer de faire l'amour😏😶‍🌫️",
+    "La taille de ton soutien-gorge🙂",
+    "Portes-tu un soutien-gorge actuellement?🙃",
+    "Quelle est la partie de ton corps qui t'excite le plus quand on la touche ? ⚡",
+    "As-tu déjà fait semblant de jouir ? 🎭💦",
+    "Quel est l'endroit le plus insolite où tu as fait l'amour ? 🌲🚗",
+    "As-tu déjà eu un crush sur un(e) prof ? 🧑‍🏫",
+    "Quelle est ta plus grande fantaisie sexuelle jamais avouée ? 😈",
+    "As-tu déjà envoyé des nudes à la mauvaise personne ? 😱📸",
+    "Quel est ton plus gros complexe ? 🤐",
+    "As-tu déjà couché le premier soir ? 🥂",
+    "Quelle est la chose la plus folle que tu aies faite par jalousie ? 🐍",
+    "As-tu déjà été attiré(e) par le/la partenaire d'un(e) ami(e) ? 🙊",
+    "Quel est ton accessoire coquin préféré ? 🧸🍆",
+    "As-tu déjà pratiqué le cybersexe ? 💻🥵",
+    "Quelle est la dernière personne que tu as stalkée sur les réseaux ? 🕵️‍♂️",
+    "As-tu déjà eu une aventure d'un soir que tu as regrettée ? 🌃",
+    "Quelle est la tenue qui te rend le plus sexy selon toi ? 👗✨",
+    "As-tu déjà eu un plan à trois ou aimerais-tu essayer ? 👥👤",
+    "Quelle est la chose la plus étrange qui t'excite ? 🌀",
+    "As-tu déjà menti sur ton nombre de partenaires ? 🔢",
+    "Quel est le message le plus osé que tu aies reçu ? 📱🔥",
+    "Es-tu plutôt dominant(e) ou dominé(e) au lit ? ⛓️👑",
+    "As-tu déjà pleuré pendant ou après l'amour ? 😢💦",
+    "Quel est ton type de sous-vêtements préféré sur l'autre ? 👙🩲",
+    "As-tu déjà fait un rêve érotique sur quelqu'un ici présent ? 💭🍑",
+    "Quelle est la plus grosse différence d'âge que tu acceptes en amour ? ⏳",
+    "As-tu déjà été surpris(e) en plein acte ? 🚪😳",
+    "Préfères-tu le sexe le matin ou le soir ? ☀️🌙",
+    "As-tu déjà utilisé une application de rencontre ? 📱🔥",
+    "Quel est le plus beau compliment qu'on t'ait fait au lit ? 💬",
+    "As-tu déjà eu une relation purement sexuelle (friends with benefits) ? 🤝",
+    "Quelle est ta boisson préférée pour draguer ? 🍸",
+    "As-tu déjà eu un coup de foudre ? ⚡❤️",
+    "Quelle est la partie du corps que tu regardes en premier chez l'autre ? 👀",
+    "As-tu déjà embrassé quelqu'un pour rendre une autre personne jalouse ? 💋",
+    "Quel est ton avis sur l'infidélité ? 🚫",
+    "As-tu déjà eu une expérience avec une personne beaucoup plus âgée ? 👴👵",
+    "Quelle est la chanson sur laquelle tu aimes faire l'amour ? 🎶🛋️",
+    "As-tu déjà filmé tes ébats amoureux ? 📹",
+    "Quel est ton plus grand regret amoureux ? 💔",
+    "Es-tu du genre à envoyer le premier message ? 📩",
+    "As-tu déjà eu une attirance pour quelqu'un du même sexe ? 🏳️‍🌈",
+    "Quel est l'endroit de ton corps le plus sensible aux baisers ? 💋📍",
+    "As-tu déjà menti pour obtenir un rapport sexuel ? 🤥",
+    "Quelle est ta position préférée pour un 'quickie' ? ⏱️",
+    "As-tu déjà été amoureux(se) de deux personnes en même temps ? 👥",
+    "Quel est le plus long moment que tu as passé sans sexe ? 🏜️",
+    "As-tu déjà fait l'amour dans l'eau (piscine, mer, douche) ? 🌊",
+    "Quelle est la chose la plus romantique qu'on ait faite pour toi ? 🌹",
+    "As-tu déjà eu un orgasme rien qu'en embrassant quelqu'un ? 🫦",
+    "Quel est ton pire tue-l'amour (turn-off) ? 🤮",
+    "As-tu déjà regardé quelqu'un se masturber en direct ? 👁️💦",
+    "Quel est le nom de ton premier amour ? 🥇",
+    "As-tu déjà eu une infection sexuellement transmissible (IST) ? 🏥",
+    "Quelle est ta fréquence idéale pour faire l'amour ? 📅",
+    "As-tu déjà testé le bondage ou les menottes ? ⛓️",
+    "Quelle est la chose que tu ne ferais JAMAIS au lit ? ❌",
+    "As-tu déjà fait l'amour dans un lieu public ? 🏟️",
+    "Quel est le plus gros mensonge que tu as dit à ton ex ? 🤥",
+    "Es-tu plutôt préliminaires longs ou direct au but ? 🕒",
+    "As-tu déjà fantasmé sur le/la meilleur(e) ami(e) de ton partenaire ? 🤫",
+    "Quelle est la couleur de tes sous-vêtements aujourd'hui ? 🌈",
+    "As-tu déjà simulé une migraine pour éviter le sexe ? 🤕",
+    "Quel est ton avis sur le polyamour ? ♾️",
+    "As-tu déjà embrassé deux personnes différentes le même soir ? 💋💋",
+    "Quelle est la partie de ton visage que tu préfères ? 😊",
+    "As-tu déjà eu un rapport sexuel au travail ou à l'école ? 🏫",
+    "Quelle est la chose la plus cochonne que tu aies murmurée à l'oreille de quelqu'un ? 👂🔥",
+    "As-tu déjà été accro au porno ? 📺",
+    "Quel est ton signe astrologique et est-ce qu'il te définit ? ♋",
+    "As-tu déjà pleuré pour obtenir ce que tu voulais ? 😭",
+    "Quelle est ta plus grande fierté sexuelle ? 🏆",
+    "As-tu déjà eu honte de ton corps devant un partenaire ? 🙈",
+    "Quel est le premier site web que tu visites le matin ? 🌐",
+    "As-tu déjà fait l'amour avec quelqu'un juste pour oublier quelqu'un d'autre ? 🧠",
+    "Quelle est ta technique secrète pour séduire ? 😉",
+    "As-tu déjà dormi nu(e) avec un(e) simple ami(e) ? 🛌",
+    "Quel est le jouet sexuel que tu rêverais de t'offrir ? 🎁",
+    "As-tu déjà envoyé un message coquin à la mauvaise personne ? 📱💀",
+    "Quelle est ta plus longue période de célibat ? 🌵",
+    "As-tu déjà eu une expérience de voyeurisme ou d'exhibitionnisme ? 👀",
+    "Quel est le moment le plus gênant que tu aies vécu au lit ? 😅",
+    "As-tu déjà fouillé dans le téléphone de ton partenaire ? 🕵️‍♀️",
+    "Quelle est la chose que tu préfères faire pendant les préliminaires ? 👅",
+    "As-tu déjà reçu des nudes non sollicités ? 📸🤢",
+    "Quel est le lieu de tes rêves pour faire l'amour ? 🏰",
+    "As-tu déjà couché avec quelqu'un dont tu ne te rappelais pas le prénom ? 😶",
+    "Quelle est la chose la plus sauvage que tu aies faite en soirée ? 🦁",
+    "As-tu déjà eu un 'blackout' à cause de l'alcool ? 🍻🌀",
+    "Quel est ton fantasme avec une célébrité ? 🌟",
+    "As-tu déjà été payé(e) ou as-tu déjà payé pour du sexe ? 💶",
+    "Quelle est ta réaction si on te surprend en train de te masturber ? 😳",
+    "As-tu déjà fait l'amour dans un avion (cercle des 10 000 mètres) ? ✈️",
+    "Quelle est ta tenue préférée pour dormir ? 💤",
+    "As-tu déjà eu une relation avec un voisin ? 🏠",
+    "Quel est le parfum qui te fait craquer ? 👃✨",
+    "As-tu déjà menti sur ton âge pour draguer ? 🎂",
+    "Quelle est ta définition d'une nuit parfaite ? 🌌",
+    "As-tu déjà eu une aventure avec quelqu'un rencontré sur les réseaux ? 🐦",
+    "Quel est le secret que tu caches à tes parents ? 🤐",
+    "As-tu déjà pratiqué le 'dirty talk' (parler sale) ? 🗣️🔥",
+    "Si tu devais mourir demain, quelle est la dernière personne que tu voudrais voir ? 💀❤️",
+    "Quelle est ta position sexuelle préférée et qu'est-ce qui t'excite le plus dedans ? 🥵",
+    "As-tu déjà utilisé un sex-toy, et si oui, lequel est ton favori ? 🍆",
+    "As-tu déjà couché avec quelqu'un de ce groupe, ou y a-t-il quelqu'un ici avec qui tu aimerais le faire ?",
+    "Quelle est la chose la plus cochonne que tu aies faite dans un lit ?",
+    "Es-tu plutôt clitoridienne ou vaginale, et comment aimes-tu qu'on te touche ? 🍑",
+    "As-tu déjà simulé un orgasme, et si oui, pourquoi ?",
+    "Quelle est ta tenue préférée pour exciter un garçon ?",
+    "As-tu déjà avalé après une gâterie (fellation), ou préfères-tu éviter ? 💦",
+    "Quelle est la partie du corps d'un homme qui te donne le plus envie de le déshabiller ?",
+    "Quel est l'endroit le plus sensible de ton corps (ta zone érogène secrète) ?",
+    "Quelle est la chose la plus folle ou coquine que tu aies faite sous la douche ?",
+    "Quel type de caresse te fait frissonner instantanément ?",
+    "Si tu devais passer une nuit torride avec l'un des garçons de ce groupe, qui choisirais-tu ?",
+    "As-tu déjà eu une envie soudaine et irrépressible de faire l'amour dans un lieu inapproprié ?",
+    "Préfères-tu les préliminaires doux et lents ou le sexe sauvage et passionné ?",
+    "Quel est ton plus grand fantasme coquin que tu n'as jamais osé avouer à un partenaire ?",
+    "Quelle tenue te fait te sentir la plus irrésistible et sensuelle ?"
+  ],
+  "action_garcon": [
+    "Envoie une vidéo sexy 🥵💦",
+    "Une tof de tes fesses 🙈😽",
+    "X vidéo ou xnxx 🥵?",
+    "Envoie tes nudes 🤤",
+    "Tu veux que je t'envoie du porno🥴",
+    "As-tu déjà échangé des photos nus😋",
+    "Envoie-moi ta plus belle photo selon toi🤭",
+    "Envoie-moi ta photo la plus sexy🤗🤗",
+    "As-tu déjà été doigté🤫🤫",
+    "Feras-tu un appel vidéo nu avec moi🤤",
+    "Si je te demande de me baiser le feras-tu?😊",
+    "Envoie-moi une vidéo de toi en train de te masturber 🥵",
+    "Envoie-moi une vidéo de ton pénis 🥵",
+    "Une photo de toi nu 🥵",
+    "Fais un vocal de tes gémissements 🥵🔊",
+    "Envoie une photo de ton entrejambe (avec ou sans vêtements) 🍑",
+    "Lèche ton écran et prends une photo 👅📸",
+    "Mets un glaçon dans ton sous-vêtement et envoie la vidéo de ta réaction 🧊😱",
+    "Envoie une photo de toi sous la douche 🚿🚿",
+    "Mets tes mains dans tes sous-vêtements et prends une photo 🤫",
+    "Simule un orgasme dans un message vocal 🥵🔥",
+    "Envoie une photo de toi en train de mordre ta lèvre de façon sexy 🫦",
+    "Enlève un vêtement et envoie la photo 👗❌",
+    "Envoie une vidéo de toi en train de déboutonner ton pantalon 👖🤤",
+    "Montre-moi tes abdos ou ton ventre nu 🍫",
+    "Envoie une photo de ton pyjama le plus court 👗✨",
+    "Fais une vidéo de toi en train de manger une banane de façon suggestive 🍌😏",
+    "Envoie une photo de toi dans une position de levrette (habillé ou non) 🐕",
+    "Mets tes doigts dans ta bouche et prends une photo 👅🖕",
+    "Envoie une vidéo de toi en train de te caresser les cuisses 🦵🥵",
+    "Montre-moi la marque de tes sous-vêtements 🩲👀",
+    "Envoie une photo de toi avec un objet sexy (menottes, fouet, etc.) ⛓️",
+    "Mets du rouge à lèvres et embrasse une partie de ton corps (envoie la photo) 💄💋",
+    "Envoie une vidéo de toi en train de retirer ton haut 👚💨",
+    "Fais un gros plan sur tes lèvres 🫦🤤",
+    "Montre-moi tes pieds de façon sexy 🦶✨",
+    "Envoie une photo de toi avec le doigt sur le clitoris/pénis (par-dessus le vêtement) ☝️💦",
+    "Écris mon nom sur une partie de ton corps et envoie la photo ✍️🍑",
+    "Envoie une vidéo de toi en train de danser de façon érotique 💃🔥",
+    "Envoie une photo de tes fesses dans le miroir 🪞🍑",
+    "Mets-toi à quatre pattes et envoie une photo 🐾😏",
+    "Envoie une vidéo de toi en train de masser tes seins/pectoraux 🤲🔥",
+    "Montre-moi l'endroit le plus sensible de ton corps en photo 📍🥵",
+    "Envoie une photo de toi avec une tenue que tu aimerais que j'enlève 👗✂️",
+    "Prends une photo de toi avec de la crème fouettée ou du chocolat sur le corps 🍫😋",
+    "Envoie une vidéo où tu te donnes une fessée 🖐️🍑",
+    "Envoie une photo de toi en train de faire un clin d'œil coquin 😉🔥",
+    "Fais une vidéo de toi en train de sucer ton doigt ☝️👅",
+    "Envoie une photo de toi avec une serviette juste après le bain 🛁🧴",
+    "Montre-moi ton entrejambe avec un vêtement mouillé 💦🩲",
+    "Envoie une photo de toi en position missionnaire 🛌✨",
+    "Fais un strip-tease de 30 secondes en vidéo 📽️💃",
+    "Envoie une photo de toi avec un jouet sexuel (si tu en as) 🧸🍆",
+    "Prends une photo de toi dans le noir, juste avec le flash sur tes parties intimes 📸✨",
+    "Envoie une vidéo de toi en train de respirer fort comme si tu étais excité(e) 😤🔥",
+    "Montre-moi tes hanches nues ⏳",
+    "Envoie une photo de toi en train de tirer ton sous-vêtement vers le bas 📉😏",
+    "Fais une vidéo de toi en train de passer ta langue sur tes lèvres 👅🫦",
+    "Envoie une photo de toi allongé(e) sur le dos, jambes écartées (habillé(e)) 🛌",
+    "Envoie une photo de toi avec un vêtement transparent 🕸️✨",
+    "Fais une vidéo de toi en train de caresser ton cou 🦒🤤",
+    "Envoie une photo de toi avec une cravate ou un ruban autour du cou 🎀",
+    "Montre-moi ton tatouage ou piercing le plus caché 💎",
+    "Envoie une photo de toi en train de faire semblant de me sucer 🍆😮",
+    "Fais une vidéo de toi en train de te cambrer le dos 🧘‍♀️🍑",
+    "Envoie une photo de tes fesses sans rien (nu intégral) 🍑🚫",
+    "Montre-moi ton sexe en gros plan (photo) 📸🔞",
+    "Envoie une vidéo de toi en train d'enlever tes chaussures avec tes pieds 👠👣",
+    "Prends une photo de toi en train de regarder entre tes jambes 🙃🍑",
+    "Envoie une vidéo où tu me dis ce que tu me ferais au lit 🗣️🛌",
+    "Montre-moi tes fesses avec une trace de main (fessée) 🖐️🔴",
+    "Envoie une photo de toi dans une tenue de sport très serrée 🧘‍♂️💦",
+    "Fais une vidéo de toi en train de bouger ton bassin 🕺🔥",
+    "Envoie une photo de toi avec une main dans les cheveux et l'autre dans ton pantalon 👱‍♀️👖",
+    "Fais une vidéo de toi en train de déboutonner ta chemise lentement 👔⏳",
+    "Envoie une photo de tes cuisses serrées 🍗",
+    "Montre-moi ta zone érogène préférée en vidéo 📍🔞",
+    "Envoie une photo de toi en train de mordre un oreiller 🛌🫦",
+    "Fais une vidéo de toi en train de souffler un baiser sexy 💋💨",
+    "Envoie une photo de toi avec seulement un t-shirt (sans bas) 👕🍑",
+    "Montre-moi tes fesses mouillées 💦🍑",
+    "Envoie une vidéo de toi en train de te déshabiller complètement 👗🦶",
+    "Prends une photo de toi dans une pose de yoga suggestive 🧘‍♀️✨",
+    "Montre-moi ton visage quand tu es au bord de l'orgasme (photo ou vidéo) 🤤😵‍💫",
+    "Envoie une photo de toi avec un vêtement en cuir ou latex 🖤🔥",
+    "Fais-moi un gros plan sur ton entrejambe avec un legging serré 🍑🧘‍♀️",
+    "Envoie une vidéo de toi en train de dire 'Je veux que tu me baises' 🗣️🔞",
+    "Envoie une photo de toi en sous-vêtements (boxer ou caleçon) montrant tes formes. 🔞",
+    "Fais un message vocal de 20 secondes où tu simules des gémissements d'excitation intense. 🥵",
+    "Prends en photo ton entrejambe par-dessus ton pantalon en montrant ton relief. 🍆",
+    "Envoie une vidéo de 10 secondes où tu caresses lentement ton torse et ton ventre sous ton t-shirt.",
+    "Décris de manière ultra détaillée ce que tu ferais au lit à la fille de ce groupe qui te plaît le plus.",
+    "Masse tes fesses à travers ton pantalon et envoie un selfie pendant que tu le fais.",
+    "Lèche tes lèvres de manière ultra suggestive en vidéo pendant 5 secondes.",
+    "Envoie un message vocal murmurant une phrase cochonne à l'oreille d'une fille du groupe.",
+    "Envoie un message vocal de 15 secondes en chuchotant avec ta voix la plus chaude et sensuelle ce que tu aimerais faire au lit.",
+    "Mords ta lèvre de manière ultra suggestive et sensuelle en envoyant une courte vidéo de 5 secondes.",
+    "Fais glisser ta main le long de ton torse sous ton vêtement et prends une photo sensuelle.",
+    "Décris précisément comment tu t'y prendrais pour faire monter la température d'une fille en 3 étapes.",
+    "Envoie une photo de ton cou et de tes clavicules de façon sensuelle.",
+    "Envoie un screenshot de la chanson la plus sensuelle de ta playlist de drague.",
+    "Envoie un vocal où tu simules un murmure coquin à l'oreille d'un participant."
+  ],
+  "action_fille": [
+    "Envoie une vidéo sexy 🥵💦",
+    "Envoie une tof en soutien-gorge 🍒",
+    "Envoie une tof de toi en appuyant tes seins 🙊",
+    "Une tof de tes fesses 🙈😽",
+    "Une vidéo ou tu twerkes 😏",
+    "X vidéo ou xnxx 🥵?",
+    "Envoie tes nudes 🤤",
+    "Tu veux que je t'envoie du porno🥴",
+    "As-tu déjà échangé des photos nus😋",
+    "Envoie-moi ta plus belle photo selon toi🤭",
+    "Envoie-moi ta photo la plus sexy🤗🤗",
+    "Envoie-moi une photo de toi en bikini 😏🤤",
+    "As-tu déjà été doigté🤫🤫",
+    "Feras-tu un appel vidéo nu avec moi🤤",
+    "Si je te demande de me baiser le feras-tu?😊",
+    "Envoie-moi une vidéo de toi en train de te masturber 🥵",
+    "Envoie-moi une vidéo de tes seins 🥵",
+    "Une photo de toi nu 🥵",
+    "Envoie une photo de toi en sous-vêtements (dentelle ou string) 🖤",
+    "Fais un vocal de tes gémissements 🥵🔊",
+    "Envoie une photo de ton entrejambe (avec ou sans vêtements) 🍑",
+    "Lèche ton écran et prends une photo 👅📸",
+    "Mets un glaçon dans ton sous-vêtement et envoie la vidéo de ta réaction 🧊😱",
+    "Envoie une photo de toi sous la douche 🚿🚿",
+    "Mets tes mains dans tes sous-vêtements et prends une photo 🤫",
+    "Envoie une photo de ton décolleté plongeant 🍒🍒",
+    "Simule un orgasme dans un message vocal 🥵🔥",
+    "Envoie une photo de toi en train de mordre ta lèvre de façon sexy 🫦",
+    "Enlève un vêtement et envoie la photo 👗❌",
+    "Envoie une vidéo de toi en train de déboutonner ton pantalon 👖🤤",
+    "Envoie une photo de ton pyjama le plus court 👗✨",
+    "Fais une vidéo de toi en train de manger une banane de façon suggestive 🍌😏",
+    "Montre-moi tes fesses juste à travers ton string 🍑💦",
+    "Envoie une photo de toi dans une position de levrette (habillé ou non) 🐕",
+    "Mets tes doigts dans ta bouche et prends une photo 👅🖕",
+    "Envoie une vidéo de toi en train de te caresser les cuisses 🦵🥵",
+    "Montre-moi la marque de tes sous-vêtements 🩲👀",
+    "Envoie une photo de toi avec un objet sexy (menottes, fouet, etc.) ⛓️",
+    "Mets du rouge à lèvres et embrasse une partie de ton corps (envoie la photo) 💄💋",
+    "Envoie une vidéo de toi en train de retirer ton haut 👚💨",
+    "Fais un gros plan sur tes lèvres 🫦🤤",
+    "Montre-moi tes pieds de façon sexy 🦶✨",
+    "Envoie une photo de toi avec le doigt sur le clitoris/pénis (par-dessus le vêtement) ☝️💦",
+    "Écris mon nom sur une partie de ton corps et envoie la photo ✍️🍑",
+    "Envoie une vidéo de toi en train de danser de façon érotique 💃🔥",
+    "Montre-moi tes tétons à travers ton t-shirt (mouille-le si besoin) 👕💦",
+    "Envoie une photo de tes fesses dans le miroir 🪞🍑",
+    "Mets-toi à quatre pattes et envoie une photo 🐾😏",
+    "Envoie une vidéo de toi en train de masser tes seins/pectoraux 🤲🔥",
+    "Montre-moi l'endroit le plus sensible de ton corps en photo 📍🥵",
+    "Envoie une photo de toi avec une tenue que tu aimerais que j'enlève 👗✂️",
+    "Prends une photo de toi avec de la crème fouettée ou du chocolat sur le corps 🍫😋",
+    "Envoie une vidéo où tu te donnes une fessée 🖐️🍑",
+    "Montre-moi tes poils pubiens (si tu en as) ou ton rasage ✂️🧔",
+    "Envoie une photo de toi en train de faire un clin d'œil coquin 😉🔥",
+    "Fais une vidéo de toi en train de sucer ton doigt ☝️👅",
+    "Envoie une photo de toi avec une serviette juste après le bain 🛁🧴",
+    "Montre-moi ton entrejambe avec un vêtement mouillé 💦🩲",
+    "Envoie une photo de toi en position missionnaire 🛌✨",
+    "Fais un strip-tease de 30 secondes en vidéo 📽️💃",
+    "Envoie une photo de toi avec un jouet sexuel (si tu en as) 🧸🍆",
+    "Prends une photo de toi dans le noir, juste avec le flash sur tes parties intimes 📸✨",
+    "Envoie une vidéo de toi en train de respirer fort comme si tu étais excité(e) 😤🔥",
+    "Montre-moi tes hanches nues ⏳",
+    "Envoie une photo de toi en train de tirer ton sous-vêtement vers le bas 📉😏",
+    "Fais une vidéo de toi en train de passer ta langue sur tes lèvres 👅🫦",
+    "Envoie une photo de toi allongé(e) sur le dos, jambes écartées (habillé(e)) 🛌",
+    "Montre-moi tes seins/ton torse de profil 📐🍒",
+    "Envoie une photo de toi avec un vêtement transparent 🕸️✨",
+    "Fais une vidéo de toi en train de caresser ton cou 🦒🤤",
+    "Envoie une photo de toi avec une cravate ou un ruban autour du cou 🎀",
+    "Montre-moi ton tatouage ou piercing le plus caché 💎",
+    "Envoie une photo de toi en train de faire semblant de me sucer 🍆😮",
+    "Fais une vidéo de toi en train de te cambrer le dos 🧘‍♀️🍑",
+    "Envoie une photo de tes fesses sans rien (nu intégral) 🍑🚫",
+    "Montre-moi ton sexe en gros plan (photo) 📸🔞",
+    "Envoie une vidéo de toi en train d'enlever tes chaussures avec tes pieds 👠👣",
+    "Prends une photo de toi en train de regarder entre tes jambes 🙃🍑",
+    "Envoie une vidéo où tu me dis ce que tu me ferais au lit 🗣️🛌",
+    "Montre-moi tes fesses avec une trace de main (fessée) 🖐️🔴",
+    "Envoie une photo de toi dans une tenue de sport très serrée 🧘‍♂️💦",
+    "Fais une vidéo de toi en train de bouger ton bassin 🕺🔥",
+    "Envoie une photo de tes seins vus d'en haut 🍒📸",
+    "Montre-moi ton string qui dépasse de ton pantalon 🩲👖",
+    "Envoie une photo de toi avec une main dans les cheveux et l'autre dans ton pantalon 👱‍♀️👖",
+    "Fais une vidéo de toi en train de déboutonner ta chemise lentement 👔⏳",
+    "Envoie une photo de tes cuisses serrées 🍗",
+    "Montre-moi ta zone érogène préférée en vidéo 📍🔞",
+    "Envoie une photo de toi en train de mordre un oreiller 🛌🫦",
+    "Fais une vidéo de toi en train de souffler un baiser sexy 💋💨",
+    "Envoie une photo de toi avec seulement un t-shirt (sans bas) 👕🍑",
+    "Montre-moi tes fesses mouillées 💦🍑",
+    "Envoie une vidéo de toi en train de te déshabiller complètement 👗🦶",
+    "Prends une photo de toi dans une pose de yoga suggestive 🧘‍♀️✨",
+    "Envoie une vidéo de toi en train de toucher tes tétons ☝️🍒",
+    "Montre-moi ton visage quand tu es au bord de l'orgasme (photo ou vidéo) 🤤😵‍💫",
+    "Envoie une photo de toi avec un vêtement en cuir ou latex 🖤🔥",
+    "Fais-moi un gros plan sur ton entrejambe avec un legging serré 🍑🧘‍♀️",
+    "Envoie une vidéo de toi en train de dire 'Je veux que tu me baises' 🗣️🔞",
+    "Envoie une photo de ton décolleté plongeant ou de tes seins à travers ton haut. 🍒",
+    "Fais un message vocal de 20 secondes où tu simules des gémissements coquins et sensuels. 🥵",
+    "Envoie une photo de toi en sous-vêtements (string, dentelle ou culotte sexy). 🍑",
+    "Prends en photo tes fesses dans le miroir en collant serré ou en string. 🍑",
+    "Envoie un vocal de 15 secondes expliquant ta plus grande fantaisie sexuelle jamais réalisée.",
+    "Fais une vidéo de 10 secondes où tu te caresses lentement les cuisses et le bas du ventre.",
+    "Écris le prénom du garçon du groupe que tu trouves le plus sexy sur ta cuisse au rouge à lèvres, et envoie la photo !",
+    "Envoie un selfie en mordant ta lèvre inférieure avec un regard ultra provocateur. 🫦",
+    "Prends une photo sensuelle de tes lèvres avec un gloss ou du rouge à lèvres humide. 🫦",
+    "Envoie un message vocal de 15 secondes en chuchotant de manière très sensuelle et coquine ton plus grand désir.",
+    "Prends en photo ton décolleté de profil de manière élégante et sensuelle. 🍒",
+    "Envoie une vidéo de 10 secondes où tu passes lentement tes doigts sur ton cou et tes clavicules.",
+    "Décris la nuit la plus torride et sensuelle que tu as vécue ou que tu aimerais vivre.",
+    "Envoie une photo de ta jambe nue ou de ton épaule dénudée de façon très esthétique et sensuelle.",
+    "Envoie un vocal où tu simules un soupir d'excitation très doux et sensuel. 🥵"
+  ]
+}
